@@ -1,0 +1,339 @@
+POWERS
+
+// paired SAs item SA will bestow combatant SA when readied, remove when unreadied
+// To go on each character/combatant
+[CharDisplayStatus] = $VAR sa; $VAR prm;
+-sa = $SA_SA_GET();
+-prm = $SA_PARAM_GET();
+-$SET_HOOK_PARAM( 7,sa + " - " + prm);
+-$SET_HOOK_PARAM( 6, "");
+-$RETURN 1;
+// To go on each weapon/item that uses rank for damage
+[ComputeDamage] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$RETURN $SET_HOOK_PARAM(0,prm);
+[OnReady] =  $VAR sa; $VAR prm;
+-sa = $SA_SA_GET();
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA(sa,prm);
+[OnUnReady] = $VAR sa;
+-sa = $SA_SA_GET();
+-$DELETE_CHARACTER_SA(sa);
+
+REMOVE: Cosmic, Gravity, Radiation
+
+ATTACK:
+Affliction			close		1/rank			disease/pain/snare
+	Dim Mak				(martial)
+	Freezing Touch		(cold)
+	Vertigo				(sonic)
+Blast				ranged		2/rank			dmg = rank	range=27
+	Chi Blast			(martial)
+	Fire Blast			(fire)
+	Ice Blast			(cold, bludgeoning)
+	Magnetic Blast		(magnetic)
+	Psi Blast			(mental)
+	Sonic Blast			(sonic)
+	Taser				(electrical)
+Burst				ranged		3/rank			dmg = rank		range=12
+	Eight Lotus Fist	(martial)
+	Fireball			(fire) r3
+	Hailstorm			(cold, bludgeoning) r3
+	Lightning Bolt		(electrical) r3
+	Metallic Burst		(magnetic, bludgeoning)
+	Psi Storm			(mental)
+	Sonic Cry			(sonic)
+Damage				close		1/rank			dmg = rank
+	Burning Palm		(fire)
+	Dragon Punch		(martial)
+	Ice Fist			(cold, bludgeoning)
+	Iron Palm			(magnetic)
+	Psi Sting			(mental)
+	Shriek				(sonic)
+	Zap					(electricity)
+Dazzle				ranged		2/rank			blind/deaf rank = duration
+	Blizzard			(cold)					blinding
+	Deafening Shriek	(sonic)					deafening
+	Fireflash			(fire)					blinding
+	Hallucination		(mental)				blinding
+	Kiai Shout			(martial)				deafening
+	Lightning Flash		(electrical)			blinding
+Energy Aura			close		4/rank			dmg = rank touched or anyone touching
+	Flame Aura			(fire)
+	Freezing Aura		(cold)
+	Magnetic Aura		(magnetic)
+	Psionic Aura		(mental)
+	Sonic Aura			(sonic)
+	Static Electric Aura	(electrical)
+	
+Energy Control		ranged		2/rank			dmg = rank (energy version of blast)
+	Chain Lightning		(electrical) line from PC to target +1/rank
+	Flameshower			(fire)	line from PC to target +1/rank
+Magic				ranged		2/rank			dmg = rank
+	--> see below
+Mental Blast		perceived	4/rank			dmg = rank, vs Will not Toughness
+	Mental Blast		(mental)
+Nullify				ranged		1/rank			counter a particular type
+	--> rank vs rank of power to be nullified OR rank vs will
+	Nullify Cold
+	Nullify Electricity
+	Nullify Fire
+	Nullify Magic
+	Nullify Magnetism
+	Nullify Psionics
+	Nullify Sonics
+Sleep				ranged		2/rank			dur = rank (2 rounds to fall asleep)
+	Sleep				(mental)
+Snare				ranged		3/rank			stunned, critical held save vs Dmg
+	Chi Snare			(mental) (martial)
+	Fiery Cage			(fire)
+	Hypnotic Song		(sonic) (mental)
+	Ice Binding			(cold)
+	Magnetic Binding	(magnetic)
+	Psychic Anchor		(mental)
+	Standing Arc		(electricity)
+Strike				close		1/rank			dmg = rank, as Damage
+	Chi Strike			(martial)
+	Nine Bells Style	(martial)	2/rank		each rank all +1 every 2 rounds
+Suffocation			ranged		3/rank			dazed, stunned, incapacitated
+	Force Choke			(mental)
+	Heatstroke			(fire)
+	Immolate			(fire)
+Weaken				close		1/rank	
+	--> lower ability, chosen at time power acquired
+	--> Weakness check: Fortitude or Will vs (DC + Weakness rank)
+	-->lose an amount of difference of check up to rank
+	-->lasts until end of combat
+	Weaken Agility
+	Weaken Intellect
+	Weaken Stamina
+	Weaken Strength
+
+DEFENSE:
+Force Field			personal	1/rank
+	--> 1/rank for each type blocked eg physical, cold, electrical, etc
+	Eldritch Bubble		(magic)
+	Elemental Shields	(cold, fire)				2/rank
+	Energy Shields		(electricity, magnetic)		2/rank
+	Psychic Bubble		(mental)
+	Telekinetic Bubble	(physical, cold, fire)		3/rank
+Immortality			personal	2/rank
+	--> if dead, returns to life (full hp) in 19 days -# rank
+	--> at rank 20, returns immediately after combat
+	--> all XP lost to minimum requirements for current level
+Immunity			personal	1/rank
+	--> resistance half damage up to level 1/2 point per rank
+	Cold Resistant		(cold)								10 points
+	Electrical Resistance	(electrical)					10 points
+	Flame Resistant		(fire)								10 points
+	Magnetic Resistance	(magnetic)							10 points
+	Protected Hearing	(sonic)								10 points
+	Psychic Baffle		(mental)							10 points
+	-----
+	Iceform				(cold, physical)					30 points
+	Magmaform			(fire, physical)					30 points
+	Spaceworthy			(immune cold, radiation, vacuum, suffocation)	25 points
+	Stoneform			(physical)							20 points
+Protection			personal	1/rank
+	--> for this use blunt = bludgeoning
+	--> physical includes blunt, ballistic, slashing, piercing
+	--> counteracts first 20 points of damage of particular type
+	Fire Shield			(fire)							10 opints
+	Ice Armor			(cold)							10 opints
+	Magnetic Shield		(magnetic)						10 opints
+	Psychic Shield		(mental)						10 opints
+	Static Shield		(electical)						10 opints
+	Ultrasonics Shield	(sonic)							10 opints
+-----
+	Adamantium Skeleton	(physical)			-9				8 points	not removable
+	Amazonian Shield	(physical)			-5				5 points
+	Amazonian Batle Armor	(physical)		-5				5 points
+	Black Uru Armor		(physical)			-20/*			60 points
+			-10 fire, radiation, electricity	-5 magic, cosmic
+	Carbon Nano-tube armor	(physical)		-6/-12			12 points
+			-6 blunt, ballistic	-12 slashing, piercing
+	Dwarf Star Alloy Armor	(physical)		-14				14 points
+	Nth Metal Armor		(physical)			-12				12 points
+	Organic Steel Skin	(physical)			-11				10 points	not removable
+	Tactical Body Armor	[physical]			-6				6 points
+	Unbreakable Skin	(physical)			-5/-10			9 points	not removable
+			-5 blunt, ballistic	-10 slashing, piercing
+Regeneration		personal	1/rank
+	-->  every 5 ranks = 1 pt / round
+	Fast Healer		5 points
+	Quick Recovery	10 points
+	Damage Regeneration	15 points
+	Battle Healing	20 points
+	Accelerated Recovery	25 points
+
+MOVEMENT:
+Burrowing			personal	1/rank
+Flight				personal	2/rank
+	--> Flight SA (non-flying enemies -4 to hit)
+	--> MVMT = rank*9
+	Flight
+	Flight Ring		5th rank		10 points
+Leaping				personal	1/rank
+	Leaping		delayed teleport???
+Movement			personal	2/rank
+Speed				personal	1/rank
+	--> each rank +6 MVMT
+Super Speed			personal	4/rank	3 + 1 for multi-attack
+	--> each rank +4 to initiative
+	--> each rank +6 MVMT
+	--> each rank +1 QUICKNESS (see below)
+	--> each rank +1 attack/round
+Swimming			personal	1/rank
+Teleport			personal	2/rank
+	--> each rank = 3 cells (combat only)
+
+CONTROL:
+Create				ranged		2/rank
+Duplication			close		3/rank
+	--> an exact duplicate of user, minus the duplication power
+	--> rank = PL up to PCs PL; under player control
+	--> 4/rank for 2 duplicates, 5/rank for 3, etc
+Element Control		perception	2/rank
+	--> area effect of an element for various uses eg Dusct CLoud, Stone Wall
+Environment			rank		2/rank
+illusion			perception	1-5/rank
+Luck Control		perception	3/rank
+Move Object			ranged		2/rank
+Summon				close		2/rank		rank = # creatures
+	Summon Fire Creature 5
+	Summon Ice Creatures 5
+	Summon Lightning Creatures 5
+	Summon Sonic Creatures 5
+Transform			close		2-5/rank
+
+	Mind Control	(mental)	5/rank		rank = # creatures controlled
+
+SENSORY:
+Communication		rank		4/rank
+Comprehend			personal	2/rank
+	--> use as Skill?
+Concealment			personal	2/rank
+	Infared Invisibility (Concealment 2: Infravision)	4 points
+	--> 2 ranks for normal vision, 4 ranks for all vision, 10 ranks for all but tactile
+Invisibility		personal	4 or 8 points
+Mind Reading		perception	2/rank
+Remove Sensing		rank		1-5/rank
+Senses				personal	1/rank
+	Counters Concealment		1 rank
+	Darkvision					2 ranks		can see in complete darkness
+	Dnager Sense				1 rank		surprised only 1 in 10
+	Infravision					1 rank
+	Low-light Vision			1 rank
+	Tracking					1 rank		
+	Ultra-hearing				1 rank
+	Ultravision					1 rank
+
+GENERAL:
+Elongation			personal	1/rank			rank = reach
+Energy Absorption	personal	2/rank
+	Cold Absorption		(cold regenerates, no damage cold)
+	Electrical Absorption	(electricity regens, no elevtrical damage)
+	Heat Absorption		(fire regenerates, no fire damage)
+	Magnetic Absorption	(magnetic)
+	Psionic Absorption	(mental)
+	Sonic Absorption	(sonic)
+Enhanced Trait		personal	as base trait
+Extra Limbs			personal	1/rank
+	--> each rank = 1 extra limb
+	--> 2/rank to allow multiattack per limb
+Feature				personal	1/rank
+Growth				personal	2/rank
+	--> rank +1 STR and STAMINA; rank +1 INTIMIDATION; rank +1 MVMT
+	--> -1/rank STEALTH; 2 ranks +1 AC
+Healing				close		2/rank			1 pt / rank
+	--> 3/rank allows area helaing r2
+Insubstantial		personal	5/rank			fluid, gaseous, energy, incorporeal
+	Astral Form			(mental)
+	Electrical Form		(immune all electrical, immune all physical damage) 25 points
+	Fireform			(immune all fire, immune physical damage)	25 points
+	Magnetic Form		(magnetic)
+	Snowform			(immune all cold, immune physical damage) 25 points
+	Sonic Form			(sonic)
+Mimic				personal	8/rank
+Morph				personal	5/rank
+Power-lifting		personal	1/rank		+1 point = +1000 enc
+Quickness			personal	1/rank
+	--> as skill?
+Shapeshift			personal	8/rank
+Shrinking			personal	2/rank
+	--> 2 ranks -1 AC bonus; every 4 rank -1 STR; every rank -1 MVMT
+	--> rank = STEALTH bonus
+
+MODIFIERS OR MAYBE THEIR OWN THING
+Accurate 				1 flat per rank 	+2 attack check bonus per rank
+	blast, burst, damage, nullify, snare, weaken
+Extended Range 			1 flat per rank 	Doubles range distances per rank.
+	blast, burst, nullify, snare, weaken
+Increased Duration 		+1 per rank 		Improves effect’s duration.
+	snare, weaken
+Increased Radius 		+1 per rank 		Improves effect’s range.
+	burst, nullify, snare, weaken
+
+	
+// summoned creatures
+ICE CREATURE
+	AC = 2 (Ice Armor)
+	DMG = 8 cold (Freezing Touch)
+	MVMT = 6 or 18 if icy
+	HP = 80
+	immune to death effects
+	immune to charm effects
+FIRE CREATURE
+	AC = -1 (Fire Form)
+	DMG = 8 fire (Flaming Aura)
+	MVMT = 12
+	HP = 90
+	immune to death effects
+	immune to charm effects
+LIGHTNING CREATURE
+	AC = -1 (electrical form)
+	DMG = 8
+	MVMT = 24
+	HP = 80
+	immune to death effects
+	immune to charm effects
+	immune to phys damage
+SONIC CREATURE
+	AC = 
+	DMG = 8
+	MVMT = 24
+	HP = 80
+	immune to death effects
+	immune to charm effects
+	immune to phys damage
+
+********** MAGICAL POWERS **********
+all magicians have these:
+Levitation (flight)
+Mystic Bolt (blast)
+Mystic Passage (teleport)
+Mystic Shield (shield)
+Scrying (remote sensing)
+
+Arcane Abjuration	nullify binding
+Arcane Aegis		impervious protection
+Arcane Light		cancels concealment
+Cloak of the Magi	concealment	2	4 points
+Dream Denizens		summons Dream Denizen
+Eldritch Banishment	banish summoned creatures = rank
+Eldritch Beast		summon minion 5 10 points demon or giant spider
+Eldritch Binding	snare
+Eldritch Claws		damage
+Eldritch Lightning	energy control
+Grasp of the Magi	snare	--> stone hand grasps target
+Mystic Miasma		as stinking cloud	4 points
+Mystic Portal		teleport party	--> as teleport +1/rank
+Occult Exorcism		nullify magical and mental
+Occult Fire			burst
+Sign of the Magi	area effect, repels summoned creatures
+Storm of the Magi	burst	--> electrical
+
+
+
+
+

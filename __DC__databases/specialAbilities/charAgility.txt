@@ -1,0 +1,5 @@
+\(BEGIN)
+name = charAgility
+[PostCreateCharacter] = $SET_CHARACTER_SA($CharacterContext(), "charAgility", $SA_PARAM_GET());
+\(END)
+

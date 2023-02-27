@@ -1,0 +1,54 @@
+arget range = 1
+price = 0
+spell effect 1 = $CHAR_HITPOINTS,-(2d8+1),delta,target,yes
+begin script =
+end script =
+\(END)
+
+\(BEGIN)
+name = Neutralize Poison
+casting sound = DEFAULT
+cast msg =
+missile sound = none
+coverage sound = none
+hit sound = DEFAULT
+linger sound = none
+cast art = DEFAULT
+missile art = none
+target cover art = none
+target hit art = DEFAULT
+target linger art = none
+class = Cleric
+friendly fire ok = yes
+cumulative = no
+usable by party = yes
+can scribe = yes
+auto scribe = no
+combat only = no
+can be dispelled = yes
+lingers = no
+linger affects once = no
+save versus = spell
+save result = none
+targeting type = touch
+level = 4
+casting time = 5
+casting time units = initiative
+Number of targets = 1
+duration =
+duration units = instantaneous
+target duration =
+target range = 1
+price = 0
+spell effect 1 = $CHAR_HITPOINTS,1,absolute,target,yes
+spell effect 2 = $CHAR_POISONED,0,absolute,target,yes
+activate script 1 = $RETURN ($GET_CHAR_POISONED($IndexOf($Target())));
+begin script =
+end script =
+\(END)
+
+\(BEGIN)
+name = Poison
+casting sound = DEFAULT
+cast msg =
+missile sound = none

@@ -1,0 +1,1 @@
+Gauntlets and Boots give a -1 AC in melee only

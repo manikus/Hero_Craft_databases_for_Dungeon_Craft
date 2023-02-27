@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterImmunitySonic
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeSonic");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+

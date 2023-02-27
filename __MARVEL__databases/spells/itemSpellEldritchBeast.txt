@@ -1,0 +1,55 @@
+4
+armor class = 10
+movement rate = 9
+hit dice = 10
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 11
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = druid
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Blaster Pistol
+item = Comlink
+item = Officer's Uniform
+attack = 4,1,2,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sith Student
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 10
+armor class = 10
+movement rate = 9
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = cleric
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Sith Battle Suit
+item = Lightsabre
+attack = 4,1,4,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sith Assassin
+icon file = DEFA

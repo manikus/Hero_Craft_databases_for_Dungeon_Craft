@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Bat
+icon file = icon_Bat.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 6
+armor class = 10
+movement rate = 18
+hit dice = 1
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 20
+magic resistance = 0
+size = small
+morale = 35
+experience point value = 50
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,1
+Class = Adventurer
+Race = Animal
+form = animal + mammal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+

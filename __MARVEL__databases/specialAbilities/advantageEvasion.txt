@@ -1,0 +1,12 @@
+\(BEGIN)
+name = advantageEvasion
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Evasion +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR tSA; $VAR tPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-tSA = $SA_SA_GET(); tPC = $GET_CHARACTER_SA($TargetContext),tSA);
+-$IF (tPC == "-?-?-") {$RETURN;};
+-$IF (p5 <=# (p6 +# prm)) {$RETURN "N";};
+\(END)
+

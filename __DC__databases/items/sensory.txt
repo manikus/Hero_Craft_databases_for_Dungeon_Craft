@@ -1,0 +1,143 @@
+"Expert Gorilla City");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseGorillaCity);};
+-skillExpertiseHells = $SkillAdj($CharacterContext(),"ExpertiseHells","","F","");
+-$IF (skillExpertiseHells != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Hells");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseHells);};
+-skillExpertiseHistory = $SkillAdj($CharacterContext(),"ExpertiseHistory","","F","");
+-$IF (skillExpertiseHistory != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert History");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseHistory);};
+-skillExpertiseJournalism = $SkillAdj($CharacterContext(),"ExpertiseJournalism","","F","");
+-$IF (skillExpertiseJournalism != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Journalism");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseJournalism);};
+-skillExpertiseKnownSpace = $SkillAdj($CharacterContext(),"ExpertiseKnownSpace","","F","");
+-$IF (skillExpertiseKnownSpace != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert KnownSpace");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseKnownSpace);};
+-skillExpertiseKrypton = $SkillAdj($CharacterContext(),"ExpertiseKrypton","","F","");
+-$IF (skillExpertiseKrypton != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Krypton");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseKrypton);};
+-skillExpertiseLawEnforcement = $SkillAdj($CharacterContext(),"ExpertiseLawEnforcement","","F","");
+-$IF (skillExpertiseLawEnforcement != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Law Enforcement");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseLawEnforcement);};
+-skillExpertiseLawyer = $SkillAdj($CharacterContext(),"ExpertiseLawyer","","F","");
+-$IF (skillExpertiseLawyer != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Lawyer");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseLawyer);};
+-skillExpertiseMagic = $SkillAdj($CharacterContext(),"ExpertiseMagic","","F","");
+-$IF (skillExpertiseMagic != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Magic");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMagic);};
+-skillExpertiseMechanicalSciences = $SkillAdj($CharacterContext(),"ExpertiseMechanicalSciences","","F","");
+-$IF (skillExpertiseMechanicalSciences != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mechanical Sciences");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMechanicalSciences);};
+-skillExpertiseMercenary = $SkillAdj($CharacterContext(),"ExpertiseMercenary","","F","");
+-$IF (skillExpertiseMercenary != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mercenary");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMercenary);};
+-skillExpertiseMilitary = $SkillAdj($CharacterContext(),"ExpertiseMilitary","","F","");
+-$IF (skillExpertiseMilitary != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Military");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMilitary);};
+-skillExpertiseModeling = $SkillAdj($CharacterContext(),"ExpertiseModeling","","F","");
+-$IF (skillExpertiseModeling != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Modeling");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseModeling);};
+-skillExpertiseMom = $SkillAdj($CharacterContext(),"ExpertiseMom","","F","");
+-$IF (skillExpertiseMom != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mom");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMom);};
+-skillExpertiseMutantLeader = $SkillAdj($CharacterContext(),"ExpertiseMutantLeader","","F","");
+-$IF (skillExpertiseMutantLeader != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mutant Leader");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMutantLeader);};
+-skillExpertiseMutantRights = $SkillAdj($CharacterContext(),"ExpertiseMutantRights","","F","");
+-$IF (skillExpertiseMutantRights != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mutant Rights");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMutantRights);};
+-skillExpertiseMythology = $SkillAdj($CharacterContext(),"ExpertiseMythology","","F","");
+-$IF (skillExpertiseMythology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Mythology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseMythology);};
+-skillExpertiseNaziPartyLeader = $SkillAdj($CharacterContext(),"ExpertiseNaziPartyLeader","","F","");
+-$IF (skillExpertiseNaziPartyLeader != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Nazi Party Leader");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseNaziPartyLeader);};
+-skillExpertiseOrnithology = $SkillAdj($CharacterContext(),"ExpertiseOrnithology","","F","");
+-$IF (skillExpertiseOrnithology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Ornithology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseOrnithology);};
+-skillExpertisePerformance = $SkillAdj($CharacterContext(),"ExpertisePerformance","","F","");
+-$IF (skillExpertisePerformance != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Performance");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePerformance);};
+-skillExpertisePhilosophy = $SkillAdj($CharacterContext(),"ExpertisePhilosophy","","F","");
+-$IF (skillExpertisePhilosophy != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Philosophy");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePhilosophy);};
+-skillExpertisePhotography = $SkillAdj($CharacterContext(),"ExpertisePhotography","","F","");
+-$IF (skillExpertisePhotography != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Photography");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePhotography);};
+-skillExpertisePolitics = $SkillAdj($CharacterContext(),"ExpertisePolitics","","F","");
+-$IF (skillExpertisePolitics != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Politics");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePolitics);};
+-skillExpertisePopCulture = $SkillAdj($CharacterContext(),"ExpertisePopCulture","","F","");
+-$IF (skillExpertisePopCulture != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Pop Culture");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePopCulture);};
+-skillExpertisePsychiatry = $SkillAdj($CharacterContext(),"ExpertisePsychiatry","","F","");
+-$IF (skillExpertisePsychiatry != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Psychiatry");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePsychiatry);};
+-skillExpertisePsychology = $SkillAdj($CharacterContext(),"ExpertisePsychology","","F","");
+-$IF (skillExpertisePsychology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Psychology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePsychology);};
+-skillExpertisePuzzlesRiddles = $SkillAdj($CharacterContext(),"ExpertisePuzzles&Riddles","","F","");
+-$IF (skillExpertisePuzzlesRiddles != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Puzzles & Riddles");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertisePuzzlesRiddles);};
+-skillExpertiseRaceCarDriver = $SkillAdj($CharacterContext(),"ExpertiseRaceCarDriver","","F","");
+-$IF (skillExpertiseRaceCarDriver != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Race Car Driver");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseRaceCarDriver);};
+-skillExpertiseRadioHost = $SkillAdj($CharacterContext(),"ExpertiseRadioHost","","F","");
+-$IF (skillExpertiseRadioHost != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Radio Host");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseRadioHost);};
+-skillExpertiseSamurai = $SkillAdj($CharacterContext(),"ExpertiseSamurai","","F","");
+-$IF (skillExpertiseSamurai != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Samurai");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSamurai);};
+-skillExpertiseScience = $SkillAdj($CharacterContext(),"ExpertiseScience","","F","");
+-$IF (skillExpertiseScience != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Science");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseScience);};
+-skillExpertiseSerialKiller = $SkillAdj($CharacterContext(),"ExpertiseSerialKiller","","F","");
+-$IF (skillExpertiseSerialKiller != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Serial Killer");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSerialKiller);};
+-skillExpertiseSHIELDDirector = $SkillAdj($CharacterContext(),"ExpertiseSHIELDDirector","","F","");
+-$IF (skillExpertiseSHIELDDirector != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert SHIELD Director");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSHIELDDirector);};
+-skillExpertiseSociology = $SkillAdj($CharacterContext(),"ExpertiseSociology","","F","");
+-$IF (skillExpertiseSociology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Sociology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSociology);};
+-skillExpertiseSoldier = $SkillAdj($CharacterContext(),"ExpertiseSoldier","","F","");
+-$IF (skillExpertiseSoldier != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Soldier");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSoldier);};
+-skillExpertiseSpy = $SkillAdj($CharacterContext(),"ExpertiseSpy","","F","");
+-$IF (skillExpertiseSpy != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Spy");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSpy);};
+-skillExpertiseStreetwise = $SkillAdj($CharacterContext(),"ExpertiseStreetwise","","F","");
+-$IF (skillExpertiseStreetwise != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Streetwise");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseStreetwise);};
+-skillExpertiseSurvival = $SkillAdj($CharacterContext(),"ExpertiseSurvival","","F","");
+-$IF (skillExpertiseSurvival != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Survival");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseSurvival);};
+-skillExpertiseTactics = $SkillAdj($CharacterContext(),"ExpertiseTactics","","F","");
+-$IF (skillExpertiseTactics != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Tactics");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseTactics);};
+-skillExpertiseTeaching = $SkillAdj($CharacterContext(),"ExpertiseTeaching","","F","");
+-$IF (skillExpertiseTeaching != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Teaching");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseTeaching);};
+-skillExpertiseTerrorist = $SkillAdj($CharacterContext(),"ExpertiseTerrorist","","F","");
+-$IF (skillExpertiseTerrorist != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Terrorist");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseTerrorist);};
+-skillExpertiseTheology = $SkillAdj($CharacterContext(),"ExpertiseTheology","","F","");
+-$IF (skillExpertiseTheology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Theology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseTheology);};
+-skillExpertiseThief = $SkillAdj($CharacterContext(),"ExpertiseThief","","F","");
+-$IF (skillExpertiseThief != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert Thief");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseThief);};
+-skillExpertiseWorldLeader = $SkillAdj($CharacterContext(),"ExpertiseWorldLeader","","F","");
+-$IF (skillExpertiseWorldLeader != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Expert World Leader");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillExpertiseWorldLeader);};
+-skillInsight = $SkillAdj($CharacterContext(),"Insight","","F","");
+-$IF (skillInsight != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Insight");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillInsight);};
+-skillIntimidation = $SkillAdj($CharacterContext(),"Intimidation","","F","");
+-$IF (skillIntimidation != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Intimidation");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillIntimidation);};
+-skillInvestigation = $SkillAdj($CharacterContext(),"Investigation","","F","");
+-$IF (skillInvestigation != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Investigation");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillInvestigation);};
+-skillPerception = $SkillAdj($CharacterContext(),"Perception","","F","");
+-$IF (skillPerception != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Perception");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillPerception);};
+-skillPersuasion = $SkillAdj($CharacterContext

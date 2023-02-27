@@ -1,0 +1,21 @@
+\(BEGIN)
+name = Kree
+height = 2d10+58
+weight = 5d10+10
+age = 1d6+15
+maxage = 3d20+200
+BaseMovement = 15
+AbilityRequirement = Strength 		8/14
+AbilityRequirement = Constitution	8/14
+AbilityRequirement = Dexterity		8/14
+AbilityRequirement = Intelligence 	8/14
+AbilityRequirement = Wisdom 		8/14
+AbilityRequirement = Charisma		8/14
+ChangeClass = no
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = 1
+FindSecretDoorSearching = 2
+Special Ability = raceSuppress,"Y"
+\(END)
+

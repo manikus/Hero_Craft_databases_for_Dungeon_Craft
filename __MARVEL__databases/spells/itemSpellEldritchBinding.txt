@@ -1,0 +1,61 @@
+e = R2-A2
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 15
+armor class = 7
+movement rate = 9
+hit dice = 2
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = any
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+attack = 8,1,0,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = R-3PO
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 12
+armor class = 11
+movement rate = 9
+hit dice = 1
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 20
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = any
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+attack = 3,1,-1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = B1 Battle Droid
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intel

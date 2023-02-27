@@ -1,0 +1,4 @@
+\(BEGIN)
+name = itemPepperSpray
+\(END)
+

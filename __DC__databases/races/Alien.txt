@@ -1,0 +1,20 @@
+\(BEGIN)
+name = Alien
+height = 2d7+54+(4*Male)
+weight = 3d10+85+((22+1d12)*Male)
+age = 1d6+15
+maxage = 3d20+125
+BaseMovement = 12
+AbilityRequirement = Strength 		7/14
+AbilityRequirement = Constitution	7/14
+AbilityRequirement = Dexterity		7/14
+AbilityRequirement = Intelligence 	7/14
+AbilityRequirement = Wisdom 		7/14
+AbilityRequirement = Charisma		7/14
+ChangeClass = no
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = 0
+FindSecretDoorSearching = 1
+\(END)
+

@@ -1,0 +1,35 @@
+s can cast spells from the MagicUser school
+// MagicUsers cannot cast spells from the cleric school
+// Default = value of 'class' (which defaults to MU)
+// The following example creates a spell that can only be cast by
+// clerics and rangers. Also, 'Class = Cleric' should preceed this.
+// eg: cast by = Cleric + Ranger 
+// You can create spells that only Rangers can cast, which still belong
+// to the cleric school, with
+// eg: Cast By = Ranger
+//
+// Friendly Fire ok  (yes or no)
+// Can this spell be cast on a party member?
+// default is no
+// eg:     friendly fire ok = yes
+//
+// Combat Only  ( yes or no )
+// Is this spell castable only during combat?
+// default is yes
+// eg:     combat only = yes
+//
+// Cumulative  ( yes or no )
+// Will this spell affect a target that already has the same spell active?
+// default is yes
+// eg:     cumulative = yes
+//
+// Usable By Party  ( yes or no )
+// Can party members memorize and cast this spell? If not, only monsters/NPCs can use it.
+// default is yes
+// eg:     usable by party = yes
+//
+// Can Scribe ( yes or no )
+//  Should this spell be made available for scribing by MU at level change? 
+//  eg:     can scribe = no
+//
+// Auto Sc

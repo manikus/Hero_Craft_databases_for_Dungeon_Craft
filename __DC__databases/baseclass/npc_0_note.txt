@@ -1,0 +1,2 @@
+// npc baseclasses:
+// agent, cop, merc, soldier, tech, thief, thug

@@ -1,0 +1,9 @@
+\(BEGIN)
+name = skill_Stealth
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR skill; $VAR adj;
+-item = "Skill: Stealth"; skill = $SkillAdj($CharacterContext(),"Stealth","","F",""); adj = "1";
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SkillAdj($CharacterContext(),"Stealth","build"+skill, "+",adj);
+\(END)
+

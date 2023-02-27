@@ -1,0 +1,7 @@
+\(BEGIN)
+name = monsterHalfDamagePiercing
+[ComputeDamage] = $VAR p5; $VAR dmg;
+-p5 = $GET_HOOK_PARAM(5); dmng = $SA_ITEM_GET("DamageTypePiercing");
+-$IF (dmg != "-?-?-"){$RETURN p5 /# 2;};
+\(END)
+

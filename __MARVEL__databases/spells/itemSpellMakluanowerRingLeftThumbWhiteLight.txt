@@ -1,0 +1,21 @@
+mbined, as in 4+2=6 gives looping (4) and uses MaxLoops (2)
+//
+// default is "DEFAULT"
+// eg: target linger art = c:\sprites\stinkingcloud.bmp,0,1,16,16,0,0,0
+//
+// Spell Effect
+// Specify which character attributes are modified by this spell. To modify multiple
+// attributes, add multiple 'spell effect' lines.
+//  
+// Format:
+// Attribute,Change Amount(diceplus format),Change Units,Targeting,Cumulative,Script1,Script2,Script3
+//
+//    Attribute = attribute keyword affected, such as $CHAR_THACO
+//    Change Amount = how much to change attribute value, such as 1d4 + 1*level + 2
+//           This is a signed number. To decrease the current value, use a
+//           negative Change Amount.
+//    Change Units = 'delta', 'percent', or 'absolute'.
+//           Delta value is added to current value
+//           Percent changes current value by given percentage
+//           Absolute changes current value to given value
+//    Targeting = 'target','targeter','alltargetty

@@ -1,0 +1,29 @@
+$GET_MONSTERTYPE_SA($GET_CHAR_NAME($IndexOf($AttackerContext())),"monsterSeeEthereal") != "-?-?-"){$RETURN "Y";};
+-$IF ($SET_COMBATANT_SA($AttackerContext(),"IsBlinking") != "-?-?-"){$RETURN "Y";};
+-$IF ($SET_COMBATANT_SA($AttackerContext(),"IsBlinkingRing") != "-?-?-"){$RETURN "Y";};
+-$RETURN "N";
+\(END)
+
+\(BEGIN)
+name = IsCarrionStenched
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7, "Retching");
+-$SET_HOOK_PARAM( 6, "");
+-$RETURN 1;
+[DoesAttackSucceed] = $IF ($GET_COMBATANT_SA($AttackerContext(),"IsCarrionStenched") != "-?-?-")
+-  {$SET_HOOK_PARAM(6,$GET_HOOK_PARAM(6) +# 2);};
+-$IF ($GET_HOOK_PARAM(5) >=# $GET_HOOK_PARAM(6))
+-  {$RETURN "Y";}
+-$ELSE {$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = IsCharmed
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7,"Charmed ");
+-$SET_HOOK_PARAM( 6,"");
+-$RETURN 1;
+[Dispel] = $VAR clev; // Cast level
+-$VAR dlev; // Dispel level
+-$VAR cls;  // Class
+-$VAR pct;  // Percent
+-clev = $SA_PARAM_GET();
+-cls  = $SA_SPELL_G

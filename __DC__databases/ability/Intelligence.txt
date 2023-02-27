@@ -1,0 +1,6 @@
+\(BEGIN)
+name = Intelligence
+Abbreviation = INT
+Roll = 7 |< 3d6 >| 14
+\(END)
+

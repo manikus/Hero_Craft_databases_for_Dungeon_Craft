@@ -1,0 +1,28 @@
+adjStr;
+-$VAR adjStrMod;
+-$VAR cls;
+-$VAR adj;
+-$VAR lvl;
+-$VAR list1;
+-$VAR list2;
+-$IF (($GET_CHARACTER_SA($TargetContext(),"reduced") || $GET_MONSTERTYPE_SA($MonsterTypeContext(),"reduced")) != "-?-?-")
+-	{$RETURN $RUN_CHAR_SCRIPTS(tgt,"Dispel reduced");};
+-atk = $IndexOf($AttackerContext());
+-tgt = $IndexOf($TargetContext());
+-str = $GET_CHAR_LIMITED_STR(tgt);
+-strMod = $GET_CHAR_LIMITED_STRMOD(tgt);
+-adjStr = 18 -# str;
+-adjStrMod = 100 -# strMod;
+-cls = $SA_PARAM_GET();
+-adj = $GET_CHARACTER_SA($TargetContext(),"casterLevel");
+-lvl = $GET_CHAR_Lvl(atk,cls) -# adj;
+-$IF (lvl ># 10) {lvl =# 10;};
+-$IF ($GET_CHARACTER_SA($TargetContext(),"myStr") == "-?-?-")
+-	{
+-		$SET_CHARACTER_SA($TargetContext(),"myStr", str);
+-		$SET_CHARACTER_SA($TargetContext(),"myStrMod", strMod);
+-	};
+-$IF ($GET_CHARACTER_SA($TargetContext(),"mySize") == "-?-?-")
+-	{$SET_CHARACTER_SA($TargetContext(),"mySize", $GET_CHAR_SIZE(tgt));};
+-list1 = "|$18$0|$18$0|$18$01|$18$51|$18$76|$18$91|$18$100|$19$0|$20$0|$21$0|$22$0";
+-list2 = $DelimitedStringSubstring(

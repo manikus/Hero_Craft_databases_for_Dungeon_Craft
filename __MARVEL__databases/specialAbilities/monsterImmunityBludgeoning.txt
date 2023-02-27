@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterImmunityBludgeoning
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeBludgeoning");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+

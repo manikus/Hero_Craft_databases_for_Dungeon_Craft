@@ -1,0 +1,4 @@
+\(BEGIN)
+name = itemPowerCatchBolt
+\(END)
+

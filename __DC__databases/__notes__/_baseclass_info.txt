@@ -1,0 +1,57 @@
+adventurer						level 1		0
+	Adventurer								2500
+agent										5000
+	Agent									10000
+	Assassin								20000
+	Journalist								40000
+	Ninja									80000
+	Spy										160000
+cop											320000
+	Police						level 10	640000
+	Police Detective						960000
+guardian							  12	1280000
+	Champion								1600000
+	Guardian						  14	1920000
+investigator								2240000
+	Investigator					  16	2560000
+	Private Eye								2880000
+merc								  18	3200000
+	Mercenary								3520000
+	Vigilante					level 20	3840000
+mystic										4160000
+	Mystic							  22	4480000
+soldier										4800000
+	Soldier							  24	5120000
+	Special Forces							5440000
+tech								  26	5760000
+	Scientist								6080000
+	Technician						  28	6400000
+thief										6720000
+	Burglar						level 30	7040000
+	Thief									7360000
+thug										7680000
+	Criminal								8000000
+	Criminal Mastermind						8320000
+	Cultist									8640000
+	Lackey									8960000
+	Super Villain							9280000
+	Thug									9600000
+	Villain									9920000
+								level 40	10240000
+
+Advantages that are SAs:
+	advantageAccurateAttack
+	advantageAlloutAttack
+	advantageBeginnersLuck
+	advantageCloseAttack
+	advantageFearless
+	advantageImprovedAim
+	advantageImprovedCritical
+	advantageImprovedInitiative
+	advantageImprovisedWeapon
+	advantageLeadership
+	advantageLuck
+	advantagePreciseAttack
+	advantageRangedAttack
+	advantageThrowingMastery
+	advantageUncannyDodge

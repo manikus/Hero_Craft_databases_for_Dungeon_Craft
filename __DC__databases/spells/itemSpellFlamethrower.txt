@@ -1,0 +1,23 @@
+("GONE");};
+-$IF (status ==# 4) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("PETRIFIED");};
+-$IF (status ==# 3) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("FLED");};
+-$IF (status ==# 2) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("DEAD");};
+-$IF (status ==# 1) {$GrColor("ORANGE"); $GrTab("StatusTab"); $GrPrtLF("UNCONSCIOUS");};
+-$IF (status ==# 0) {$GrColor("GREEN"); $GrTab("StatusTab"); $GrPrtLF("OKAY");};
+-$GrColor("WHITE");
+-$GrPrint("HIT POINTS");
+-$IF (hp <=# 0) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrint(hp);};
+-$IF ((hp >=# 1) && (hp <# maxHp)) {$GrColor("ORANGE"); $GrTab("StatusTab"); $GrPrint(hp);};
+-$IF (hp ==# maxHp) {$GrColor("GREEN"); $GrTab("StatusTab"); $GrPrint(hp);};
+-$GrColor("GREEN");
+-$GrPrtLF("/" + maxHp);
+-$GrColor("WHITE");
+-$GrPrtLF($UpCase(race));
+-$GrColor("GREEN");
+-$GrPrint(weight);
+-$GrColor("WHITE");
+-$GrPrint(" LBS");
+-$GrColor("GREEN");
+-$GrTab("StatusTab");
+-$GrPrint(height /# 12);
+-$GrCo

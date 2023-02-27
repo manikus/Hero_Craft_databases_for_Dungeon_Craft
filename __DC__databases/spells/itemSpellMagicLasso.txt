@@ -1,0 +1,4 @@
+ster_WeaponImmunityType"
+Updates1_09 = "added item_GAuntletsDexterity, monster_CrysmalBluntWeapon, monster_CrysmalElectricalResistance, monster_CheetahNotSurprised, monster_RearClawRakeCat1, monster_RearClawRakeCat2, IsDetectedGood, IsStuckInMud, spell_TransmuteRockToMud, spell_WallOfStone. Fixed spell_Enlarge, spell_Reduce, spell_Bless, spell_Blink, spell_FireResistant, spell_Haste, spell_ImmuneDragonBreath, spell_ImmuneNormalMissiles, spell_ImmuneSpells, spell_ImmuneSpellsMinor, spell_Invisible, spell_MirrorImage, spell_Prayer, spell_ProtectionFromAcid, spell_ProtectionFromEvil, spell_ProtectionFromGood, spell_ProtectionFromLightning, spell_RaiseDead, spell_SeeInvisible, spell_Shield, spell_Silence, spell_Slow, spell_SlowPoison"
+Updates1_10 = "changed Global_Display to use class_ThievingSkills instead of class names, changed Competing to use class_Sweep, class_AttacksPerRound, class_AttacksPerRoundAdj and class_Leader instead of class names"
+Updates1_1

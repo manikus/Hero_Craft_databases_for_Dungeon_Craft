@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterImmunitySlashing
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeSlashing");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+

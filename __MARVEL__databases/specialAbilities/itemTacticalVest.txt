@@ -1,0 +1,5 @@
+\(BEGIN)
+name = itemTacticalVest
+\(END)
+// -3 against ballistic only
+

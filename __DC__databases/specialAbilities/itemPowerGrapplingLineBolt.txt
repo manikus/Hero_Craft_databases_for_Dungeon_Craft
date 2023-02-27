@@ -1,0 +1,4 @@
+\(BEGIN)
+name = itemPowerGrapplingLineBolt
+\(END)
+

@@ -1,0 +1,43 @@
+// BaseClass database file
+// Star Wars conversion
+
+// PC baseclasses
+\(BEGIN)
+name = jedi
+BonusXP = Wisdom,%,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,110,110,110,110,110,110,110,110,110,110
+BonusXP = Charisma,%,0,0,0,0,0,0,0,0,100,100,100,100,100,100,100,110,110,110,110,110,110,110,110,110,110
+THAC0 = 11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11
+AbilityRequirement = Strength 9/22
+AbilityRequirement = Intelligence 3/20
+AbilityRequirement = Wisdom 9/20
+AbilityRequirement = Dexterity 9/20
+AbilityRequirement = Constitution 3/20
+AbilityRequirement = Charisma 9/20
+Allowed race = Bothan
+Allowed race = Cerean
+Allowed race = Duros
+Allowed race = Ewok
+Allowed race = Gamorrean
+Allowed race = Gungan
+Allowed race = Human
+Allowed race = Ithorian
+Allowed race = "Kel Dor"
+Allowed race = "Mon Calamari"
+Allowed race = Quarren
+Allowed race = Rodian
+Allowed race = Sullustan
+Allowed race = Trandoshan
+Allowed race = "Twi'lek"
+Allowed race = Wookiee
+Allowed race = Zabrak
+Allowed Alignment = Lawful Good
+Allowed Alignment = Neutral Good
+Allowed Alignment = Chaotic Good
+ExpLevel = 0
+ExpLevel = 1000
+ExpLevel = 3000
+ExpLevel = 6000
+ExpLevel = 10000
+ExpLevel = 15000
+ExpLevel = 21000
+ExpLevel = 28000

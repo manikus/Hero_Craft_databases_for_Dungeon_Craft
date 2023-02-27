@@ -1,0 +1,4 @@
+// BaseClass database file
+//	Hero Craft
+//	January 2, 2021
+//	adventurer, agent, cop, detective, guardian, medic, mental, merc, mystic, occult, scientist, soldier, tech, thief, thug, vigilante

@@ -1,0 +1,50 @@
+// Race database file
+// Star Wars conversion
+
+\(BEGIN)
+name = Bothan
+height = 
+weight = 
+Age = 1d4+13
+MaxAge = 1d20+90
+BaseMovement = 12
+AbilityRequirement = Strength 3/18(100)
+AbilityRequirement = Intelligence 3/18
+AbilityRequirement = Wisdom 3/18
+AbilityRequirement = Dexterity 3/20
+AbilityRequirement = Constitution 3/16
+AbilityRequirement = Charisma 3/18
+ChangeClass = yes
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = no
+FindSecretDoorSearching = no
+// Special Ability = race_RaceSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Cerean
+height = 
+weight = 
+Age = 1d4+14
+MaxAge = 1d20+80
+BaseMovement = 12
+AbilityRequirement = Strength 3/18(100)
+AbilityRequirement = Intelligence 3/20
+AbilityRequirement = Wisdom 3/20
+AbilityRequirement = Dexterity 3/16
+AbilityRequirement = Constitution 3/18
+AbilityRequirement = Charisma 3/18
+ChangeClass = yes
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = no
+FindSecretDoorSearching = no
+// Special Ability = race_RaceSuppress,"Y"
+\(END)
+
+\(BEGIN)
+name = Duros
+height = 
+weight = 
+Age = 1d4+1

@@ -1,0 +1,5 @@
+\(BEGIN)
+name = Global_CreateMonsterCombatant
+[CreateMonsterCombatant] = 
+\(END)
+

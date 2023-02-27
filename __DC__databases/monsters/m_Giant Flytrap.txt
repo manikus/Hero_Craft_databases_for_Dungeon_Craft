@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Giant Flytrap
+icon file = icon_GiantFlytrap.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 0
+armor class = 10
+movement rate = 0
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 16
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 800
+Special Ability = combatantAlignment,evil
+Special Ability = monsterLevel,9
+Class = Adventurer
+Race = Monster
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,9,0,attacks,
+Undead = none
+\(END)
+

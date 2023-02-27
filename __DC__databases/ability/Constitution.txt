@@ -1,0 +1,6 @@
+\(BEGIN)
+name = Constitution
+Abbreviation = CON
+Roll = 7 |< 3d6 >| 14
+\(END)
+

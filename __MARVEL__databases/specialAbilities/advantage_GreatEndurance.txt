@@ -1,0 +1,10 @@
+\(BEGIN)
+name = advantage_GreatEndurance
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Great Endurance"; advant = $SA_CHARACTER_GET("advantageGreatEndurance");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageGreatEndurance",advant);
+\(END)
+

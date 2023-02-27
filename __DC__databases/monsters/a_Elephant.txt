@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Elephant
+icon file = icon_Elephant.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 7
+armor class = 9
+movement rate = 9
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 12
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 900
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,9
+Class = Adventurer
+Race = Animal
+form = animal + mammal + large
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,10,0,attacks,
+Undead = none
+\(END)
+

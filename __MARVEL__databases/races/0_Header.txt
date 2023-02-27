@@ -1,0 +1,4 @@
+// Race database file
+//	Hero Craft: Marvel Ediition
+//	December 7, 2022
+//	Alien, Human, Android, Cyborg, Mutant

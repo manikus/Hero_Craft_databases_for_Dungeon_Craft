@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Rat
+icon file = icon_Rat.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 4
+armor class = 10
+movement rate = 6
+hit dice = .25
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 21
+magic resistance = 0
+size = medium
+morale = 15
+experience point value = 10
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,1
+Class = Adventurer
+Race = Animal
+form = animal + mammal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+

@@ -1,0 +1,21 @@
+\(BEGIN)
+name = Undead
+height = 2d10+58
+weight = 5d10+10
+age = 1d6
+maxage = 3d20+1200
+BaseMovement = 6
+AbilityRequirement = Strength 		7/14
+AbilityRequirement = Constitution	7/14
+AbilityRequirement = Dexterity		7/14
+AbilityRequirement = Intelligence 	7/14
+AbilityRequirement = Wisdom 		7/14
+AbilityRequirement = Charisma		7/14
+ChangeClass = no
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = 0
+FindSecretDoorSearching = 0
+Special Ability = raceSuppress,"Y"
+\(END)
+

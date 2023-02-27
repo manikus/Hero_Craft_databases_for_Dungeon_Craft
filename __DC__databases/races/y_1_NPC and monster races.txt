@@ -1,0 +1,2 @@
+// NPC and monster races:
+//	Amazon, Angel, Animal, Atlantean, Construct, Dark-Elf, Demon, Dwarf, Elder God, Elf, God, Gorilla, Insect, Kherubim, Kree, Kryptonian, Lemurian, Martian, Monster, Post-Human, Rannian, Robot, Shi'aran, Skrull, Thanagarian, Undead

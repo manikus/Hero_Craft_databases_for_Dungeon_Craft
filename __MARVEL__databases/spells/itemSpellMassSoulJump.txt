@@ -1,0 +1,33 @@
+
+friendly fire ok = yes
+cumulative = yes
+usable by party = yes
+can scribe = yes
+auto scribe = yes
+combat only = no
+can be dispelled = yes
+lingers = no
+linger affects once = no
+save versus = spell
+save result = none
+targeting type = touch
+level = 5
+casting time = 8
+casting time units = initiative
+Number of targets = 1
+duration = 0
+duration units = instantaneous
+target duration = 
+target range = 1
+price = 10
+spell effect 1 = $CHAR_HITPOINTS,3d8+3,delta,target,yes
+begin script = $IF ($GET_CHAR_STATUS($MyIndex()) \=\=# 0){   $RETURN true;};$IF ($GET_CHAR_STATUS($MyIndex()) \=\=# 1){   $RETURN true;};$IF ($GET_CHAR_STATUS($MyIndex()) \=\=# 3){   $RETURN true;};$IF ($GET_CHAR_STATUS($MyIndex()) \=\=# 8){   $RETURN true;};$IF ($GET_CHAR_STATUS($MyIndex()) \=\=# 9){   $RETURN true;};$RETURN false;
+end script = 
+\(END)
+
+\(BEGIN)
+name = Cause Critical Wounds
+casting sound = DEFAULT
+cast msg = /t feels pain
+missile sound = none
+coverage so

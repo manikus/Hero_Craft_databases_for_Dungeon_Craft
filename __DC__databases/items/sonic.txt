@@ -1,0 +1,662 @@
+$CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageEquipment",advant);
+\(END)
+
+\(BEGIN)
+name = advantageEquipment
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Equipment +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Evasion
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Evasion"; advant = $SA_CHARACTER_GET("advantageEvasion");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageEvasion",advant);
+\(END)
+
+\(BEGIN)
+name = advantageEvasion
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Evasion +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR tSA; $VAR tPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-tSA = $SA_SA_GET(); tPC = $GET_CHARACTER_SA($TargetContext),tSA);
+-$IF (tPC == "-?-?-") {$RETURN;};
+-$IF (p5 <=# (p6 +# prm)) {$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = advantage_ExtraordinaryEffort
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Extraordinary Effort"; advant = $SA_CHARACTER_GET("advantageExtraordinaryEffort");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageExtraordinaryEffort",advant);
+\(END)
+
+\(BEGIN)
+name = advantageExtraordinaryEffort
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Extraordinary Effort +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Fascinate
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Fascinate"; advant = $SA_CHARACTER_GET("advantageFascinate");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFascinate",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFascinate
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Facinate +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_FastGrab
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Fast Grab"; advant = $SA_CHARACTER_GET("advantageFastGrab");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFastGrab",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFastGrab
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Fast Grav +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_FavoredEnvironmentAerial
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Favored Environment: Aerial"; advant = $SA_CHARACTER_GET("advantageFavoredEnvironmentAerial");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFavoredEnvironmentAerial",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFavoredEnvironmentAerial
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Favored Environment: Aerial +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_FavoredEnvironmentAquatic
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Favored Environment: Aquatic"; advant = $SA_CHARACTER_GET("advantageFavoredEnvironmentAquatic");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFavoredEnvironmentAquatic",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFavoredEnvironmentAquatic
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Favored Environment: Aquatic +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_FavoredFoeFlash
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Favored Foe: Flash"; advant = $SA_CHARACTER_GET("advantageFavoredFoeFlash");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFavoredFoeFlash",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFavoredFoeFlash
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Favored Foe: Flash +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR tPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-tPC = $GET_CHAR_NAME($IndexOf($TargetContext());
+-$IF (aPC != "Flash") {$RETURN;};
+-$IF ((p5 +# prm) ># p6) {$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = advantage_Fearless
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Fearless"; advant = $SA_CHARACTER_GET("advantageFearless");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFearless",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFearless
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Fearless +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_FollowUpStrike
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Follow-Up Strike"; advant = $SA_CHARACTER_GET("advantageFollowUpStrike");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageFollowUpStrike",advant);
+\(END)
+
+\(BEGIN)
+name = advantageFollowUpStrike
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Follow-Up Strike +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_GrabFinesse
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Grab Finesse"; advant = $SA_CHARACTER_GET("advantageGrabFinesse");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageGrabFinesse",advant);
+\(END)
+
+\(BEGIN)
+name = advantageGrabFinesse
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Grab Finesse +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_GreatEndurance
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Great Endurance"; advant = $SA_CHARACTER_GET("advantageGreatEndurance");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageGreatEndurance",advant);
+\(END)
+
+\(BEGIN)
+name = advantageGreatEndurance
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Great Endurance +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_HideInPlainSight
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Hide In Plain Sight"; advant = $SA_CHARACTER_GET("advantageHideInPlainSight");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageHideInPlainSight",advant);
+\(END)
+
+\(BEGIN)
+name = advantageHideInPlainSight
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Hide In Plain Sight +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedAim
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Aim"; advant = $SA_CHARACTER_GET("advantageImprovedAim");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedAim",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedAim
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Aim +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR aSA; $VAR aPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-aSA = $SA_SA_GET(); aPC = $GET_CHARACTER_SA($AttackerContext),aSA);
+-$IF (aPC == "-?-?-") {$RETURN;};
+-$IF ((p5 +# prm) ># p6) {$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalBillyClub
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Billy Club"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalBillyClub");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalBillyClub",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalBillyClub
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Billy Club +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Billy Club";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalBlades
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Blades"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalBlades");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalBlades",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalBlades
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improvved Critical: Blades +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemBlades");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalBlasts
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Blasts"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalBlasts");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalBlasts",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalBlasts
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Blasts +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemBlasts");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalBow
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Bow"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalBow");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalBow",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalBow
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Bow +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Bow";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalClaws
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Claws"; advant = $SA_CHARACTER_GET("advantage_mprovedCriticalClaws");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalClaws",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalClaws
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Claws +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemClaws");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalCrossbow
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Crossbow"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalCrossbow");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalCrossbow",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalCrossbow
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Crossbow +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Crossbow";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalFire
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Fire"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalFire");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalFire",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalFire
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Fire +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemFire");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalGauntlets
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Gauntlets +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemGauntlets");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalGun
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Gun"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalGun");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalGun",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalGun
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Gun +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemGun");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalHammer
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Hammer"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalHammer");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalHammer",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalHammer
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Hammer +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemHammer");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalIce
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Ice"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalIce");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalIce",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalIce
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Ice +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemIce");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalInvisibleEnergy
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Invisible Energy"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalInvisibleEnergy");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalInvisibleEnergy",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalInvisibleEnergy
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Invisible Energy +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemInvisibleEnergy");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalLightning
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Lightning"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalLightning");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalLightning",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalLightning
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Lightning +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemLightning");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalMace
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Mace"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalMace");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalMace",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalMace
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Mace +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Mace";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\\(BEGIN)
+name = advantage_ImprovedCriticalMagic
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Magic"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalMagic");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalMagic",advant);
+\(END)
+
+(BEGIN)
+name = advantageImprovedCriticalMagic
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Magic +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemMagic");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalMagneticBlast
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Magnetic Blast"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalMagneticBlast");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalMagneticBlast",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalMagneticBlast
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Magnetic Blast +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = $GET_ITEM_SA($ItemContext(),"itemMagnetic");
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalOpticBlasts
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Optic Blasts"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalOpticBlasts");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalOpticBlasts",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalOpticBlasts
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Optic Blasts +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Optic Blasts";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalRifle
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Rifle"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalRifle");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalRifle",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalRifle
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Rifle +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Rifle";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalShieldThrow
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Shield Throw"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalShieldThrow");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageImprovedCriticalShieldThrow",advant);
+\(END)
+
+\(BEGIN)
+name = advantageImprovedCriticalShieldThrow
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Shield Throw +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Captain America's Mighty Shield";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+
+\(BEGIN)
+name = advantage_ImprovedCriticalShuriken
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Improved Critical: Shuriken"; advant = $SA_CHARACTER_GET("advantageImprovedCriticalShuriken");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext()

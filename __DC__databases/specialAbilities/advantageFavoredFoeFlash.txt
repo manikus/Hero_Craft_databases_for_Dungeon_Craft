@@ -1,0 +1,12 @@
+\(BEGIN)
+name = advantageFavoredFoeFlash
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Favored Foe: Flash +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR tPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-tPC = $GET_CHAR_NAME($IndexOf($TargetContext());
+-$IF (aPC != "Flash") {$RETURN;};
+-$IF ((p5 +# prm) ># p6) {$RETURN "Y";};
+\(END)
+

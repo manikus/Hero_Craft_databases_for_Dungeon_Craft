@@ -1,0 +1,58 @@
+ns = none
+attack = 3,1,-1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = B1 Battle Droid
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 9
+armor class = 11
+movement rate = 9
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 18
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentNeutral,1
+Special Ability = monsterLevel,3
+classes = Soldier
+Race = Droid
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Blaster Carbine
+attack = 3,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = B2 Super Battle Droid
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 10
+armor class = 8
+movement rate = 9
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 15
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentNeutral,1
+Special Ability = monsterLevel,15
+classes = Soldier
+Race = Dro

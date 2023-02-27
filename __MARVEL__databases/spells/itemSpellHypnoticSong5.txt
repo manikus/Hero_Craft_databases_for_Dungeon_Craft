@@ -1,0 +1,43 @@
+[CheckProximity] = $VAR tgt; // target
+-$VAR myself;
+-$VAR range;
+-$VAR distance;
+-$VAR saveVsPoison;
+-$VAR roll;
+-$IF ($GET_CHAR_NAME($MyIndex()) == "Troglodyte"){$RETURN;};
+-$IF ($SA_COMBATANT_GET("ImmuneRevulsion") != "-?-?-"){$RETURN;};
+-tgt = $GET_HOOK_PARAM(5);
+-myself = $GET_HOOK_PARAM(6);
+-range = $SA_PARAM_GET();
+-distance = $VisualDistance(tgt, myself);
+-$IF (range <# distance) {$RETURN;};
+-saveVsPoison = $SkillAdj($CombatantContext(), "Save Vs PPDM", "monster", "F", "");
+-roll = $RANDOM(20) +# 1;
+-$IF (saveVsPoison ># roll){$SET_CHAR_THAC0(tgt,($GET_CHAR_THAC0(tgt) +# 2));}
+-$ELSE{$SET_COMBATANT_SA($CombatantContext(), "ImmuneRevulsion", 4);};
+\(END)
+
+\(BEGIN)
+name = monster_SlimeWeakness
+\(END)
+
+\(BEGIN)
+name = monster_SpellImmunity
+Parameters = "parameter is delimited string";
+[DoesSpellAttackSucceed] = $VAR splList;
+-$VAR sNum;
+-$VAR spl;
+-$VAR count;
+-splList = $SA_PARAM_GET();
+-sNum = $DelimitedStringCount(splList);
+-$WHILE (count <=# sNum)
+-	{
+-		spl = $DelimitedStringSubstring(splList,count);
+-		$IF ($SpellContext() == spl){$RETURN "N";};
+-		count = count +# 1;
+-	};
+\(END)
+
+\(BEGIN)
+name = monster_StirgeAttack
+[InvokeSpellOnTarget] = $VAR atk; // attacker

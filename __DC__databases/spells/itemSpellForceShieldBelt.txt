@@ -1,0 +1,29 @@
+xt());
+-$IF ($GET_COMBATANT_SA($TargetContext(),"IsImmuneNormalMissiles") != "-?-?-")
+-	{
+-		$IF ((($SA_ITEM_GET("item_HurledWeapon") != "-?-?-" && $VisualDistance(tgt,$IndexOf($AttackerContext())) ># 1) || $SA_ITEM_GET("item_MissileWeapon") != "-?-?-") && $SA_ITEM_GET("item_MagicalWeapon") == "-?-?-")
+-			{
+-				$SET_HOOK_PARAM(6,$GET_HOOK_PARAM(6) +# 90);
+-			};
+-	};
+-$IF ($GET_HOOK_PARAM(5) >=# $GET_HOOK_PARAM(6)){$RETURN "Y";}
+-$ELSE {$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = IsImmunePoison
+[DoesSpellAttackSucceed] = $IF ($SA_SPELL_GET("DamageMagical") == "poison" || $SA_SPELL_GET("DamageNonMagical") == "poison"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = IsImmuneSpells
+[Dispel] = $SA_REMOVE();
+[DoesSpellAttackSucceed] = $VAR spLvl;
+-$VAR spAtk;
+-spLvl = $GET_SPELL_Level($SpellContext());
+-spAtk = $GET_SPELL_SA($SpellContext(),"spell_Attack");
+-$IF (spLvl <=# 4){$IF (spAtk != "-?-?-"){$RETURN "N";};};
+\(END)
+
+\(BEGIN)
+name = IsImmuneSpel

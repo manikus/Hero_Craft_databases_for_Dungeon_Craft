@@ -1,0 +1,227 @@
+Skill
+	RangedCombatArcticVision
+	RangedCombatBillyClub
+	RangedCombatBioShellWeapons
+	RangedCombatBlasts
+	RangedCombatBow
+	RangedCombatDebris
+	RangedCombatEmpathy
+	RangedCombatFire
+	RangedCombatFlamethrower
+	RangedCombatGuns
+	RangedCombatHammer
+	RangedCombatHeatVision
+	RangedCombatHexes
+	RangedCombatHumanBeings
+	RAngedCombatIce
+	RangedCombatInvisibleEnergy
+	RangedCombatIronManWeapons
+	RangedCombatLasso
+	RangedCombatLightning
+	RangedCombatMagic
+	RangedCombatMagneticBlasts
+	RangedCombatMartialArtsWeapons
+	RangedCombatMartianVision
+	RangedCombatOmegaEffect
+	RangedCombatOpticBlasts
+	RangedCombatPowerRing
+	RangedCombatRazorBats
+	RangedCombatShieldToss
+	rangedCombatSolarBlast
+	RangedCombatSoundBlaster
+	RangedCombatStarbolts
+	RangedCombatThrowing
+	RangedCombatThrowingKnives
+	RangedCombatThrownObjects
+	RangedCombatTKAttacks
+	RangedCombatTrickUmbrella
+	RangedCombatWeaponsArray
+	RangedCombatWebbing
+	RangedCombatWidowsBite
+	RangedCombatWristLoader
+
+SA
+	advantageAccurateAttack
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// RangedWeapon //////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+\(BEGIN)
+name = RangedWeapon
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR 
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"advantageAccurateAttack");
+-
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-hit = pr5 +# acc +# 
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponBlast
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateBlast");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedBlast");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponBurst
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateBurst");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedBurst");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponDamage
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt; $VAR acc;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateDamage");
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponDazzle
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateDazzle");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedDazzle");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponNullify
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateNullify");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedNullify");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponScanningBeam
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0); frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateScanningBeam");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedScanningBeam");
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (ext != "-?-?-:) {nrb = nrb +# ext; frw = frw +# ext;};
+-$IF (dst ># frw) {hit = hit -# 5;}; $IF (dst ># nrb) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponSnare
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateSnare");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedSnare");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponWeaken
+[DoesAttackSucceed] = $VAR pr5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR prm; $VAR r1; $VAR r2; $VAR r3; $VAR r4; $VAR nrb; $VAR frw; $VAR dst; $VAR acc; $VAR ext;
+-pr5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6); atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-prm = $SA_PARAM_GET(); r1 = $DelimitedStringSubstring(prm,0); r2 = $DelimitedStringSubstring(prm,1);
+-r3 = $DelimitedStringSubstring(prm,2); r4 = $DelimitedStringSubstring(prm,3);
+-dst = $VisualDistance(atk,tgt); acc = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralAccurateWeaken");
+-ext = $GET_COMBATANT_SA($AttackerContext(),"powerGeneralExtendedWeaken");
+-$IF (ext != "-?-?-:)
+-	{
+-		$IF (ext ==# 1) {r1 = r1 *# 2; r2 = r2 *# 2; r3 = r3 *# 2; r4 = r4 *# 2;};
+-		$IF (ext ==# 2) {r1 = r1 *# 4; r2 = r2 *# 4; r3 = r3 *# 4; r4 = r4 *# 4;};
+-		$IF (ext ==# 3) {r1 = r1 *# 8; r2 = r2 *# 8; r3 = r3 *# 8; r4 = r4 *# 8;};
+-		$IF (ext ==# 4) {r1 = r1 *# 16; r2 = r2 *# 16; r3 = r3 *# 16; r4 = r4 *# 16;};
+-		$IF (ext ==# 5) {r1 = r1 *# 32; r2 = r2 *# 32; r3 = r3 *# 32; r4 = r4 *# 32;};
+-	};
+-$IF (acc != "-?-?-") {hit = pr5 +# acc;} $ELSE {hit = pr5;};
+-$IF (dst ># r4) {hit = hit -# 30;}; $IF (dst ># r3) {hit = hit -# 12;};
+-$IF (dst ># r2) {hit = hit -# 5;}; $IF (dst ># r1) {hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+

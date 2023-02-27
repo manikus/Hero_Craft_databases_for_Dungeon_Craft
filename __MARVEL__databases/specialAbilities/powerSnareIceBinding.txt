@@ -1,0 +1,4 @@
+\(BEGIN)
+name = powerSnareIceBinding
+\(END)
+

@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Blob
+icon file = icon_Blob.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 0
+armor class = 10
+movement rate = 3
+hit dice = 8
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 800
+Special Ability = combatantAlignment,evil
+Special Ability = monsterLevel,8
+Class = Adventurer
+Race = Monster
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,8,0,attacks,
+Undead = none
+\(END)
+

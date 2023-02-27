@@ -1,0 +1,4 @@
+// Race database file
+//	Hero Craft
+//	January 2, 2021
+//	Alien, Human, Android, Cyborg, Meta, Mutant

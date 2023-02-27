@@ -1,0 +1,17 @@
+\(BEGIN)
+name = RangedWeaponBurst
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateBurst");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+

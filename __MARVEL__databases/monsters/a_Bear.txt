@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Bear
+icon file = icon_Bear.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 7
+armor class = 9
+movement rate = 6
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 15
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 600
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,6
+Class = Adventurer
+Race = Animal
+form = animal + mammal + large
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,8,0,claws,
+attack = 1,8,0,claws,
+Undead = none
+\(END)
+

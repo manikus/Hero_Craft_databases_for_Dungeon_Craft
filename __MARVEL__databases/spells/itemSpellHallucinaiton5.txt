@@ -1,0 +1,34 @@
+bleRing",1);
+-$SET_COMBATANT_SA($CharacterContext(),"IsInvisibleRing",1);
+-$SET_COMBATANT_SA($CharacterContext(),"IsInvisible",1);
+-$SET_CHARACTER_SA($CharacterContext(),"DispelLevelItem","12");
+[OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"IsInvisibleRing");
+-$DELETE_COMBATANT_SA($CharacterContext(),"IsInvisibleRing");
+-$DELETE_COMBATANT_SA($CharacterContext(),"IsInvisible");
+-$DELETE_CHARACTER_SA($CharacterContext(),"DispelLevelItem");
+\(END)
+
+\(BEGIN)
+name = item_RingOfProtectionFromEvil
+[OnReady] = $SET_CHARACTER_SA($CharacterContext(),"IsProtectedEvil","1");
+-$SET_CHARACTER_SA($CharacterContext(),"DispelLevelItem","12");
+[OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"IsProtectedEvil");
+-$DELETE_CHARACTER_SA($CharacterContext(),"DispelLevelItem");
+\(END)
+
+\(BEGIN)
+name = item_RingOfWizardry
+[OnReady] = $VAR lvl;
+-$VAR actor;
+-lvl = $SA_PARAM_GET();
+-$SpellAdj($CharacterContext(),"Magic User","ring",lvl,lvl,200,0);
+-$SET_CHARACTER_SA($CharacterContext(),"IsRingWizardry", lvl);
+[OnUnReady] = $VAR lvl;
+-$VAR actor;
+-lvl = $SA_PARAM_GET();
+-$SpellAdj($CharacterContext(),"Magic User","ring",lvl,lvl,50,0);
+-$DELETE_CHARACTER_SA($CharacterContext(),"IsRingWizardry");
+\(END)
+
+\(BEGIN)
+name = item_Scrol

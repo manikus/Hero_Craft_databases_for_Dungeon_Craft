@@ -1,0 +1,57 @@
+(END)
+
+\(BEGIN)
+name = Clone Trooper
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 10
+armor class = 10
+movement rate = 9
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 15
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentNeutral,1
+Special Ability = monsterLevel,6
+classes = Soldier
+Race = Human
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Clone Trooper Armor
+item = Blaster Rifle
+item = Comlink
+attack = 4,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Clone Trooper Commander
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 13
+armor class = 10
+movement rate = 9
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 12
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentNeutral,1
+Special Ability = monsterLevel,9
+classes = Soldier
+Race = Hu

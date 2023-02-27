@@ -1,0 +1,9 @@
+\(BEGIN)
+name = skill_ExpertiseTheology
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR skill; $VAR adj;
+-item = "Skill: Expertise: Theology"; skill = $SkillAdj($CharacterContext(),"ExpertiseTheology","","F",""); adj = "1";
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SkillAdj($CharacterContext(),"ExpertiseTheology","build"+skill, "+",adj);
+\(END)
+

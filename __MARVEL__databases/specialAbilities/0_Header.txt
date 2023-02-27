@@ -1,0 +1,3 @@
+// Special Abilities database file
+//	Hero Craft
+//	January 2, 2021

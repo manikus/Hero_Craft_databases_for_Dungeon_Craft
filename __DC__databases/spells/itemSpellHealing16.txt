@@ -1,0 +1,35 @@
+ame = $GET_CHAR_NAME($IndexOf($CombatantContext()));
+-		$IF (name == "Black Bear"){dmg = ($RANDOM(4) +# $RANDOM(4) +# 2);};
+-		$IF (name == "Brown Bear"||name == "Grizzly Bear"){dmg = ($RANDOM(6) +# $RANDOM(6) +# 2);};
+-		$IF (name == "Cave Bear"||name == "Owlbear"||name == "Werebear" ){dmg = ($RANDOM(8) +# $RANDOM(8) +# 2);};
+-		$IF (name == "Northern Bear"){dmg = ($RANDOM(6) +# $RANDOM(6) +# $RANDOM(6) +# 3);};
+-		$SET_CHAR_HITPOINTS(Tgt,$GET_CHAR_HITPOINTS(Tgt) -# dmg);
+-	};
+-$IF ($GET_CHAR_HITPOINTS(Tgt) <# 1) 
+-	{
+-		$IF ($GET_CHAR_HITPOINTS(Tgt) <# "-9")  {$SET_CHAR_STATUS(Tgt,2);}
+-		$ELSE {$SET_CHAR_STATUS(Tgt,9);};
+-		$DELETE_COMBATANT_SA($CombatantContext(),"monster_BearHugging");
+-	};
+\(END)
+
+\(BEGIN)
+name = monster_BeholderAttacks
+[StartCombatRound] = $GIVE_CHAR_ITEM( $CombatantContext(), "monsterBeholderCharm" );
+-$GIVE_CHAR_ITEM( $CombatantContext(), "monsterBeholderSleep" );
+-$GIVE_CHAR_ITEM( $CombatantContext(), "monsterBeholderFleshToStone" );
+-$GIVE_CHAR_ITEM( $CombatantContext(), "monsterBeholderFear" );
+-$GIVE_CHAR_ITEM( $CombatantContext(), "monsterBeholderSlow" );
+\(END)
+
+\(BEGIN)
+name = monster_CheetahNotSurprised
+[AdjustInitiative] = $RETURN "-2";
+\(END)
+
+\(BEGIN)
+name = monster_CombatantAlignment
+[CreateMonsterCombatant] = $VAR param;
+-$VAR char;
+-param = $SA_PARAM_GET();
+-char = $IndexOf($CharacterContext());

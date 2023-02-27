@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Crocodile
+icon file = icon_Crocodile.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 6
+armor class = 6
+movement rate = 3
+hit dice = 7
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 14
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 700
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,7
+Class = Adventurer
+Race = Animal
+form = animal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,8,0,bites,
+Undead = none
+\(END)
+

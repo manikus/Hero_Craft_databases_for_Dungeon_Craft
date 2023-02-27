@@ -1,0 +1,4 @@
+\(BEGIN)
+name = powerWeakenWeakenPresence
+\(END)
+

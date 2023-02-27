@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Dragon
+icon file = icon_Dragon.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 9
+armor class = 7
+movement rate = 54
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 20
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 1000
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,9
+Special Ability = PowerMovementFlight
+Class = Adventurer
+Race = Monster
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = monsterDragonBreathFire
+attack = 1,12,0,attacks,
+Undead = none
+\(END)
+

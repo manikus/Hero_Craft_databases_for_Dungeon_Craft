@@ -1,0 +1,42 @@
+),"monster_FireBatBloodCap") == "-?-?-")
+-	{
+-		$SET_COMBATANT_SA($AttackerContext(),"monster_FireBatBloodCap",3);
+-	};
+-$SET_COMBATANT_SA($AttackerContext(),"monster_FireBatLink",tgt);
+-$SET_COMBATANT_SA($TargetContext(),"monster_FireBatDrainee","");
+-$SET_COMBATANT_SA($TargetContext(),"IsHugged",1);
+-link = $GET_COMBATANT_SA($TargetContext(),"monster_FireBatLink");
+-$IF (link == "-?-?-")
+-	{
+-		$SET_COMBATANT_SA($TargetContext(),"monster_FireBatLink","$255$" + atk);
+-	}
+-$ELSE
+-	{
+-		link = link + "$" + atk;
+-		$SET_COMBATANT_SA($TargetContext(),"monster_FireBatLink",link);
+-	};
+\(END)
+
+\(BEGIN)
+name = monster_FireBatDrain
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7,$SA_PARAM_GET());
+-$SET_HOOK_PARAM( 6,"");
+-$RETURN 1;
+[GetAdjMaxMovement] = $RETURN 0;
+[GetNumberOfAttacks] = $RETURN 0;
+[OnStartCombatantAction] = $VAR tgt; // target
+-$VAR name;
+-$VAR cap;
+-$VAR dmg;
+-// Test Target and Compute & Apply Drain
+-tgt = $GET_COMBATANT_SA($CombatantContext(),"monster_FireBatLink");
+-name = $GET_CHAR_NAME(tgt);
+-$IF ($GET_CHAR_STATUS(tgt) ==# 0) 
+-	{
+-		cap = $GET_COMBATANT_SA($CombatantContext(),"monster_FireBatBloodCap");
+-		dmg = $RANDOM(4) +# 1;
+-		cap = cap -# 1;
+-		$SET_COMBATANT_SA($CombatantContext(),"monster_FireBatBloodCap",cap);
+-		$SET_CHAR_HITPOINTS(tgt, $GET_CHAR_HITPOINTS(tgt) -# dmg);
+-// Is Target Dead?
+-		$IF ($GET_CH

@@ -1,0 +1,7 @@
+\(BEGIN)
+name = advantageFascinate
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Facinate +"+prm); $RETURN "1";};
+\(END)
+

@@ -1,0 +1,53 @@
+
+-$VAR n;
+-$VAR monster1;
+-$VAR sCount;
+-list = "$Elephant$Rhinoceros";
+-count = $DelimitedStringCount(list);
+-n = $RANDOM(count);
+-monster1 = $DelimitedStringSubstring(list,n);
+-sCount = $RANDOM(4);
+-$WHILE (sCount >=# 0)
+-	{
+-		$AddCombatant(monster1,"1");
+-		sCount = sCount -# 1;
+-	};
+\(END)
+
+\(BEGIN)
+name = spell_SummonElementalAir
+[InvokeSpellOnTarget] = $AddCombatant("Air Elemental","1");
+\(END)
+
+\(BEGIN)
+name = spell_SummonElementalEarth
+[InvokeSpellOnTarget] = $AddCombatant("Earth Elemental","1");
+\(END)
+
+\(BEGIN)
+name = spell_SummonElementalFire
+[InvokeSpellOnTarget] = $AddCombatant("Fire Elemental",1);
+\(END)
+
+\(BEGIN)
+name = spell_SummonElementalWater
+[InvokeSpellOnTarget] = $AddCombatant("Water Elemental",1);
+\(END)
+
+\(BEGIN)
+name = spell_SummonInvisibleStalker
+[InvokeSpellOnTarget] = $AddCombatant("Invisible Stalker","1");
+\(END)
+
+\(BEGIN)
+name = spell_TransmuteRockToMud
+[Dispel] = $SA_REMOVE();
+-$RUN_CHAR_SE_SCRIPTS($TargetContext(),"Dispel SE");
+[Dispel SE] = $REMOVE_SPELL_EFFECT($CharacterContext(),$GET_HOOK_PARAM(5));
+[InvokeSpellOnTarget] = $SET_CHARACTER_SA($TargetContext(),"IsStuckInMud","");
+[RemoveLinger] = $RETURN "AREA";
+[SpellLingerBlockage] = $RETURN "Y";
+\(END)
+
+\(BEGIN)
+name = spell_Unlock

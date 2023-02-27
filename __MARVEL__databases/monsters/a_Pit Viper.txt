@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Pit Viper
+icon file = icon_PitViper.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 6
+armor class = 8
+movement rate = 3
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 400
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,4
+Class = Adventurer
+Race = Animal
+form = animal + snake
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,3,0,bites,monsterViperVenom
+Undead = none
+\(END)
+

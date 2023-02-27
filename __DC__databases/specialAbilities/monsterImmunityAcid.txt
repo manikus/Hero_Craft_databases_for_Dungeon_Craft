@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterImmunityAcid
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeAcid");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+

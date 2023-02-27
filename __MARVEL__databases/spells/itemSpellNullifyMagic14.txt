@@ -1,0 +1,59 @@
+0
+experience point value = 0
+Special Ability = alignmentGood,1
+Special Ability = monsterLevel,14
+classes = Jedi
+Race = Human
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Jedi Robes
+item = Lightsabre
+attack = 4,1,9,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sith Trooper
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 10
+armor class = 10
+movement rate = 9
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentEvil,1
+Special Ability = monsterLevel,4
+classes = Sith
+Race = Human
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Blaster Rifle
+item = Frag Grenade
+item = Sith Trooper Armor
+attack = 4,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Sith Pilot
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 11
+armor class = 10
+movement rate = 

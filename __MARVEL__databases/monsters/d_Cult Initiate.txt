@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Cult Initiate
+icon file = icon_CultInitiate.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 11
+armor class = 10
+movement rate = 9
+hit dice = 2
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 100
+Special Ability = combatantAlignment,evil
+Special Ability = monsterLevel,2
+Class = Cultist
+Race = Human
+form = mammal
+penalty = none
+immunity = none
+Misc Options = can be held/charmed
+item = Dagger
+item = Light Pistol
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+

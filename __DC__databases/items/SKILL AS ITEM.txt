@@ -1,0 +1,2159 @@
+tIce != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Ice");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRAngedCombatIce);};
+-skillRangedCombatInvisibleEnergy = $SkillAdj($CharacterContext(),"RangedCombatInvisibleEnergy","","F","");
+-$IF (skillRangedCombatInvisibleEnergy != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Invisible Energy");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatInvisibleEnergy);};
+-skillRangedCombatIronManWeapons = $SkillAdj($CharacterContext(),"RangedCombatIronManWeapons","","F","");
+-$IF (skillRangedCombatIronManWeapons != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Iron Man Weapons");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatIronManWeapons);};
+-skillRangedCombatLasso = $SkillAdj($CharacterContext(),"RangedCombatLasso","","F","");
+-$IF (skillRangedCombatLasso != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Lasso");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatLasso);};
+-skillRangedCombatLightning = $SkillAdj($CharacterContext(),"RangedCombatLightning","","F","");
+-$IF (skillRangedCombatLightning != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Lightning");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatLightning);};
+-skillRangedCombatMagic = $SkillAdj($CharacterContext(),"RangedCombatMagic","","F","");
+-$IF (skillRangedCombatMagic != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Magic");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatMagic);};
+-skillRangedCombatMagneticBlasts = $SkillAdj($CharacterContext(),"RangedCombatMagneticBlasts","","F","");
+-$IF (skillRangedCombatMagneticBlasts != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Magnetic Blasts");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatMagneticBlasts);};
+-skillRangedCombatMartialArtsWeapons = $SkillAdj($CharacterContext(),"RangedCombatMartialArtsWeapons","","F","");
+-$IF (skillRangedCombatMartialArtsWeapons != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Martial Arts Weapons");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatMartialArtsWeapons);};
+-skillRangedCombatMartianVision = $SkillAdj($CharacterContext(),"RangedCombatMartianVision","","F","");
+-$IF (skillRangedCombatMartianVision != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Martian Vision");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatMartianVision);};
+-skillRangedCombatOmegaEffect = $SkillAdj($CharacterContext(),"RangedCombatOmegaEffect","","F","");
+-$IF (skillRangedCombatOmegaEffect != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Omega Effect");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatOmegaEffect);};
+-skillRangedCombatOpticBlasts = $SkillAdj($CharacterContext(),"RangedCombatOpticBlasts","","F","");
+-$IF (skillRangedCombatOpticBlasts != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Optic Blasts");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatOpticBlasts);};
+-skillRangedCombatPowerRing = $SkillAdj($CharacterContext(),"RangedCombatPowerRing","","F","");
+-$IF (skillRangedCombatPowerRing != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Power Ring");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatPowerRing);};
+-skillRangedCombatRazorBats = $SkillAdj($CharacterContext(),"RangedCombatRazorBats","","F","");
+-$IF (skillRangedCombatRazorBats != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Razor Bats");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatRazorBats);};
+-skillRangedCombatShieldToss = $SkillAdj($CharacterContext(),"RangedCombatShieldToss","","F","");
+-$IF (skillRangedCombatShieldToss != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Shield Toss");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatShieldToss);};
+-skillrangedCombatSolarBlast = $SkillAdj($CharacterContext(),"rangedCombatSolarBlast","","F","");
+-$IF (skillrangedCombatSolarBlast != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Solar Blast");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillrangedCombatSolarBlast);};
+-skillRangedCombatSoundBlaster = $SkillAdj($CharacterContext(),"RangedCombatSoundBlaster","","F","");
+-$IF (skillRangedCombatSoundBlaster != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Sound Blaster");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatSoundBlaster);};
+-skillRangedCombatStarbolts = $SkillAdj($CharacterContext(),"RangedCombatStarbolts","","F","");
+-$IF (skillRangedCombatStarbolts != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Starbolts");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatStarbolts);};
+-skillRangedCombatThrowing = $SkillAdj($CharacterContext(),"RangedCombatThrowing","","F","");
+-$IF (skillRangedCombatThrowing != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Throwing");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatThrowing);};
+-skillRangedCombatThrowingKnives = $SkillAdj($CharacterContext(),"RangedCombatThrowingKnives","","F","");
+-$IF (skillRangedCombatThrowingKnives != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Throwing Knives");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatThrowingKnives);};
+-skillRangedCombatThrownObjects = $SkillAdj($CharacterContext(),"RangedCombatThrownObjects","","F","");
+-$IF (skillRangedCombatThrownObjects != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Thrown Objects");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatThrownObjects);};
+-skillRangedCombatTKAttacks = $SkillAdj($CharacterContext(),"RangedCombatTKAttacks","","F","");
+-$IF (skillRangedCombatTKAttacks != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged TK Attacks");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatTKAttacks);};
+-skillRangedCombatTrickUmbrella = $SkillAdj($CharacterContext(),"RangedCombatTrickUmbrella","","F","");
+-$IF (skillRangedCombatTrickUmbrella != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Trick Umbrella");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatTrickUmbrella);};
+-skillRangedCombatWeaponsArray = $SkillAdj($CharacterContext(),"RangedCombatWeaponsArray","","F","");
+-$IF (skillRangedCombatWeaponsArray != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Weapons Array");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatWeaponsArray);};
+-skillRangedCombatWebbing = $SkillAdj($CharacterContext(),"RangedCombatWebbing","","F","");
+-$IF (skillRangedCombatWebbing != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Webbing");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatWebbing);};
+-skillRangedCombatWidowsBite = $SkillAdj($CharacterContext(),"RangedCombatWidowsBite","","F","");
+-$IF (skillRangedCombatWidowsBite != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Widows Bite");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatWidowsBite);};
+-skillRangedCombatWristLoader = $SkillAdj($CharacterContext(),"RangedCombatWristLoader","","F","");
+-$IF (skillRangedCombatWristLoader != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Ranged Wrist Loader");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillRangedCombatWristLoader);};
+-skillSleightOfHand = $SkillAdj($CharacterContext(),"SleightOfHand","","F","");
+-$IF (skillSleightOfHand != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Sleight Of Hand");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillSleightOfHand);};
+-skillStealth = $SkillAdj($CharacterContext(),"Stealth","","F","");
+-$IF (skillStealth != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Stealth");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillStealth);};
+-skillTechnology = $SkillAdj($CharacterContext(),"Technology","","F","");
+-$IF (skillTechnology != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Technology");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillTechnology);};
+-skillTreatment = $SkillAdj($CharacterContext(),"Treatment","","F","");
+-$IF (skillTreatment != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Treatment");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillTreatment);};
+-skillVehicles = $SkillAdj($CharacterContext(),"Vehicles","","F","");
+-$IF (skillVehicles != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Vehicles");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillVehicles);};
+-skillVehiclesCars = $SkillAdj($CharacterContext(),"VehiclesCars","","F","");
+-$IF (skillVehiclesCars != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Vehicles Cars");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillVehiclesCars);};
+-skillVehiclesGliderPilot = $SkillAdj($CharacterContext(),"VehiclesGliderPilot","","F","");
+-$IF (skillVehiclesGliderPilot != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Vehicles Glider Pilot");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillVehiclesGliderPilot);};
+-skillVehiclesShips = $SkillAdj($CharacterContext(),"VehiclesShips","","F","");
+-$IF (skillVehiclesShips != "NoSkill")
+-	{$GrColor("WHITE");$GrPrint("Vehicles Ships");$GrTab("SkillTab");$GrColor("GREEN");$GrPrtLF(skillVehiclesShips);};
+\(END)
+
+\(BEGIN)
+name = Global_Transfer
+[EachPartyMember] = $ForEachPossession($CharacterContext(), "item_DrowEquipment");
+-$RETURN "1";
+[TransferModule] = $ForEachPartyMember("Global_Transfer", "EachPartyMember");
+-$IF ($GET_HOOK_PARAM(5) ==# "1")
+-	{
+-		$SET_HOOK_PARAM(6,"Your drow equipment dissolves.");
+-	};
+-$RETURN;
+\(END)
+
+\(BEGIN)
+name = RangedWeapon
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurate");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponBlast
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateBlast");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponBurst
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateBurst");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponDamage
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateDamage");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponNullify
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateNullify");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponSnare
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateSnare");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = RangedWeaponWeaken
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt;
+-$VAR nrb; $VAR frw; $VAR dst; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-nrb = $DelimitedStringSubstring($SA_PARAM_GET(),0);
+-frw = $DelimitedStringSubstring($SA_PARAM_GET(),1);
+-dst = $VisualDistance(atk,tgt);
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateWeaken");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (dst ># frw){hit = hit -# 5;};
+-$IF (dst ># nrb){hit = hit -# 2;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = StandardDisplaySpellEffect
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7, $SA_PARAM_GET());
+-$SET_HOOK_PARAM( 6, "");
+-$RETURN 1;
+[Dispel] = $SA_REMOVE();
+-$RUN_CHAR_SE_SCRIPTS($TargetContext(),"Dispel SE");
+[Dispel SE] = $REMOVE_SPELL_EFFECT($CharacterContext(),$GET_HOOK_PARAM(5));
+\(END)
+
+\(BEGIN)
+name = TeleporterDestinations
+[/1/0/0] = $RETURN $GET_PARTY_ASL("spot");
+\(END)
+
+\(BEGIN)
+name = Turn$SYS$
+<Ghast> = 1210112
+-1200112
+-1190112
+-1130112
+-1100112
+-1070112
+-1040112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+<Ghost> = 1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1200112
+-1160112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+<Ghoul> = 1160112
+-1130112
+-1100112
+-1040112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+<Lich> = 1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1190112
+-1160112
+-1160112
+-1160112
+-1160112
+-1160112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+<Mummy> = 1210112
+-1210112
+-1210112
+-1200112
+-1160112
+-1130112
+-1100112
+-1070112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+<Shadow> = 1190112
+-1160112
+-1160112
+-1070112
+-1040112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+<Skeleton> = 1100112
+-1070112
+-1040112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+<Special> = 1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1200112
+-1190112
+-1190112
+-1190112
+-1190112
+-1190112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+-1130112
+<Spectre> = 1210112
+-1210112
+-1210112
+-1210112
+-1200112
+-1160112
+-1130112
+-1100112
+-1070112
+-1070112
+-1070112
+-1070112
+-1070112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+<Vampire> = 1210112
+-1210112
+-1210112
+-1210112
+-1210112
+-1200112
+-1160112
+-1130112
+-1100112
+-1100112
+-1100112
+-1100112
+-1100112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+-1040112
+<Wight> = 1200112
+-1190112
+-1160112
+-1100112
+-1070112
+-1040112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+<Wraith> = 1210112
+-1210112
+-1200112
+-1160112
+-1130112
+-1100112
+-1070112
+-1040112
+-1010112
+-1010112
+-1010112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+-2010112
+<Zombie> = 1130112
+-1100112
+-1070112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010112
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+-2010712
+\(END)
+
+\(BEGIN)
+name = attackPower
+\(END)
+
+\(BEGIN)
+name = baseclassFemaleOnly
+[IsBaseclassAllowed] = $VAR par5;
+-par5 = $GET_HOOK_PARAM(5);
+-$IF (par5 != "F"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = baseclassMaleOnly
+[IsBaseclassAllowed] = $VAR par5;
+-par5 = $GET_HOOK_PARAM(5);
+-$IF (par5 != "M"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = charAgility
+[PostCreateCharacter] = $SET_CHARACTER_SA($CharacterContext(), "charAgility", $SA_PARAM_GET());
+\(END)
+
+\(BEGIN)
+name = charFighting
+[PostCreateCharacter] = $SET_CHARACTER_SA($CharacterContext(), "charFighting", $SA_PARAM_GET());
+\(END)
+
+\(BEGIN)
+name = charHeight
+[PostCreateCharacter] = $VAR prm; $VAR dat;
+-prm = $SA_PARAM_GET(); dat = $DAT_Race_Height($CharacterContext());
+-$IF (prm != "-?-?-"){$SET_CHARACTER_SA($CharacterContext(), "charHeight", prm);};
+-$SET_CHARACTER_SA($CharacterContext(), "charHeight", dat);
+\(END)
+
+\(BEGIN)
+name = charWeight
+[PostCreateCharacter] = $VAR prm; $VAR dat;
+-prm = $SA_PARAM_GET(); dat = $DAT_Race_Weight($CharacterContext());
+-$IF (prm != "-?-?-"){$SET_CHARACTER_SA($CharacterContext(), "charWeight", prm);};
+-$SET_CHARACTER_SA($CharacterContext(), "charWeight", dat);
+\(END)
+
+\(BEGIN)
+name = classSuppress
+[SelectCharacterClass] = $RETURN "Y";
+\(END)
+
+\(BEGIN)
+name = combatantAlignment
+\(END)
+
+\(BEGIN)
+name = itemBlackUruArmor
+\(END)
+
+\(BEGIN)
+name = itemBolos
+\(END)
+
+\(BEGIN)
+name = itemBoomerang
+\(END)
+
+\(BEGIN)
+name = itemBootJets
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemBulletproofVest
+\(END)
+
+\(BEGIN)
+name = itemCarbonNanotubeArmor
+\(END)
+
+\(BEGIN)
+name = itemChain
+\(END)
+
+\(BEGIN)
+name = itemFlight
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemFlightChair
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemFlightRing
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemGasMask
+\(END)
+
+\(BEGIN)
+name = itemGoblinGlider
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemHandcuffs
+\(END)
+
+\(BEGIN)
+name = itemImmunityLifeSupport
+\(END)
+
+\(BEGIN)
+name = itemJetPack
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingLeftIndexFlameBlast
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingLeftMiddleElectroBlast
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingLeftPinkyIceBblast
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingLeftRingMentalControl
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingLeftThumbWhiteLight
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingRightIndexImpactBeam
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingRightMiddleVortexBeam
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingRightPinkyBlackLight
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingRightRingDisintegrationBeam
+\(END)
+
+\(BEGIN)
+name = itemMakluanPowerRingRightThumbPoisonGas
+\(END)
+
+\(BEGIN)
+name = itemMiniHelicopterUmbrella
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemMovementAdaptationZeroG
+\(END)
+
+\(BEGIN)
+name = itemMovementBatcapeGliding
+\(END)
+
+\(BEGIN)
+name = itemMovementSpaceTravel
+\(END)
+
+\(BEGIN)
+name = itemPepperSpray
+\(END)
+
+\(BEGIN)
+name = itemPowerAbsorbMemories-MindReading
+\(END)
+
+\(BEGIN)
+name = itemPowerAfflictionSuperBreath
+\(END)
+
+\(BEGIN)
+name = itemPowerArrow
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastArcticVision
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastColdlast
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastEnergyBlast
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastHeatVision
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastMagicBlast
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastOmegaEffect
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastStarBolts
+\(END)
+
+\(BEGIN)
+name = itemPowerBlastSuperBreath
+\(END)
+
+\(BEGIN)
+name = itemPowerBurstCosmicControlRod
+\(END)
+
+\(BEGIN)
+name = itemPowerBurstMagicBurst
+\(END)
+
+\(BEGIN)
+name = itemPowerCatchBolt
+\(END)
+
+\(BEGIN)
+name = itemPowerConcealmentSpiderSense
+\(END)
+
+\(BEGIN)
+name = itemPowerConcussionBolt
+\(END)
+
+\(BEGIN)
+name = itemPowerControlMindControl
+\(END)
+
+\(BEGIN)
+name = itemPowerCuttingTorch
+\(END)
+
+\(BEGIN)
+name = itemPowerDamageGiantFists
+\(END)
+
+\(BEGIN)
+name = itemPowerDamageHammerFists
+\(END)
+
+\(BEGIN)
+name = itemPowerDamageLongHammerFists
+\(END)
+
+\(BEGIN)
+name = itemPowerDamageRhinoHorn
+\(END)
+
+\(BEGIN)
+name = itemPowerDamageTridenOfPoseidon
+\(END)
+
+\(BEGIN)
+name = itemPowerDeflect,
+\(END)
+
+\(BEGIN)
+name = itemPowerEnergyControlFlameBreath
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedDefenses
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedDodge
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedFighting
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedParry
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedRangedAttack
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedStamina
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedStrength
+\(END)
+
+\(BEGIN)
+name = itemPowerEnhancedStrengthLifting
+\(END)
+
+\(BEGIN)
+name = itemPowerFancyAssCamera
+\(END)
+
+\(BEGIN)
+name = itemPowerFireRetardantBolt
+\(END)
+
+\(BEGIN)
+name = itemPowerFlight
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+
+\(BEGIN)
+name = itemPowerForceFieldMagicForceField
+\(END)
+
+\(BEGIN)
+name = itemPowerFourArmedAdamantiumHarness
+\(END)
+
+\(BEGIN)
+name = itemPowerGeneralHealing
+\(END)
+
+\(BEGIN)
+name = itemPowerGrapnelGun
+\(END)
+
+\(BEGIN)
+name = itemPowerGrapplingLineBolt
+\(END)
+
+\(BEGIN)
+name = itemPowerHeatSeekingMissile
+\(END)
+
+\(BEGIN)
+name = itemPowerIllumination
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityBallistics
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityBallistics";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityBallistics";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityChemical
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityChemical";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityChemical";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityCold
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityCold";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityCold";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityDisease
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityDisease";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityDisease";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityFallingDown
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityFallingDown";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityFallingDown";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityFire
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityFire";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityFire";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityHeat
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityHeat";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityHeat";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityLifeSupport
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityLifeSupport";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityLifeSupport";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityPoison
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityPoison";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityPoison";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityPressure
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityPressure";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityPressure";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityRadiation
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityRadiation";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityRadiation";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityStarvation
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityStarvation";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityStarvation";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunitySuffocation
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunitySuffocation";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunitySuffocation";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImmunityVacuum
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityVacuum";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityVacuum";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerImperviousProtection
+\(END)
+
+\(BEGIN)
+name = itemPowerImperviousToughness
+\(END)
+
+\(BEGIN)
+name = itemPowerKnockoutGasUmbrella
+\(END)
+
+\(BEGIN)
+name = itemPowerLassoOfPersuasion
+\(END)
+
+\(BEGIN)
+name = itemPowerLeaping
+\(END)
+
+\(BEGIN)
+name = itemPowerMagicLasso
+\(END)
+
+\(BEGIN)
+name = itemPowerMagicalLasso
+\(END)
+
+\(BEGIN)
+name = itemPowerMimicTarget
+\(END)
+
+\(BEGIN)
+name = itemPowerMiniTracer
+\(END)
+
+\(BEGIN)
+name = itemPowerMorphAnyForm
+\(END)
+
+\(BEGIN)
+name = itemPowerMoveObject
+\(END)
+
+\(BEGIN)
+name = itemPowerMovementDimensionalShift
+\(END)
+
+\(BEGIN)
+name = itemPowerMovementMassSoulJump
+\(END)
+
+\(BEGIN)
+name = itemPowerMovementSoulJump
+\(END)
+
+\(BEGIN)
+name = itemPowerMovementTeleport
+\(END)
+
+\(BEGIN)
+name = itemPowerRadioCommunication
+\(END)
+
+\(BEGIN)
+name = itemPowerRegeneration
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceCold
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceCold";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceCold";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceCosmic
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceCosmic";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceCosmic";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceDrowning
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceDrowning";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceDrowning";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceFire
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceFire";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceFire";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceMagnetic
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceMagnetic";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceMagnetic";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceSuffocation
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceSuffocation";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceSuffocation";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerResistanceeElectricity
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceElectricity";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceElectricity";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+
+\(BEGIN)
+name = itemPowerRingBlack
+\(END)
+
+\(BEGIN)
+name = itemPowerRingBlue
+\(END)
+
+\(BEGIN)
+name = itemPowerRingGreen
+\(END)
+
+\(BEGIN)
+name = itemPowerRingIndigo
+\(END)
+
+\(BEGIN)
+name = itemPowerRingOrange
+\(END)
+
+\(BEGIN)
+name = itemPowerRingRed
+\(END)
+
+\(BEGIN)
+name = itemPowerRingSinestroCorps
+\(END)
+
+\(BEGIN)
+name = itemPowerRingStarSapphire
+\(END)
+
+\(BEGIN)
+name = itemPowerRingWhite
+\(END)
+
+\(BEGIN)
+name = itemStunGun
+\(END)
+
+\(BEGIN)
+name = itemTacticalVest, // -3 against ballistic only
+\(END)
+
+\(BEGIN)
+name = itemTaser
+\(END)
+
+\(BEGIN)
+name = itemUnbreakableSkin
+\(END)
+
+\(BEGIN)
+name = itemUndercoverShirt, // limted to Ballistic only
+\(END)
+
+\(BEGIN)
+name = itemWhip
+\(END)
+
+\(BEGIN)
+name = monsterHalfDamagePiercing
+[ComputeDamage] = $VAR p5; $VAR dmg;
+-p5 = $GET_HOOK_PARAM(5); dmng = $SA_ITEM_GET("DamageTypePiercing");
+-$IF (dmg != "-?-?-"){$RETURN p5 /# 2;};
+\(END)
+
+\(BEGIN)
+name = monsterHalfDamageSlashing
+[ComputeDamage] = $VAR p5; $VAR dmg;
+-p5 = $GET_HOOK_PARAM(5); dmng = $SA_ITEM_GET("DamageTypeSlashing");
+-$IF (dmg != "-?-?-"){$RETURN p5 /# 2;};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityAcid
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeAcid");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityBallistic
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeBallistic");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityBludgeoning
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeBludgeoning");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityCold
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeCold");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityDisease
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeDisease");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityElectricity
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeElectricity");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityFire
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeFire");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityPiercing
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypePiercing");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunityPoison
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypePoison");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunitySlashing
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeSlashing");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterImmunitySonic
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeSonic");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+
+\(BEGIN)
+name = monsterLevel
+\(END)
+
+\(BEGIN)
+name = monsterPowerDamageFieryTouch
+[CanReady] = $VAR me; me = $MyIndex();
+-$IF (me != "Fire Creature"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = monsterPowerDamageFreezingTouch
+[CanReady] = $VAR me; me = $MyIndex();
+-$IF (me != "Ice Creature"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = monsterPowerDamageShockingTouch
+[CanReady] = $VAR me; me = $MyIndex();
+-$IF (me != "LIghtning Creature"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = monsterPowerDamageUltrasonicTouch
+[CanReady] = $VAR me; me = $MyIndex();
+-$IF (me != "Sonic Creature"){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = monsterRobotColossalRanged
+\(END)
+
+\(BEGIN)
+name = monsterViperVenom
+\(END)
+
+\(BEGIN)
+name = movementFlight
+[GetAdjMaxMovement] = $VAR p5; $VAR prm;
+-p5 = $GET_HOOK_PARAM(5); prm = $SA_PARAM_GET();
+-$RETURN p5 *# prm;
+\(END)
+
+\(BEGIN)
+name = slotFingers
+[CanReady] = $IF ($GET_HOOK_PARAM(5) <# 10){$RETURN "Y";}
+-$ELSE {$SET_HOOK_PARAM(6, "Sorry, you can't do that.");$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = slotPack
+[CanReady] = $RETURN "Y";
+\(END)
+
+\(BEGIN)
+name = SpecialGraphics
+[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijkl$CompassDisplay] = $VAR sWidth; $VAR face;
+-$IF ($GET_EVENT_Attribute(0,"NoCompass") != "-?-?-") {$RETURN;};
+-sWidth = $GET_CONFIG("Screen_Width");
+-face = $GET_PARTY_FACING();
+-$IF (sWidth ==# 640)
+-	{
+-		$SET_HOOK_PARAM( 3, "border_Compass.png" );
+-		$SET_HOOK_PARAM( 4, 272 );
+-		$SET_HOOK_PARAM( 5, 263 );
+-		$SET_HOOK_PARAM( 6, 78 *# face );
+-		$SET_HOOK_PARAM( 7, 0 );
+-		$SET_HOOK_PARAM( 8, 78 );
+-		$SET_HOOK_PARAM( 9, 46 );
+-	};
+-$IF (sWidth ==# 1024)
+-	{
+-		$SET_HOOK_PARAM( 3, "border_Compass.png" );
+-		$SET_HOOK_PARAM( 4, 512 );
+-		$SET_HOOK_PARAM( 5, 520 );
+-		$SET_HOOK_PARAM( 6, 78 *# face );
+-		$SET_HOOK_PARAM( 7, 0 );
+-		$SET_HOOK_PARAM( 8, 78 );
+-		$SET_HOOK_PARAM( 9, 46 );
+-	};
+[B$buySkills] = $VAR skills;
+-skills = $GET_EVENT_Attribute( "0" , "buySkills" );
+-$IF (skills <# 1) {$RETURN;};
+-$SET_HOOK_PARAM( 2, "-?-?-" );
+-$SET_HOOK_PARAM( 3, "special_BuySkills.png" );
+-$SET_HOOK_PARAM( 4, 0 );
+-$SET_HOOK_PARAM( 5, 0 );
+-$SET_HOOK_PARAM( 6, 0 );
+-$SET_HOOK_PARAM( 7, 0 );
+-$SET_HOOK_PARAM( 8, 640 );
+-$SET_HOOK_PARAM( 9, 320 );
+\(END)
+
+\(BEGIN)
+name = spell_SummonAnimal1
+[InvokeSpellOnTarget] = $VAR list;
+-$VAR count;
+-$VAR n;
+-$VAR monster1;
+-$VAR sCount;
+-list = "$Wild Dog$Owl";
+-count = $DelimitedStringCount(list);
+-n = $RANDOM(count);
+-monster1 = $DelimitedStringSubstring(list,n);
+-sCount = $RANDOM(8);
+-$WHILE (sCount >=# 0)
+-	{
+-		$AddCombatant(monster1,"1");
+-		sCount = sCount -# 1;
+-	};
+\(END)
+
+\(BEGIN)
+name = turnUndead
+[CanTurn] = $VAR par5; $VAR com; $VAR clrc; $VAR pldn;
+-par5 = $GET_HOOK_PARAM(5); com = $IndexOf($CombatantContext());
+-clrc = $GET_CHAR_Lvl(com,"cleric"); pldn = $GET_CHAR_Lvl(com,"paladin");
+-$IF (clrc ># 0 || pldn ># 2){$RETURN par5;}; // turning undead table - DMG 25
+[TurnAttempt] = $VAR par5; $VAR par6; $VAR num; $VAR turn;
+-par5 = $GET_HOOK_PARAM(5); par6 = $GET_HOOK_PARAM(6);
+-num = $DelimitedStringCount(par5); turn = $DelimitedStringSubstring(par5,num);
+-$RETURN par5;
+\(END)
+
+\(BEGIN)
+name = unlockDoor
+[OpenLocks] = $RETURN "Y";
+\(END)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// ABILITY AS ITEM TEST //////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+\(BEGIN)
+name = ability_Awareness
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Awareness"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_WIS(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_WIS(char,ability);
+\(END)
+
+\(BEGIN)
+name = ability_Dexterity
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Dexterity"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_DEX(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_DEX(char,ability);
+\(END)
+
+\(BEGIN)
+name = ability_Intellect
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Intellect"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_INT(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_INT(char,ability);
+\(END)
+
+\(BEGIN)
+name = ability_Presence
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Presence"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_CHA(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_CHA(char,ability);
+\(END)
+
+\(BEGIN)
+name = ability_Stamina
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Stamina"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_CON(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_CON(char,ability);
+\(END)
+
+\(BEGIN)
+name = ability_Strength
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR char;$VAR ability; $VAR adj;
+-item = "Ability: Strength"; char = $IndexOf($Myself()); ability = $GET_CHAR_PERM_STR(char);
+-adj = $SA_PARAM_GET(); ability = ability +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHAR_PERM_(STRchar,ability);
+\(END)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// ADVANTAGE AS ITEM TEST ////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+\(BEGIN)
+name = advantage_AcceleratedStealth
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Accelerated Stealth"; advant = $SA_CHARACTER_GET("advantageAcceleratedStealth");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAcceleratedStealth",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAcceleratedStealth
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Accelerated Stealth +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_AccurateAttack
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Accurate Attack"; advant = $SA_CHARACTER_GET("advantageAccurateAttack");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAccurateAttack",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAccurateAttack
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Accurate Attack +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR aSA; $VAR aPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-aSA = $SA_SA_GET(); aPC = $GET_CHARACTER_SA($AttackerContext),aSA);
+-$IF (aPC == "-?-?-") {$RETURN;};
+-$IF ((p5 +# prm) ># p6) {$RETURN "Y";};
+\(END)
+
+\(BEGIN)
+name = advantage_AgileFeint
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Agile Feint"; advant = $SA_CHARACTER_GET("advantageAgileFeint");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAgileFeint",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAgileFeint
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Agile Feint +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_AllOutAttack
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: All-Out Attack"; advant = $SA_CHARACTER_GET("advantageAllOutAttack");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAllOutAttack",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAllOutAttack
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: All-Out Attack +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_AnimalEmpathy
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Animal Empathy"; advant = $SA_CHARACTER_GET("advantageAnimalEmpathy");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAnimalEmpathy",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAnimalEmpathy
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Animal Empathy +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Artificer
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Artificer"; advant = $SA_CHARACTER_GET("advantageArtificer");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageArtificer",advant);
+\(END)
+
+\(BEGIN)
+name = advantageArtificer
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Artificer +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Assessment
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Assessment"; advant = $SA_CHARACTER_GET("advantageAssessment");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAssessment",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAssessment
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Assessment +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Attractive
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Attractive"; advant = $SA_CHARACTER_GET("advantageAttractive");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageAttractive",advant);
+\(END)
+
+\(BEGIN)
+name = advantageAttractive
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Attractive +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_BeginnersLuck
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Beginner's Luck"; advant = $SA_CHARACTER_GET("advantageBeginnersLuck");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageBeginnersLuck",advant);
+\(END)
+
+\(BEGIN)
+name = advantageBeginnersLuck
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Beginner's Luck +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Benefit
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Benefit"; advant = $SA_CHARACTER_GET("advantageBenefit");
+-$IF (advant == Benefit {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageBenefit",advant);
+\(END)
+
+\(BEGIN)
+name = advantageBenefit
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Benefit +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_BenefitStatus
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Benefit: Status"; advant = $SA_CHARACTER_GET("advantageBenefitStatus");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageBenefitStatus",advant);
+\(END)
+
+\(BEGIN)
+name = advantageBenefitStatus
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Benefit Sttus +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Chokehold
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Chokehold"; advant = $SA_CHARACTER_GET("advantageChokehold");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageChokehold",advant);
+\(END)
+
+\(BEGIN)
+name = advantageChokehold
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Accelerated Stealth +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_CloseAttack
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Close Attack"; advant = $SA_CHARACTER_GET("advantageCloseAttack");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageCloseAttack",advant);
+\(END)
+
+\(BEGIN)
+name = advantageCloseAttack
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: close Attack +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Connected
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Connected"; advant = $SA_CHARACTER_GET("advantageConnected");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageConnected",advant);
+\(END)
+
+\(BEGIN)
+name = advantageConnected
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Connected +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Contacts
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Contacts"; advant = $SA_CHARACTER_GET("advantageContacts");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageContacts",advant);
+\(END)
+
+\(BEGIN)
+name = advantageContacts
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Contacts +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_CrushingPin
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Crushing Pin"; advant = $SA_CHARACTER_GET("advantageCrushingPin");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageCrushingPin",advant);
+\(END)
+
+\(BEGIN)
+name = advantageCrushingPin
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Crushing Pin +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_DamagingEscape
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Damaging Escape"; advant = $SA_CHARACTER_GET("advantageDamagingEscape");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDamagingEscape",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDamagingEscape
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Damaging Escape +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Daze
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Daze"; advant = $SA_CHARACTER_GET("advantageDaze");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDaze",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDaze
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Daze +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_DefensiveAttack
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Defensive Attack"; advant = $SA_CHARACTER_GET("advantageDefensiveAttack");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDefensiveAttack",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDefensiveAttack
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Defensive Attack +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_DefensiveRoll
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Defensive Roll"; advant = $SA_CHARACTER_GET("advantageDefensiveRoll");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDefensiveRoll",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDefensiveRoll
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Defensive Roll +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR tSA; $VAR tPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-tSA = $SA_SA_GET(); tPC = $GET_CHARACTER_SA($TargetContext),tSA);
+-$IF (tPC == "-?-?-") {$RETURN;};
+-$IF (p5 <=# (p6 +# prm)) {$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = advantage_DefensiveStrike
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Defensive Strike"; advant = $SA_CHARACTER_GET("advantageDefensiveStrike");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDefensiveStrike",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDefensiveStrike
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Defensive Strike +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_DefensiveThrow
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Defensive Throw"; advant = $SA_CHARACTER_GET("advantageDefensiveThrow");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDefensiveThrow",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDefensiveThrow
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Defensive Throw +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)
+name = advantage_Diehard
+[CanExamineOrWhatever] = $SET_HOOK_PARAM( 5, "APPLY" ); $SET_HOOK_PARAM( 6, 0 ); $RETURN "Y";
+[ExamineOrWhatever] = $VAR item; $VAR advant; $VAR adj;
+-item = "Advantage: Diehard"; advant = $SA_CHARACTER_GET("advantageDiehard");
+-$IF (advant == "-?-?-") {advant = "0";}; adj = $SA_PARAM_GET(); advant = advant +# adj;
+-$TAKE_CHAR_ITEM($CharacterContext(),item);
+-$SET_CHARACTER_SA($CharacterContext(),"advantageDiehard",advant);
+\(END)
+
+\(BEGIN)
+name = advantageDiehard
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Diehard +"+prm); $RETURN "1";};
+\(END)
+
+\(BEGIN)

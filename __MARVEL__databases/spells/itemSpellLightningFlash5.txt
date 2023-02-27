@@ -1,0 +1,66 @@
+
+-count = $DelimitedStringCount(list);
+-n = $RANDOM(count);
+-monster1 = $DelimitedStringSubstring(list,n);
+-rndmRnd = $SA_PARAM_GET();
+-$IF (rndmRnd ==# $GetCombatRound())
+-	{
+-		$AddCombatant(monster1,1);
+-		$SA_REMOVE();
+-	};
+\(END)
+
+\(BEGIN)
+name = summoning6
+[StartCombatRound] = $VAR list;
+-$VAR count;
+-$VAR n;
+-$VAR monster1;
+-$VAR rndmRnd;
+-list = "$Troll$Wight$Wraith$Wyvern";
+-count = $DelimitedStringCount(list);
+-n = $RANDOM(count);
+-monster1 = $DelimitedStringSubstring(list,n);
+-rndmRnd = $SA_PARAM_GET();
+-$IF (rndmRnd ==# $GetCombatRound())
+-	{
+-		$AddCombatant(monster1,1);
+-		$SA_REMOVE();
+-	};
+\(END)
+
+\(BEGIN)
+name = summoning7
+[StartCombatRound] = $VAR list;
+-$VAR count;
+-$VAR n;
+-$VAR monster1;
+-$VAR rndmRnd;
+-list = "$Ettin$Umber Hulk$Xorn$Neo-Otyugh";
+-count = $DelimitedStringCount(list);
+-n = $RANDOM(count);
+-monster1 = $DelimitedStringSubstring(list,n);
+-rndmRnd = $SA_PARAM_GET();
+-$IF (rndmRnd ==# $GetCombatRound())
+-	{
+-		$AddCombatant(monster1,1);
+-		$SA_REMOVE();
+-	};
+\(END)
+
+\(BEGIN)
+name = TeleporterDestinations
+[/1/0/0] = $RETURN $GET_PARTY_ASL("spot");
+\(END)
+
+\(BEGIN)
+name = Turn$SYS$
+<Skeleton> = 1100112
+-1070112
+-1040112
+-1010112
+-1010112
+-2010112
+-2010112
+-2010712
+-20107

@@ -1,0 +1,21 @@
+\(BEGIN)
+name = Monster
+weight = 100
+height = 100
+age = 10
+maxage = 250
+BaseMovement = 12
+AbilityRequirement = Strength 		7/14
+AbilityRequirement = Constitution	7/14
+AbilityRequirement = Dexterity		7/14
+AbilityRequirement = Intelligence 	7/14
+AbilityRequirement = Wisdom 		7/14
+AbilityRequirement = Charisma		7/14
+ChangeClass = no
+DwarfResistance = yes
+GnomeResistance = no
+FindSecretDoor = 0
+FindSecretDoorSearching = 1
+Special Ability = raceSuppress,"Y"
+\(END)
+

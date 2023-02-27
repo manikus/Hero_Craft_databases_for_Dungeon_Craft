@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Insect Swarm
+icon file = icon_InsectSwarm.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 0
+armor class = 10
+movement rate = 18
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 18
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 300
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,3
+Special Ability = PowerMovementFlight
+Class = Adventurer
+Race = Animal
+form = animal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+

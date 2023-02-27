@@ -1,0 +1,49 @@
+spell effect 1 = $CHAR_HITPOINTS,-(1d6)*level,delta,target,yes
+begin script = 
+end script = 
+\(END)
+
+\(BEGIN)
+name = Hold Person|Magic User
+casting sound = D:\\UAF\\fantasy640.dsn\\cast.wav
+cast msg = /t is held
+missile sound = none
+coverage sound = none
+hit sound = D:\\UAF\\fantasy640.dsn\\Hit.wav
+linger sound = none
+cast art = D:\\UAF\\fantasy640.dsn\\spl_DefSTH.pcx,210,2,48,48,0,5,6
+missile art = none
+target cover art = none
+target hit art = D:\\UAF\\fantasy640.dsn\\spl_DefSTH.pcx,210,2,48,48,0,5,6
+target linger art = none
+class = MU
+cast by = MU
+friendly fire ok = no
+cumulative = no
+usable by party = yes
+can scribe = yes
+auto scribe = no
+combat only = yes
+can be dispelled = yes
+lingers = no
+linger affects once = no
+save versus = spell
+save result = negates
+Special Ability = Hold Person
+targeting type = selectByCount
+level = 3
+casting time = 3
+casting time units = initiative
+Number of targets = 1d4
+duration = 2*level
+duration units = rounds
+target duration = 
+target range = 6
+price = 0
+spell effect 1 = none
+begin script = 
+end script = 
+\(END)
+
+\(BEGIN)
+name = Invisibility 10' Radi

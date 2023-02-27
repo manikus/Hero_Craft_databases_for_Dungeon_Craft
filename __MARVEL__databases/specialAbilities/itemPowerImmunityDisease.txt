@@ -1,0 +1,10 @@
+\(BEGIN)
+name = itemPowerImmunityDisease
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityDisease";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityDisease";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+

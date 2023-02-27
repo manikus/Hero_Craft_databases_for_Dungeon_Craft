@@ -1,0 +1,39 @@
+_SA($AttackerContext(), "PointPool");
+-$IF (rnd <# 1){$RETURN;};
+-cls = $SA_PARAM_GET();
+-cLvl = $GET_CHAR_Lvl(atk,cls);
+-side = $GET_CHARACTER_SA($AttackerContext(), "side");
+-tNom = $GET_CHAR_NAME(tgt);
+-mLvl = $GET_MONSTERTYPE_SA(tNom,"monsterLevel");
+-$IF (mLvl != "-?-?-"){tLvl = mLvl;}
+-$ELSE
+-	{
+-		tcls = $GetHighestLevelBaseclass(tgt);
+-		tLvl = $GetBaseclassLevel(tgt, tcls);
+-	};
+-$SET_CHARACTER_SA($AttackerContext(), "tgtnum",$GET_COMBATANT_SA($AttackerContext(),"tgtnum") +# 1);
+-tgtnum = $GET_CHARACTER_SA($AttackerContext(),"tgtnum");
+-$IF (tgtnum != "-?-?-")
+-	{
+-		$IF (tLvl ># 3)
+-			{
+-				$SET_CHARACTER_SA($AttackerContext(),"PointPool",0);
+-				$SetFriendly(tgt,side);
+-				$SET_CHARACTER_SA($TargetContext(),"IsCharmed",cLvl);
+-				$RETURN;
+-			};
+-	};
+-$IF (tLvl ># rnd){$RETURN;}
+-$ELSE
+-	{
+-		$SET_CHARACTER_SA($AttackerContext(),"PointPool",rnd -# tLvl);
+-		$SetFriendly(tgt,side);
+-		$SET_CHARACTER_SA($TargetContext(),"IsCharmed",cLvl);
+-	};
+\(END)
+
+\(BEGIN)
+name = spell_CharmPerson
+[InvokeSpellOnTarget] = $VAR atk; // attacker
+-$VAR tgt; // target
+-

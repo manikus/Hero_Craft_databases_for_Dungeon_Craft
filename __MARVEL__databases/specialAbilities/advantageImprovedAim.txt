@@ -1,0 +1,12 @@
+\(BEGIN)
+name = advantageImprovedAim
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Aim +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR p6; $VAR prm; $VAR aSA; $VAR aPC;
+-p5 = $GET_HOOK_PARAM(5); p6 = $GET_HOOK_PARAM(6); prm = $SA_PARAM_GET();
+-aSA = $SA_SA_GET(); aPC = $GET_CHARACTER_SA($AttackerContext),aSA);
+-$IF (aPC == "-?-?-") {$RETURN;};
+-$IF ((p5 +# prm) ># p6) {$RETURN "Y";};
+\(END)
+

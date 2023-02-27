@@ -1,0 +1,5 @@
+\(BEGIN)
+name = unlockDoor
+[OpenLocks] = $RETURN "Y";
+\(END)
+

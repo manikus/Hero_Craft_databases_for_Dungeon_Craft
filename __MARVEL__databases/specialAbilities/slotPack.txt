@@ -1,0 +1,5 @@
+\(BEGIN)
+name = slotPack
+[CanReady] = $RETURN "Y";
+\(END)
+

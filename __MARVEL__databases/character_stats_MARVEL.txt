@@ -1,0 +1,280 @@
+__RANK__________________STR_STA_AGL_DEX_FGT_INT_AWE_PRE_PL
+Abomination ........... 16	14	0	0	4	2	2	2	12		Emil Blonsky
+Absorbing Man ......... 12	4	1	0	8	-1	-1	0	11		Carl "Crusher" Creel
+Adam Warlock .......... 5	5	3	4	8	5	5	4	12
+Adrienne Frost ........ 1	2	3	4	4	4	4	6	7
+American Eagle ........ 8	8	5	4	11	2	3	2	10		Jason Stronbow
+Annihilus ............. 14	14	5	4	2	5	0	0	15	
+Apocalypse ............ 13	13	1	0	10	10	5	4	13		En Sabbah Nur
+Arcade ................ 0	1	2	3	2	6	2	2	6	
+Archangel ............. 4	4	5	2	11	2	2	2	11	X-Men	Warren Worrthington III
+Arclight .............. 10	9	3	0	8	0	2	1	10	Marauders	Phillipa Sontag
+Ares .................. 11	12	3	3	11	0	0	0	12	Avengers
+Armadillo ............. 10	8	1	0	6	0	-1	-1	9		Antonio Rodriquez
+Atlas ................. 14	13	2	0	9	0	1	1	11		Erik Josten
+Aurora ................ 0	1	5	0	10	2	1	3	10	Alpha Flight	Marie Beaubier
+Avalanche ............. 2	3	2	0	5	0	0	1	10	Brotherhood of Evil Mutants	Dominic Petros
+Baron Blood ........... 8	--	4	2	11	2	3	2	10		John Falsworth
+Baron Mordo ........... 2	3	3	5	8	6	5	3	12		Karl Mordo
+Baron Strucker ........ 5	4	4	7	11	5	4	4	10		Wolfgang von Strucker
+Baron Zemo ............ 3	4	4	3	11	6	4	5	10		Helmut Zemo
+Batroc ................ 3	5	5	2	12	2	2	0	10		Georges Batroc
+Beast ................. 9	8	6	0	8	6	3	4	10	X-Men	Hank McCoy
+Beef .................. 10	9	2	0	6	-1	-1	0	8	Hellions	Buford WIlliams
+Beta-Ray Bill ......... 16	14	3	2	8	3	3	2	14
+Bevatron .............. 2	3	3	5	5	0	1	1	8	Hellions	Fabian Marechal-Julbin
+Bishop ................ 7	5	3	5	5	3	3	1	10	X-Men	Lucas Bishop
+Black Bolt ............ 11	11	4	3	10	3	5	3	13	Inhumans	Blackagar Boltagon
+Black Cat ............. 5	4	6	4	11	2	2	4	10		Felicia Hardy
+Black Knight I ........ 3	4	4	2	8	2	4	3	9		Sir Percy of Scandia
+Black Knight II ....... 3	4	3	0	11	4	3	2	10	Avengers	Dane Whitman
+Black Panher .......... 5	5	6	4	12	7	5	4	11	Avengers	T'Challa
+Black Queen ........... 7	7	6	4	10	3	5	6	12	Hellfire Club	Selene Gallio
+Black Tom ............. 2	3	3	1	11	2	2	3	9	Brotherhood of Evil Mutants	Tom Cassidy
+Black Widow ........... 3	4	6	6	12	3	4	4	10	Avengers	Natalia "Natasha" Romanova
+Blackheart ............ 16	16	3	2	12	6	6	5	15	
+Blackwing ............. 2	3	5	3	6	2	2	2	8		Joseph Manfredi
+Blink .................	2	3	6	5	12	2	3	3	10	X-Men	Clarice Ferguson
+Blizzard .............. 1	2	3	2	5	0	0	0	9		Donnie Gill
+Blob .................. 11	10	1	0	7	0	0	-1	10	Brotherhood of Evil Mutants	Fred Dukes
+Blockbuster ........... 11	9	1	0	6	0	0	0	10	Marauders	Michael Baer
+Box IV ................ 12	2	2	0	5	5	0	0	10	Alpha Flight	Madison Jeffries
+Brothers Grimm ........ 1	2	4	5	10	2	2	2	8		Percy &  Barton Grimes
+Bullseye .............. 3	4	6	2	13	1	1	1	10	Dark Avengers	Lester ???
+Burner ................ 2	2	2	0	5	0	0	1	7	Brotherhood of Evil Mutants	Byron Calley
+Cable ................. 7	5	3	8	10	4	4	4	11	X-Force	Nathan Summers
+Cannonball ............ 3	4	3	1	7	2	3	2	10	X-Force	Samuel Guthrie
+Captain America ....... 4	5	7	4	13	3	5	6	12	Avengers	Steve Rogers
+Captain Britain I ..... 11	11	4	0	9	4	2	1	10	Excalibur	Braddock
+Captain Britain II .... 6	5	5	0	8	1	1	1	9		Kelsey Leigh Kirkland
+Carnage ............... 10	9	8	2	9	0	1	2	12		Cletus Kasady
+Carrion I ............. 7	7	2	0	5	6	3	0	10		Professor Miles Warren's clone
+Carrion II ............ 7	7	2	0	5	6	3	0	10		Malcolm McBride
+Carrion III ........... 7	7	2	0	5	6	3	0	10		Dr. William Allen
+Catseye ............... 6	7	6	0	10	3	3	0	10	Hellions	Sharon Smith
+Cecilia Reyes ......... 1	1	2	2	5	3	1	1	9	X-Men
+Chameleon ............. 1	2	3	3	4	3	4	4	8	HYDRA	Dmitri Smerdyakov
+Cloak ................. 2	3	3	0	5	0	1	-1	9		Ty Johnson
+Colossus .............. 13	10	3	0	8	2	3	2	11	X-Men	Piotr Rasputin
+Cordelia Frost ........ 1	2	2	4	3	4	2	2	10	Hellfire Club
+Crimson Commando ...... 5	5	6	2	12	3	3	2	9		Frank Bohannon
+Crucible .............. 10	3	1	3	7	7	2	2	10		Maris Morlak & Wladyslav Shinski
+Cyclone ............... 2	3	4	0	5	3	0	1	8		Andre Girard
+Cyclops ............... 2	3	4	0	7	3	3	1	12	X-Men	Scott Summes
+Dagger ................ 0	2	4	2	6	1	2	3	9		Tandy Bowen
+Dansen Macabre ........ 1	2	3	3	6	0	1	3	9		
+Daredevil ............. 3	4	7	2	12	4	4	3	10		Matt Murdock
+Dark Wolverine ........ 4	5	6	0	12	2	2	3	10	Dark Avengers	Daken Akihiro
+Dazzler ............... 1	2	4	4	8	1	2	4	10	X-Men	Alison Blaire
+Deadpool .............. 5	5	7	7	14	0	1	1	11	X-Force	Wade Wilson
+Deathbird ............. 6	6	6	4	12	2	2	0	10		Cal'syee Neramani
+Deathlok .............. 8	8	4	4	11	3	3	2	10		Luther Manning
+Demogoblin ............ 8	8	3	4	6	0	0	0	9		
+Destiny ............... 0	0	2	0	4	4	4	0	8	Brotherhood of Evil Mutants	Irene Adler
+Diamond Lil ........... 8	2	3	0	5	0	0	2	9	Alpha FLight	Lillian Crawley-Jeffries
+Diamondhead ........... 10	--	0	1	6	0	0	0	9		Archie "Arch" Dyker
+Doc Sampson ........... 13	13	2	1	7	5	4	4	11		Leonard Sampson
+Doctor Doom ........... 9	4	2	3	10	12	5	5	13		Victor Von Doom
+Doctor Druid .......... 1	2	3	3	5	5	3	0	9	Avengers	Anthony Druid
+Doctor Octopus ........ 9	3	1	0	9	8	3	3	12		Otto Octavius
+Doctor Strange ........ 1	2	2	3	5	6	5	3	14	Avengers	Stephen Strange
+Domino ................ 2	3	5	6	10	2	3	2	9	X-Force	Neena Thurman
+Donald Pierce ......... 7	--	7	4	6	5	3	4	9	Hellfire Club
+Dormammu .............. 18	25	3	2	8	6	6	6	17	
+Dracula ............... 11	--	6	4	12	4	6	6	13		Vlad Tepes Dracula
+Electro ............... 6	6	5	3	5	0	0	0	11	Sinister Six	Maxwell Dillon
+Elektra ............... 2	3	7	2	12	2	3	2	10	HYDRA	Elektra Natchios
+Empath ................ 1	2	3	0	5	3	3	3	10	Hellions	Manuel Alfonso Rodrigo de la Rocha
+Enchantress ........... 8	9	3	2	5	5	5	7	12		Amora
+Fabian Cortez ......... 2	3	3	2	8	3	3	4	10	Acolytes
+Falcon ................ 3	4	4	0	11	2	3	2	9	Avengers	Sam Wilson
+Fin Fang Foom ......... 18	15	-2	0	10	8	3	0	14	
+Forge ................. 1	3	3	3	8	6	2	0	9	X-Men	
+Galactus .............. 23	24	-1	0	8	20	10	8	21	
+Gambit ................ 2	3	6	5	12	2	3	5	10	X-Men	Remy LeBeau
+Ghost Rider II ........ 8	--	5	5	10	3	3	3	13		Jonny BLaze
+Giant-Man ............. 13	14	3	4	6	8	2	1	11	Avengers	Hank Pym
+Gorgon ................ 9	9	3	2	10	0	1	0	11	Inhumans
+Green Goblin .......... 8	7	3	4	11	8	4	5	11	Thunderbolts	Norman Osborn
+Grey Gargoyle ......... 10	3	3	0	8	5	1	1	11	AIM	Paul Pierre Duvall
+Grim Reaper ........... 3	5	4	4	10	2	2	2	10	HYDRA	Eric WIlliams
+Guardian .............. 7	3	3	0	6	4	2	2	10	Alpha Flight	James MacDonald Hudson
+Gypsy Moth ............ 0	2	4	2	5	1	2	4	8		Sybil Dvorak
+Hammerhead ............ 4	5	2	4	8	2	2	3	9	
+Hangman ............... 2	3	3	3	8	2	2	3	7		Harold Krueger
+Harpoon ............... 4	4	4	4	8	0	0	0	10	Marauders	Kodiak Noatak
+Havok ................. 2	3	4	3	8	2	2	3	11	X-Men	Alex Summers
+Hawkeye ............... 3	4	5	4	13	1	2	2	10	Avemgers	Clint Barton
+Henry Leland .......... 1	2	-1	3	3	3	2	2	10	Hellfire Club
+Hercules .............. 14	15	2	0	10	0	0	3	13	Avengers
+Hobgoblin ............. 8	7	3	4	8	5	4	5	10		Roderick Kingsley
+Hulk .................. 20	15	0	0	4	-3	-2	-2	14	Avengers	Bruce Banner
+Human Torch I ......... 4	5	3	4	8	2	3	2	10	Invaders	Jim Hammond
+Human Torch Ii ........ 2	3	4	5	6	0	1	4	11	Fantastic Four	Johnny Storm
+Hydro-Man ............. 9	3	3	0	9	0	0	0	10		Morris "Morrie" Bench
+Hyperion I ............ 17	11	2	0	6	2	3	3	13	Squadron Supreme	Mark Wilton
+Hyperion II ........... 17	11	2	0	8	0	0	2	14	Squadron Sinister	Zhib-Ran
+Hyperion III .......... 17	13	3	2	10	5	4	4	14	Avengers	Marcus Wilton
+Iceman ................ 2	3	3	0	5	0	1	1	10	X-Men	Bobby Drake
+Invisble Woman ........ 0	2	3	4	6	3	4	3	12	Fantastic Four	Sue Storm
+Iron Fist ............. 3	4	6	2	13	2	3	2	11		Danny Rand
+Iron Man .............. 12	3	2	5	7	8	3	5	12	Avengers	Tony Stark
+Iron Patriot .......... 12	7	3	4	8	8	4	5	12	THunderbolts	Norman Osborn
+Jack O Lantern ........ 2	3	4	3	6	1	0	1	8	AIM	Steven Mark Levins
+Jean Grey ............. 1	2	3	0	5	3	4	3	11	X-Men
+Jessica Jones ......... 8	7	3	0	5	3	3	3	8	
+Jetstream ............. 3	3	4	2	8	2	2	2	10	Hellions	Haroun ibn Sallah al-Rashid
+Jubilee ............... 0	1	4	3	7	0	0	1	8	X-Men	Jubilation Lee
+Juggernaut ............ 16	15	1	0	5	0	0	0	12	Brotherhood of Evil Mutants	Cain Marko
+Kang The Conqueror .... 8	3	3	5	10	7	5	5	13		Nathaniel Richards
+Karnak ................ 8	8	6	4	12	3	4	0	11	Inhumans
+Kate Bishop ........... 2	2	5	4	10	1	1	2	8	
+Kingpin ............... 6	7	3	0	10	4	5	5	10		Wilson Fisk
+Klaw .................. 7	--	2	0	7	4	2	2	12	AIM	Ulysses Klaw
+Kraven ................ 7	7	7	4	12	4	4	3	10	Sinister Six	Sergei Kravinoff
+Lady Deathstrike ...... 5	5	6	2	12	1	2	1	10	Reavers	Yuriko Oyama
+Leader ................ 1	2	2	4	4	10	3	1	10	Marauders	Samuel Stern
+Lifter ................ 7	2	2	0	6	0	0	1	7	Brotherhood of Evil Mutants	Ned Lanthrop
+Lizard ................ 10	10	5	2	9	-2	-1	-2	11	Sinister Six	Dr Curt Conners
+Lockjaw ............... 9	8	2	0	4	-3	2	-1	9	Inhumans
+Loki .................. 10	11	2	4	10	6	6	4	12	
+Longshot .............. 2	4	7	4	12	2	2	4	10	
+Luke Cage ............. 9	11	3	0	8	1	2	2	10	
+Madame Hydra .......... 2	3	5	8	11	4	4	4	9	
+Madame Web ............ -3	-3	-5	0	-5	6	5	4	10		Cassandra Webb
+Madelyne Pryor ........ 9	2	3	4	4	3	3	3	12	
+Magik ................. 2	3	5	4	12	3	2	0	10	Alpha Flight Ilyana Rasputin
+Magma ................. 2	2	3	3	6	2	2	2	10	New Mutants	Amara Quilla
+Magneto ............... 2	4	2	2	6	5	4	5	14	Brotherhood of Evil Mutants	Eric Lensherr
+Malice ................ --	2	2	0	0	2	2	4	10	Marauders
+Mandarin, The ......... 4	5	6	4	12	8	5	4	13	
+Marrow ................ 5	5	5	2	10	0	0	-1	9	Morlocks
+Master Mold ........... 16	--	-2	0	8	5	0	0	13	
+Mastermind ............ 1	2	2	4	6	2	3	3	11	Hellfire Club	Jason Wyngarde
+Maverick .............. 3	4	4	4	10	3	3	2	10	Team X
+Medusa ................ 3	4	4	4	8	2	3	4	11	Inhumans	Medusa Boltagon
+Meggan ................ 1	3	4	0	8	0	0	0	9	Excalibur
+Meltdown .............. 0	2	4	3	6	0	0	2	9	New Mutants	Tabbitha Smith
+Mimic ................. 8	8	8	3	8	2	0	0	12	X-Men	Calvin Rankin
+Misfit ................ 8	8	0	0	6	0	0	-1	7		Michael Godey
+Misty Knght ........... 5	4	5	6	11	3	4	4	8
+Mockingbird ........... 2	3	5	2	13	4	3	2	9	Avengers	Bobbie Morse
+MODAM ................. 4	5	-2	0	6	8	1	0	10	AIM	Olinka Barankova
+MODOK ................. 0	5	-2	0	4	10	1	0	10	AIM	George Tarleton
+Moira Mactaggert ...... 0	1	1	0	3	7	3	1	6	X-Men
+Mojo .................. 7	7	-2	0	8	5	2	4	9	
+Molecule Man .......... 0	1	2	2	6	0	0	-1	19		Owen Reece
+Moon Knight ........... 6	6	4	4	12	2	2	2	10	Avengers	Marc Spector
+Morbius ............... 8	8	4	0	10	5	1	2	10		Michael Morbius
+Morgan Le Fay ......... 3	4	3	4	8	5	5	5	15	
+Mr Fantastic .......... 2	3	3	4	6	12	4	2	10	Fantastic Four	Reed Richards
+Ms Marvel ............. 11	10	3	2	8	3	3	3	11	Avengers	Carol Dnavers
+Multiple Man .......... 1	2	3	2	8	2	3	2	7	X-Factor
+Mysterio .............. 0	2	2	4	4	5	3	3	10	SInister Six	Quentin Beck
+Mystique .............. 2	3	5	3	10	4	4	4	10	Marauders	Raven Darkholme
+Namor ................. 15	14	4	2	12	3	3	3	13	Invaders	Namor McKenzie
+Needle ................ 3	3	2	2	7	1	1	-1	7		Josef Saint
+Nemesis ............... 2	4	5	0	10	1	1	1	9	Alpha Flight	Amelia Weatherly
+Nick Fury ............. 2	4	4	7	11	4	4	4	9	
+Nightcrawler .......... 2	4	10	0	10	2	3	3	10	X-Men	Kurt Wagner
+Nimrod ................ 13	--	1	0	10	4	0	0	12	Sentinels
+Nomad ................. 4	5	6	4	12	1	2	1	9	
+Northstar ............. 2	2	5	0	10	1	1	1	10	Alpha Flight	Jean-Paul Beaubier
+Nova .................. 14	12	3	2	8	0	1	1	13	Avengers	Richard Rider
+Omega Red ............. 7	8	4	3	12	2	2	0	11		Arkady Rossovich
+Onslaught ............. 16	--	0	0	8	8	5	4	17	
+Paralyzer ............. 2	2	2	0	5	0	0	0	7	Brotherhood of Evil Mutants	Randall Darby
+Peeper ................ 1	2	2	0	5	1	2	1	7	Brotherhood of Evil Mutants	Peter Quinn
+Polaris ............... 1	2	2	0	5	2	1	2	10	X-Men	Lorna Dane
+Prism ................. 2	2	2	4	6	0	-1	0	9		RObbie
+Professor X ........... 1	2	2	0	2	8	5	4	14	X-Men	Charles Xavier
+Protector ............. 10	10	6	4	10	6	0	0	11		Noh-Varr
+Psylocke .............. 2	4	6	4	12	2	3	3	10	X-Men	Betsy Braddock
+Puck I ................ 7	8	8	0	10	3	3	1	10	Alpha Flight	Eugene Judd
+Puck II ............... 7	8	6	0	6	0	0	1	8	Alpha Flight	Zuzha Yu
+Punisher .............. 3	4	4	5	11	4	2	1	10		Frank Castle
+Purple Man ............ 1	2	2	4	4	2	2	2	11		Zebediah Killgrave
+Pyro .................. 1	2	2	0	5	1	2	2	10	Brotherhood of Evil Mutants	Saint-John Allerdyce
+Quicksilver ........... 2	2	4	0	14	1	2	0	10		Pietro Maximoff
+Red Hulk .............. 16	13	0	2	8	2	2	3	14		General Thaddeus "Thunderbolt" Ross
+Red Skkull ............ 4	5	6	3	11	4	5	5	10	HYDRA	Johann Schmidt
+Rhino ................. 11	11	0	0	7	-2	-2	-2	10	Sinister Six	Aleksei Sytsevich
+Riptide ............... 2	3	3	3	6	0	0	0	10	Marauders	Janos Quested
+Rogue ................. 11	11	3	0	8	1	2	2	11	X-Men	Anna Marie
+Roulette .............. 1	2	4	5	5	2	2	4	10	Hellions	Jennifer Stevens
+Sabretooth ............ 7	8	4	4	10	0	2	2	11	Marauders	Victor Creed
+Sage .................. 2	4	4	6	11	5	3	2	8	X-Men	Tessa
+Sandman ............... 11	5	2	2	9	0	0	0	11	Sinister Six	William Baker
+Sasquatch ............. 14	10	1	0	6	6	2	2	11	Alpha Flight	Walter Langowski
+Scalphunter ........... 4	4	4	8	10	3	3	2	10	Marauders	John Greycrow
+Scarlet Spider ........ 8	7	10	2	7	5	3	2	11		Ben Reilly
+Scarlet Witch ......... 1	2	3	0	5	2	3	4	10	Avengers	Wanda Maximoff
+Scorpion .............. 10	9	4	3	8	0	1	0	10		MacDonald "Mac" Gargan
+Scrambler ............. 0	1	2	0	4	0	0	0	11	Marauder	Kim Il-Sung
+Sebastian Shaw ........ 16	12	5	4	8	4	4	5	13	Hellfire Club
+Sentinels ............. 11	--	-2	0	4	0	0	--	10	
+Shadow King ........... --	--	0	0	3	5	5	4	14		Amahl Farouk
+Shadowcat ............. 1	2	5	3	12	4	3	2	9	X-Men	Kitty Pryde
+Shaman ................ 1	2	1	0	5	3	4	0	10	Alpha Flight	Michael Twoyoungmen
+Shang-Chi ............. 5	4	7	7	14	4	6	2	12	
+She-Hulk .............. 13	12	4	0	9	3	3	4	11	Fantastic Four	Jennifer Walters
+Shocker ............... 2	3	3	4	6	4	0	0	9	Sinister Six	Herman Schultz
+Silk .................. 7	6	11	2	8	2	2	3	10		Cindy Moon
+Silvermane ............ 9	4	1	4	6	4	5	4	8	HYDRA	Andredi SIlvermane
+Sinew ................. 8	8	4	0	8	0	0	-1	8	
+Snowbrd ............... 6	6	4	0	8	0	2	2	10	Alpha Flight	Narya
+Spider-Girl ........... 7	7	11	2	7	3	3	2	10		Mayday Parker
+Spider-Man ............ 8	7	10	2	7	5	3	2	11	Avengers	Peter Parker
+Spider-Woman .......... 8	7	6	4	10	3	3	3	10	Avengers	Jessica Drew
+Spiral ................ 6	6	7	4	14	6	4	4	12		Rita Wayward
+Spitfire .............. 7	6	4	4	12	1	2	3	10	Invaders	Jacqueline Falsworth Crichton
+Squirrel Girl ......... 2	3	5	2	8	0	0	1	11	Great Lake Avengers	Doeen Green
+Star-Lord ............. 2	4	5	6	10	3	3	3	10	Guardians of the Galaxy	Peter Quill
+Starbrand ............. 1	12	1	1	2	0	0	0	18		Kevin Conner
+Starfox ............... 8	7	3	0	7	2	3	5	10	Avengers	Eros
+Stegron ............... 10	10	3	0	8	4	0	-1	10		Vincent Stegron
+Stonewall ............. 11	0	0	0	7	0	1	1	9		Louis Hamilton
+Storm ................. 2	4	4	2	11	3	4	5	11	X-Men	Ororo Munroe
+Strong Guy ............ 15	10	1	0	6	2	2	3	10	X-Factor	Guido Carosella
+Sugar Man ............. 9	9	2	0	10	6	3	0	10	
+Sunfire ............... 3	4	4	2	10	2	1	0	11	X-Men	Shiro Yoshida
+Sunspot ............... 10	6	4	3	8	1	1	3	10	New Mutants	ROberto da Costa
+Super Sabre ........... 1	2	3	2	7	0	0	0	9		Marvin Fletcher
+Super-Adaptoid ........ 8	--	2	2	8	2	0	0	9	AIM	Allessandro Brannex
+Super-Skrull .......... 13	10	3	3	11	3	2	1	13	
+Supreme Intelligence .. --	--	--	2	--	15	2	0	12	
+Talisman .............. 0	1	2	0	5	1	1	1	10	Alpha Flight	Elizabeth Twoyoungman
+Tarot ................. 1	2	4	0	8	2	3	1	10	Hellions	Marie-Ange Colbert
+Thanos ................ 15	15	1	4	11	13	5	4	16	
+Thing ................. 13	10	2	2	7	1	2	1	11	Fantastic Four	Ben Grimm
+Thor .................. 16	14	2	0	9	2	3	4	14	Avengers	Thor Odinson
+Thunderbird ........... 8	8	3	0	8	0	0	0	8	X-Men	John Proudstar
+Tiger Shark ........... 14	13	4	0	9	0	0	0	10		Todd Arliss
+Tigra ................. 6	6	6	4	11	1	2	3	9	Avengers	Greer Grant-Nelson
+Titania ............... 9	7	3	0	7	0	0	1	8		Davida DeVito
+Toad .................. 2	3	8	4	10	2	1	0	9	Brotherhood of Evil Mutants	Mortimer Toynbee
+Tombstone ............. 9	9	2	0	8	1	2	2	10		Lonnie Lincoln
+Triton ................ 8	8	4	3	10	1	2	1	10	
+Ultron ................ 13	--	1	0	6	10	2	2	14	
+Union Jack ............ 2	3	4	4	11	4	4	3	8	Invaders	James Montgomery Falsworth
+Unus The Untouchable .. 3	3	2	0	2	0	0	2	10	Brotherhood of Evil Mutants	Angelo Unuscione
+Valkyrie .............. 10	10	3	3	8	1	1	1	10		Brunnhilde
+Venom ................. 10	9	8	2	9	0	1	2	11		Eddie Brock
+Vertigo ............... 0	2	3	0	5	0	1	1	10	Marauders
+Vindicator ............ 7	2	2	0	6	1	2	1	10	Alpha Flight	Heather Hudson
+Vision ................ 12	10	2	0	6	4	2	0	11	Avengers	Victor Stone
+Vulture ............... 6	2	4	0	8	4	2	0	9	Sinister Six	Adrian Toomes
+War Machine ........... 12	4	3	5	9	2	2	2	11	Avengers	James Rhodes
+Warpath ............... 11	11	4	2	10	1	2	1	11	X-Force	James Proudstar
+Wasp .................. 3	2	4	2	8	2	3	4	10	Avengers	Janet Van Dyne
+Water Wizard .......... 2	3	3	0	5	0	0	1	8	Thunderbolts	Peter Van Zandte
+Wendigo ............... 12	12	3	0	9	-3	2	-3	12	
+Whirlwind ............. 2	3	5	2	8	2	2	3	9	Thunderbolts	David Cannon
+White Queen ........... 11	2	3	3	6	5	5	6	12	Hellfire Club	Emma Frost
+White Tiger ........... 8	6	6	2	12	0	2	0	9	
+Wolverine ............. 4	3	4	0	11	3	4	3	11	X-Men	James "Logan" Howlett
+Wonder Man ............ 15	15	3	0	7	3	1	4	12	Avengers	Simon WIlliams
+X-23 .................. 2	3	7	4	13	1	0	-1	9		Laura Kinney
+X-Man ................. 2	3	3	3	5	2	1	3	16		Nate Grey
+Yellowjacket .......... 1	2	3	0	6	2	2	0	8	Avengers	Rita DeMara
+

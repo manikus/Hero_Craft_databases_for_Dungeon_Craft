@@ -1,0 +1,51 @@
+eacircle
+level = 2
+casting time = 5
+casting time units = initiative
+Number of targets = 999
+duration = 2*level
+duration units = rounds
+target duration =
+target range = 2
+price = 0
+spell effect 1 = none
+begin script =
+end script =
+\(END)
+
+\(BEGIN)
+name = Slow Poison
+casting sound = DEFAULT
+cast msg =
+missile sound = none
+coverage sound = none
+hit sound = DEFAULT
+linger sound = none
+cast art = DEFAULT
+missile art = none
+target cover art = none
+target hit art = DEFAULT
+target linger art = none
+class = Cleric
+friendly fire ok = yes
+cumulative = no
+usable by party = yes
+can scribe = yes
+auto scribe = no
+combat only = no
+can be dispelled = yes
+lingers = no
+linger affects once = no
+save versus = spell
+save result = none
+targeting type = touch
+level = 2
+casting time = 1
+casting time units = initiative
+Number of targets = 1
+duration = 1*level
+duration units = hours
+target duration =
+target range = 1
+price = 200
+spell effect 1 = $CHAR_HITPOINT

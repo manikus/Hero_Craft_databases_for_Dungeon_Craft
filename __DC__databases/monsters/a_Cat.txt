@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Cat
+icon file = icon_Cat.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 7
+armor class = 7
+movement rate = 12
+hit dice = 1
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 20
+magic resistance = 0
+size = small
+morale = 35
+experience point value = 50
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,1
+Class = Adventurer
+Race = Animal
+form = animal + mammal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,2,0,claws,
+attack = 1,2,0,claws,
+Undead = none
+\(END)
+

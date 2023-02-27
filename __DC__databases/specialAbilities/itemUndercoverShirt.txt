@@ -1,0 +1,5 @@
+\(BEGIN)
+name = itemUndercoverShirt
+\(END)
+// limted to Ballistic only
+

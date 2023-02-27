@@ -1,0 +1,35 @@
+tackerContext()) != "ICS_Guarding"){$RETURN "N";};
+-$IF (par5 ># 0){$RETURN "Y";};
+[Guarding-Guard] = $RETURN;
+[Guarding-StartOfRound] = $VAR par5;
+-$VAR par6;
+-par5 = $GET_HOOK_PARAM(5);
+-par6 = $GET_HOOK_PARAM(6);
+-$IF (par5 ==# 3){$SET_HOOK_PARAM(6,"G");};
+[IsCombatReady] = $RETURN;
+[OnStartCombat] = $VAR name; $VAR name1; $VAR me;
+-$VAR lvl; $VAR lead; $VAR controlNPC;
+-$VAR idx1; $VAR idx4; $VAR modCha;
+-me = $IndexOf($CharacterContext());
+-name = $GET_CHAR_NAME(me);
+-idx1 = $NextCreatureIndex("", 1);
+-idx4 = $NextCreatureIndex("", 4);
+-$SET_CHARACTER_SA($CharacterContext(  ),"turnUndead","");
+-$IF ($NextCreatureIndex(me -# 1, 4) == me)
+-	{
+-		$SET_CHARACTER_SA($CharacterContext(),"side",1);
+-		$SET_CHAR_ASL(me,"side",1);
+-	}
+-$ELSE
+-	{
+-		$SET_CHARACTER_SA($CharacterContext(),"side",2);
+-		$SET_CHAR_ASL(me,"side",2);
+-	};
+-name1 = $GET_CHAR_NAME(idx1);
+-$IF (name != name1 && $GET_MONSTERTYPE_SA(name1,"range") != "-?-?-")
+-	{
+-		$SET_CHARACTER_SA($CharacterContext(),"range" + name1,1);
+-	};
+-$RUN_CHAR_SCRIPTS(me,"spawn");
+-$IF ($GetCombatRound() ># 0) {$SET_COMBATANT_SA($CharacterContext(),"Summoned","spell");};
+-// Paladin Le

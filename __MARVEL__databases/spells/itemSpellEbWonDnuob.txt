@@ -1,0 +1,58 @@
+// Monster database file
+//
+// intelligence = INT
+// mvmt = 3/2 of Speed
+// armor class = Reflex -10, subtracted 10
+// 
+\(BEGIN)
+name = Acklay
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 2
+armor class = 5
+movement rate = 12
+hit dice = 11 // 148 hp
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 10
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 0
+classes = any
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 8,1,18,claws,
+attack = 8,1,18,claws,
+attack = 6,2,18,bites,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Dewback
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 1
+armor class = 8
+movement rate = 9
+hit dice = 3 // 43 hp
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 18
+magic resistance = 0
+size = large
+morale = 40
+experience point value = 0
+classes = any
+form = none
+penalty = none
+immunit

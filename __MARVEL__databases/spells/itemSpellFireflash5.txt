@@ -1,0 +1,29 @@
+LL_GET("DamageMagical");
+-splNon = $SA_SPELL_GET("DamageNonMagical");
+-$IF ((spell == "-?-?-") && (splNon == "-?-?-")){$RETURN;};
+-$IF (spell != "-?-?-") {resist = spell;};
+-$IF (splNon != "-?-?-") {resist = splNon;};
+-par5 = $GET_HOOK_PARAM(5);
+-$IF (resist == "fire") {$RETURN par5 /# 2;};
+\(END)
+
+\(BEGIN)
+name = elemental_SlowingAcid
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7, "Acid Causes Slowing");
+-$SET_HOOK_PARAM( 6, "");
+-$RETURN 1;
+[GetAdjMaxMovement] = $VAR item; $VAR itmNon; $VAR monster; $VAR monNon;
+-$VAR spell; $VAR splNon; $VAR slow;
+-item = $SA_ITEM_GET("DamageMagical");
+-itemNon = $SA_ITEM_GET("DamageNonMagical");
+-monster = $SA_MONSTERTYPE_GET("DamageMagical");
+-monNon = $SA_MONSTERTYPE_GET("DamageNonMagical");
+-spell = $SA_SPELL_GET("DamageMagical");
+-spellNon = $SA_SPELL_GET("DamageNonMagical");
+-$IF ((item == "-?-?-") && (itmNon == "-?-?-") && (monster == "-?-?-") && (monNon == "-?-?-") && (spell == "-?-?-") && (splNon == "-?-?-")) {$RETURN;};
+-$IF (item != "-?-?-") {slow = item;};
+-$IF (itmNon != "-?-?-") {slow = itmNon;};
+-$IF (monster != "-?-?-") {slow = monster;};
+-$IF (monNon != "-?-?-") {slow = monNon;};
+-$IF (spell != "-?-?-") {slow = spell;};
+-$IF (splNon != "-?-?-") {slow

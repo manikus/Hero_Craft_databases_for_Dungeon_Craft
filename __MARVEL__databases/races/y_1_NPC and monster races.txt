@@ -1,0 +1,2 @@
+// NPC and monster races:
+//	Angel, Animal, Asgardian, Construct, Dark-Elf, Demon, Dwarf, Elder God, Elf, God, Inhuman, Insect, Kree, Lemurian, Monster, Robot, Sentinel, Shi'aran, Skrull, Undead

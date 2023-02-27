@@ -1,0 +1,60 @@
+ad
+item = Comlink
+attack = 4,1,3,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Dark Side Marauder
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 8
+armor class = 10
+movement rate = 9
+hit dice = 4
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 17
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentEvil,1
+Special Ability = monsterLevel,4
+classes = Dark Jedi
+Race = Human
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Battle Armor
+item = Vibro-ax
+item = Hold-out Blaster
+item = Comlink
+attack = 4,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Thug
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 8
+armor class = 10
+movement rate = 9
+hit dice = 2
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 19
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+Special Ability = alignmentEvil,1
+Special Abil

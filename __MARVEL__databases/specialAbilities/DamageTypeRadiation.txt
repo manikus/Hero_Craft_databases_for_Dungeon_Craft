@@ -1,0 +1,4 @@
+\(BEGIN)
+name = DamageTypeRadiation
+\(END)
+

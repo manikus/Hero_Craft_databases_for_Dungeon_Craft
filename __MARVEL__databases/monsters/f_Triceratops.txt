@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Triceratops
+icon file = icon_Triceratops.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 1
+armor class = 0
+movement rate = 6
+hit dice = 9
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 12
+magic resistance = 0
+size = large
+morale = 35
+experience point value = 900
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,9
+Class = Adventurer
+Race = Dinosaur
+form = animal + large
+penalty = none
+immunity = none
+Misc Options = can be held/charmed
+item = none
+attack = 1,12,0,tail strike,
+Undead = none
+\(END)
+

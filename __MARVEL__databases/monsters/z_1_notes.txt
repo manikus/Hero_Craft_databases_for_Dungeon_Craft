@@ -1,0 +1,4 @@
+//form = mammal, animal, snake, giant, large
+//penalty = DwarfAC, GnomeAC, DwarfTHACO, GnomeTHACO, RangerDmg
+//immunity = poison, death magic, confusion, vorpal weapon
+//misc = can be held/charmed, affected by dispel evil

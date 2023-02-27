@@ -1,0 +1,7 @@
+\(BEGIN)
+name = movementFlight
+[GetAdjMaxMovement] = $VAR p5; $VAR prm;
+-p5 = $GET_HOOK_PARAM(5); prm = $SA_PARAM_GET();
+-$RETURN p5 *# prm;
+\(END)
+

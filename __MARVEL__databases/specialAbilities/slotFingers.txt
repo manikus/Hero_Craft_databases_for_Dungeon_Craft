@@ -1,0 +1,6 @@
+\(BEGIN)
+name = slotFingers
+[CanReady] = $IF ($GET_HOOK_PARAM(5) <# 10){$RETURN "Y";}
+-$ELSE {$SET_HOOK_PARAM(6, "Sorry, you can't do that.");$RETURN "N";};
+\(END)
+

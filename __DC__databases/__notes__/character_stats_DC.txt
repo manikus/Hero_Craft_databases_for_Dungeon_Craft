@@ -1,0 +1,322 @@
+__RAnk__________________STR_STA_AGL_DEX_FGT_INT_AWE_PRE_PL
+Alfred ................ 0	1	0	1	3	3	3	2	5	Alfred Pennyworth
+Amethyst .............. 1	6	1	1	4	4	6	5	10
+Anguish ............... 15	12	2	1	5	1	0	1	10	new 52
+Aquaman ............... 10	8	4	2	11	2	3	3	12
+Aquaman ............... 14	12	6	4	14	3	4	4	14	new 52
+Arsenal ............... 2	2	5	5	6	1	2	2	10
+Artemiz ............... 6	6	5	5	10	1	3	2	10
+Atom .................. 2	2	3	3	3	6	3	2	10	Ryan Choi
+Atom .................. 2	2	3	3	3	9	5	2	11	Ray Palmer
+Atom .................. 8	4	5	3	6	2	1	2	10	Al Pratt
+Atom Smasher .......... 15	15	2	2	5	1	1	2	10
+Atomica ............... 1	2	3	2	4	4	3	1	10	new 52
+Atrocitus ............. 18	10	4	3	12	6	6	6	15	new 52
+Azrael ................ 6	3	8	5	8	2	5	5	11	Micahel Washington Lane
+Bane .................. 7	7	7	7	12	8	6	8	13
+Barracuda ............. 10	8	4	2	11	2	3	3	11	Crime Syndicate Of America
+Batgirl ............... 1	2	4	4	8	1	3	3	8	Stephanie Brown
+Batgirl ............... 2	2	6	4	12	7	5	3	10	new 52
+Batgirl ............... 2	4	5	5	10	1	4	1	10	Cassandra Cain
+Batgirl ............... 3	3	4	5	9	4	4	3	9	Barbara Gordon
+Batman ................ 4	4	7	7	14	8	7	7	12
+Batwoman .............. 3	3	6	5	11	3	4	3	10
+Bernadeth ............. 4	6	3	3	8	5	3	1	10
+Big Barda ............. 15	15	8	8	11	2	4	6	13
+Bizarro ............... 19	14	2	2	8	-2	-2	1	15
+Black Adam ............ 19	16	2	2	10	1	10	3	16
+Black Beetle .......... 8	8	6	5	6	2	1	1	11
+Black Canary .......... 2	2	4	3	10	3	3	4	9	Dinah Drake Lance
+Black Canary .......... 2	3	5	3	11	2	3	3	10	Dinah Laurel Lance
+Black Condor .......... 8	8	4	2	4	3	4	4	10	Freedom Fighters
+Black Lightning ....... 3	4	4	6	5	4	3	5	11
+Black Manta ........... 8	3	4	3	6	2	2	2	10
+Black Spider .......... 3	3	5	4	13	2	3	1	10	new 52
+Blackfire ............. 10	5	4	3	10	2	2	4	11
+Blackrock ............. 8	8	6	4	6	4	3	3	12
+Blaze ................. 9	9	7	7	7	9	9	5	14
+Bleak Michael ......... 0	0	0	1	6	4	0	0	7	new 52
+Blizzard .............. 1	2	3	3	6	0	1	1	9	new 52
+Blood Eagle ........... 6	6	4	3	10	3	4	2	11	Crime Syndicate Of America
+Blue Beetle ........... 3	3	6	6	8	7	4	2	11	Ted Kord	
+Blue Beetle ........... 9	9	5	5	10	4	2	2	12	Dan Garrett
+Bolt .................. 3	3	4	5	6	8	2	3	11
+Bonebreaker ........... 11	10	2	0	9	0	1	1	11	new 52
+Booster Gold .......... 10	3	3	2	4	1	2	3	10
+Brainiac .............. 13	11	2	3	4	15	3	2	13
+Bronze Tiger .......... 4	4	7	7	14	5	6	5	11
+Brother Blood ......... 3	3	2	2	8	1	2	10	12
+Captain Atom .......... 15	12	2	2	8	1	2	2	14
+Captain Boomerang ..... 2	3	6	6	5	3	4	2	10
+Captain Cold .......... 2	3	3	3	3	3	2	3	10
+Captain Cold .......... 2	3	3	4	6	3	3	4	10	new 52
+Captain Comet ......... 11	8	5	5	7	8	8	2	11
+Captain Marvel ........ 19	15	2	2	6	2	10	3	15
+Captain Marvel ........ 20	13	6	2	10	4	8	5	15	new 52
+Catman ................ 4	4	5	4	11	1	4	4	11
+Catwoman .............. 2	3	6	6	8	3	4	4	10
+Celestial Archer ...... 2	3	4	7	6	1	2	1	11
+Celsius ............... 1	3	5	5	5	3	1	3	11	Doom Patrol
+Cheetah ............... 7	6	7	4	8	3	5	3	12
+Chief, The ............ 0	0	0	2	4	10	5	5	10	Doom Patrol
+Circe ................. 14	12	2	3	6	0	2	1	10	Outsiders
+Citizen Steel ......... 16	16	0	0	6	1	1	2	11	Jsa All-Stars
+Constantine, John ..... 1	1	1	3	1	8	7	6	8
+Cyberpak .............. 5	5	3	3	5	4	2	0	7
+Cyborg ................ 12	-	0	4	10	6	2	2	12	new 52
+Cyborg ................ 7	6	3	3	4	4	3	3	10
+Cyborg Superman ....... 19	14	2	2	8	7	2	4	15
+Cyclone ............... -1	1	2	2	2	5	1	1	9	Jsa All-Stars
+Darkseid .............. 18	19	2	2	12	8	5	2	16
+Deadman ............... 2	3	6	5	2	1	6	4	10
+Deadshot .............. 2	3	3	6	12	2	3	1	12	new 52
+Deadshot .............. 3	4	3	5	4	2	3	1	11
+Deathstroke ........... 7	7	9	8	15	4	6	5	13
+Demon ................. 10	10	4	3	10	3	2	4	12
+Desaad ................ 1	2	1	4	3	7	3	1	9
+Desaad ................ 14	10	2	4	10	7	4	5	12	new 52
+Dex-Starr ............. -2	2	2	0	5	0	1	0	11	Red Lantern
+Doctor Fate ........... 10	3	2	3	4	3	12	7	14	new 52
+Doctor Light .......... 0	2	2	3	0	4	3	2	11	Arthur Light
+Doctor Light .......... 0	3	3	4	1	4	3	1	10	Kimiyo Hoshi
+Doctor Mid-Nite ....... 2	3	3	4	3	4	3	3	9	Dr. Peter Cross
+Doctor Occult ......... 3	3	3	2	6	4	6	5	10
+Doctor Polaris ........ 1	0	3	3	2	5	4	3	12
+Doctor Thirteen ....... 1	0	1	1	2	4	3	1	6
+Doll Man .............. -3	4	3	3	6	4	5	3	10	Freedom Fighters
+Doomsday .............. 20	20	1	1	10	-2	0	0	16
+Double Down ........... 2	3	3	4	5	0	1	1	9	new 52
+Dove .................. 3	7	8	2	3	3	8	3	10
+Dr. Fate .............. 10	3	2	3	4	3	12	7	15
+El Diablo ............. 2	2	2	0	8	1	2	3	10	new 52
+Elasti-Woman .......... 12	19	4	4	4	1	2	3	11	Doom Patrol
+Element Woman ......... 8	8	3	3	6	0	0	1	10	new 52
+Elongated Man ......... 2	4	5	3	2	3	5	2	10
+Enchantress ........... 1	3	2	5	2	6	7	4	11
+Endless Winter ........ 0	2	3	2	3	2	3	3	8	new 52
+Epooch The Lord Of Time	2	1	1	2	4	1	2	1	14
+Eradicator ............ 19	14	2	2	8	5	3	2	14
+Faust ................. 1	3	2	3	1	6	4	0	9	Outsiders
+Felix Faust ........... 0	1	1	1	0	3	5	3	11
+Ferdie ................ 2	-	2	0	6	0	0	0	6	new 52
+Fire .................. 1	3	3	3	3	2	3	3	10
+Firebrand ............. 4	5	4	4	7	2	2	4	10	Freedom Fighters
+Firebug ............... 2	2	1	2	8	2	1	0	10	new 52
+Firehawk .............. 6	6	5	6	2	2	3	4	10
+Firestorm ............. 8	8	4	4	2	1	2	2	11
+Flash ................. 1	2	3	3	5	4	3	2	12	Jay Garrick
+Flash ................. 1	3	4	3	4	4	3	2	12	Barry Allen
+Flash ................. 2	3	3	3	4	1	2	3	12	Wally West
+Flash ................. 2	3	4	3	8	7	3	2	12	new 52
+General Zod ........... 18	14	3	2	10	2	2	3	15
+Giganta ............... 16	16	4	2	2	5	2	3	12
+Goldrush .............. 12	1	3	1	8	1	1	2	10	new 52
+Gorilla Grodd ......... 9	6	4	4	6	8	5	3	12
+Granny Goodness ....... 11	10	1	2	10	1	1	2	11
+Green Arrow ........... 2	2	4	4	4	1	2	1	10	Oliver Queen
+Green Arrow ........... 3	2	5	3	9	1	3	2	9	Connor Hawke
+Green Lantern ......... 2	1	2	4	4	2	3	3	14	Kyle Rayner
+Green Lantern ......... 2	2	1	2	8	2	2	2	14	Alan Scott
+Green Lantern ......... 2	2	2	3	5	1	3	3	14	Hal Jordan
+Green Lantern ......... 2	2	2	5	10	3	5	3	14	new 52
+Green Lantern ......... 2	3	2	4	5	3	2	2	13	John Stewart
+Green Lantern ......... 3	3	2	3	6	1	2	2	13	Guy Gardner
+Gretel ................ 0	1	2	1	4	2	2	1	10	new 52
+Grifter ............... 3	3	5	5	13	2	4	2	10	WildStorm
+Grotesque ............. 1	1	1	1	6	3	2	2	7	new 52
+Guardian .............. 4	3	5	4	9	2	3	2	9
+Gypsy ................. 2	3	3	2	4	2	2	3	8
+H'el .................. 19	14	2	2	10	2	3	5	15	new 52
+Hakkou ................ 18	-	0	0	6	4	0	0	12	new 52
+Halo .................. 0	2	5	1	2	1	4	3	10	Outsiders
+Harbinger ............. 0	3	3	3	2	3	8	5	10
+Harley Quinn .......... 1	2	6	5	13	4	3	3	9	new 52
+Harley Quinn .......... 2	3	6	5	8	7	2	4	10
+Harvey Bullock ........ 1	4	0	-1	4	2	3	3	5
+Hawk .................. 8	8	4	2	5	0	1	4	10
+Hawkgirl .............. 5	6	6	6	9	4	4	3	11
+Hawkman ............... 6	6	4	3	10	3	4	2	11
+Hawkwoman ............. 5	5	6	7	9	2	4	3	11
+Heat Wave ............. 1	3	3	2	2	3	2	2	10
+Hex, Jonah ............ 2	3	4	5	4	1	4	1	8
+Highfather ............ 12	14	2	2	12	10	10	6	16
+Hitman ................ 2	3	4	4	4	2	2	1	10
+Hourman ............... 7	7	7	3	4	3	1	4	8	Rex Tyler
+Hourman ............... 8	8	3	2	4	4	-1	1	10	Matthew Tyler
+Hourman ............... 9	9	9	3	3	2	2	4	9	Rick Tyler
+Human Bomb ............ 3	4	2	2	2	4	4	2	12	Freedom Fighters
+Huntress .............. 2	3	6	6	13	6	6	4	11	new 52
+Huntress .............. 3	3	6	5	8	9	3	4	4	9
+Ice ................... 1	5	4	2	2	2	3	2	9
+Indigo ................ 10	--	3	3	2	12	3	4	10	Outsiders
+Infinite Man, The ..... 14	20	2	2	8	13	8	5	X
+Intergang Thug ........ 2	2	1	1	2	0	0	1	6
+Iris Allen ............ 0	0	0	1	0	2	3	2	4
+Jade .................. 1	1	2	3	3	2	4	3	11
+Jakeem Thunder ........ 1	1	1	1	1	0	0	1	12
+Jim Corrigan .......... 2	2	0	0	2	4	3	2	5
+Johnny Quick .......... 1	3	4	3	4	3	4	3	10
+Johnny Quick .......... 1	3	4	3	4	4	1	2	12	Crime Syndicate Of America
+Johnny Thunder ........ 1	1	1	1	1	0	-1	0	8
+Joker ................. 2	4	3	4	7	6	5	5	11
+Judomaster ............ 2	2	5	5	7	1	2	1	9	Jsa All-Stars
+Kalibak ............... 14	12	2	2	12	0	0	1	13
+Katana ................ 3	3	5	5	8	1	5	3	10
+Katharsis ............. 1	1	3	1	9	0	2	1	6	new 52
+Kid Flash ............. 1	2	4	3	3	3	1	2	10	new 52	Bart Allen
+Killer Croc ........... 10	8	3	1	6	-1	0	3	11
+Killer Frost .......... 1	2	3	3	4	5	2	2	10	new 52
+Killer Frost .......... 1	2	4	4	3	4	4	3	11
+Kilowog ............... 10	9	2	0	6	8	3	3	13
+King Chimera .......... 1	1	2	2	4	5	3	1	9	Jsa All-Stars
+King Shark ............ 10	12	2	0	9	2	2	0	11	new 52
+Knightfall ............ 1	1	3	2	8	3	3	4	7	new 52
+Lady Vic .............. 2	3	5	4	12	3	4	2	9	new 52
+Larfleeze ............. 1	2	0	2	6	3	3	2	14	Agent Orange (Orange Lantern)
+Lashina ............... 6	7	6	6	12	1	3	2	11
+Liberty Belle ......... 5	6	4	3	4	3	3	2	10
+Lightning ............. 0	2	1	1	3	1	1	1	9	Jsa
+Linda Park ............ 0	0	1	1	0	2	2	2	4
+Lobo .................. 16	16	2	2	10	1	2	0	13
+Lois Lane ............. 0	1	1	2	2	2	2	3	3
+Looker ................ 6	--	4	1	6	3	1	5	10	Outsiders
+Lord, Maxwell ......... 1	2	1	2	2	4	3	4	14
+Lucius ................ 0	0	0	0	0	4	2	2	5	Lucius Fox
+Luthor, Lex ........... 2	2	2	3	3	11	3	4	14
+Mad Harriet ........... 5	7	7	6	10	1	2	2	10
+Madame Xanadu ......... 0	2	1	2	4	5	5	4	10
+Major Force ........... 17	12	2	1	8	0	1	0	14
+Man-Bat ............... 6	6	7	4	10	4	3	1	9
+Manhunter ............. 3	3	4	4	8	1	3	5	9
+Mantis ................ 16	13	6	6	10	4	4	4	14
+Martian Manhunter ..... 16	10	2	2	8	3	4	3	14
+Martian Manhunter ..... 16	12	4	6	12	4	5	3	14	new 52
+Mary Marvel ........... 17	13	3	2	6	3	10	3	14
+Max Mercury ........... 2	3	3	3	4	3	2	1	12
+Mento ................. 0	0	1	2	2	4	6	4	10	Doom Patrol
+Mera .................. 9	7	4	3	8	1	3	3	10
+Merlyn ................ 2	2	4	4	4	1	1	1	9	Malcolm Merlyn
+Metallo ............... 13	3	1	1	5	1	1	4	12
+Metamorpho ............ 11	12	8	2	8	1	1	2	12
+Metron ................ 6	8	2	3	2	15	8	2	15
+Mirror ................ 4	4	2	2	10	4	3	3	10	new 52
+Mirror Master ......... 2	3	2	4	3	1	2	0	10
+Miss America .......... 5	7	3	2	3	3	3	3	12	Freedom Fighters
+Mister America ........ 2	2	3	3	6	2	2	2	8	Jsa
+Mister Freeze ......... 8	2	1	3	5	5	3	0	10	new 52
+Mister Miracle ........ 6	6	6	8	6	6	6	4	12
+Mongul ................ 14	14	4	4	12	4	4	8	13
+Mordru ................ 4	4	2	4	1	10	5	5	16
+Morgaine Le Fey ....... 1	2	1	1	3	7	7	5	13
+Mr. Freeze ............ 9	3	2	3	5	5	2	0	10
+Multiplex ............. 7	6	3	4	5	4	2	1	10
+Negative Man .......... 9	4	4	3	6	1	4	2	12	Doom Patrol
+Neon .................. 4	10	5	5	4	4	4	3	10	Freedom Fighters
+Nightshade ............ 1	2	3	3	4	1	2	2	10
+Nightwing ............. 3	3	6	4	10	3	4	4	10
+O.M.A.C. .............. 10	9	6	3	9	1	1	2	12	(Earth-51)
+O.M.A.C. Cyborgs ...... 9	11	1	1	9	2	2	0	11
+Obsidian .............. 8	8	6	2	6	1	3	1	10
+Olsen, Jimmy .......... 0	1	0	1	1	2	2	2	2
+Oracle ................ 1	2	0	2	1	8	8	3	10
+Ordling ............... 8	6	1	3	10	4	2	1	13	new 52	Knight of the Pax Galactica
+Orion ................. 16	15	5	3	12	1	3	4	14
+Owlman ................ 4	4	5	7	14	8	10	7	12	Crime Syndicate Of America
+Parademons ............ 5	4	0	0	4	-2	0	-1	6
+Parasite .............. 8	6	1	1	8	5	2	1	13
+Penguin, The .......... 8	3	2	4	6	5	5	4	11
+Phantom Lady .......... 3	3	4	3	3	4	3	4	10	Freedom Fighters
+Plastic Man ........... 2	5	5	5	5	0	2	2	11
+Plastique ............. 1	2	2	2	2	2	1	2	11
+Poison Ivy ............ 1	3	3	2	5	4	3	5	11
+Power Girl ............ 17	13	3	2	5	2	2	2	13
+Power Girl ............ 18	12	6	6	10	6	5	5	14	new 52
+Power Ring ............ 2	3	2	3	5	1	3	3	14	Crime Syndicate Of America
+Prankster, The ........ 1	3	2	3	2	5	4	4	11
+Professor Ivo ......... 1	2	0	1	0	9	4	4	11
+Psycho-Pirate ......... 0	3	1	1	3	1	1	3	12
+Queen Bee ............. 10	8	8	7	5	6	7	8	12
+Queen Lourdes ......... 8	6	7	5	13	4	4	3	14	new 52	Lady of the Pax Galactica
+Question, The ......... 2	3	5	4	9	2	3	2	9	Renee Montoya
+Question, The ......... 3	4	5	3	10	3	5	3	10	Vic Sage
+Ra'S Al Ghul .......... 4	5	3	4	14	9	5	7	14
+Rampage ............... 13	12	2	1	6	-1	1	0	10
+Raven ................. 0	1	2	2	2	3	5	3	10
+Ray, The .............. 3	4	3	3	3	3	3	1	10
+Red Bee ............... 7	3	4	3	4	4	4	3	10	Freedom Fighters
+Red Hood .............. 3	4	6	5	8	2	2	5	10
+Red Robin ............. 2	2	5	5	8	5	4	3	9
+Red Tornado ........... 10	--	4	3	3	2	4	0	11
+Reverse-Flash ......... 1	3	4	3	4	3	3	2	12
+Riddler, The .......... 1	2	4	4	7	7	7	3	10
+Robin ................. 2	1	5	5	8	5	4	3	8
+Robotman .............. 10	-	3	2	6	1	1	4	11	Doom Patrol
+Rocket Red ............ 10	4	2	3	8	4	2	2	10
+Saint Walker .......... 1	2	1	2	3	1	6	6	14	Blue Lantern
+Sandman ............... 2	6	2	2	8	3	3	3	10	Sanderson Hawkens
+Scarecrow ............. 1	2	4	1	6	4	3	4	10
+Seamus ................ 10	8	4	1	10	1	4	2	13	new 52	Knight of the Pax Galactica
+Shade The Changing Man  3	3	3	3	6	2	2	2	10
+Shadow Dragon ......... 14	-	2	0	6	0	1	0	10	new 52
+Shaolin Robot ......... 0	--	4	2	9	0	3	0	11
+Sinestro .............. 2	2	2	3	5	1	3	3	14	Yellow Lantern
+Solomon Grundy ........ 18	20	0	0	6	-2	0	0	14
+Spartan ............... 14	-	4	4	10	4	4	4	12	WildStorm
+Spectre ............... 16	20	8	8	10	9	20	16	18
+Speedy ................ 1	2	3	2	3	1	1	2	8
+Star Sapphire ......... 0	1	2	2	3	2	2	3	13
+Starfire .............. 10	10	5	5	10	1	3	3	11
+Stargirl .............. 8	8	8	4	4	2	4	2	11
+Starman ............... 2	3	2	3	3	7	2	2	12
+Starro The Conqueror .. 14	14	2	2	10	10	10	4	15
+Steel ................. 11	3	1	2	7	10	4	3	12
+Steppenwolf ........... 8	10	6	5	14	2	2	3	14
+Stompa ................ 9	9	3	1	8	0	0	2	11
+Straith ............... 14	8	2	2	10	2	3	2	13	new 52	First Knight of the Pax Galactica
+Superboy .............. 10	8	2	2	9	2	2	0	12	new 52	Kon-El
+Superboy .............. 15	10	2	2	4	1	2	2	12
+Superboy-Prime ........ 24	20	2	2	8	1	2	2	16
+Supergirl ............. 15	10	3	2	4	2	2	3	12
+Superman .............. 19	14	2	2	8	2	2	4	15
+Superman .............. 20	14	6	6	10	7	6	6	15	new 52
+Superwoman ............ 16	14	10	8	14	2	4	6	15	Crime Syndicate Of America
+Swamp Thing ........... 9	15	0	0	2	4	7	5	15
+T. O. Morrow .......... 0	1	0	1	0	8	5	1	11
+Talia ................. 2	3	4	4	10	5	2	4	8
+Tats .................. 0	1	4	2	6	0	2	1	10	new 52
+Tattooed Man .......... 3	3	1	2	6	0	1	1	11
+Technocrat ............ 8	6	5	3	2	8	4	3	10	Outsiders
+Tempest ............... 2	5	2	2	6	2	2	0	10	Doom Patrol
+The White Martian ..... 16	10	2	2	8	3	4	3	14	Crime Syndicate Of America
+Thunder ............... 12	2	8	3	4	3	2	0	10	Outsiders
+Thunderbolt ........... 0	8	0	0	0	0	0	0	12
+Time Commander ........ 0	2	0	1	2	5	2	0	8
+Time Trapper .......... 2	6	2	2	5	14	8	4	X
+Tomcat ................ 5	6	6	6	6	1	3	3	9	Jsa All-Stars
+Toyman ................ -1	0	1	5	0	6	3	1	10
+Traveler .............. 12	10	4	4	12	4	4	2	15	new 52
+Trevor, Steve ......... 2	3	1	2	5	1	1	2	6
+Trickster ............. 1	1	3	4	3	1	2	3	10
+Troy, Donna ........... 15	13	8	5	11	2	3	4	13
+Two-Face .............. 2	3	2	3	6	5	5	4	10
+Ultra-Humanite, The	... 10	8	4	2	5	7	7	5	13
+Ultraman .............. 19	14	2	2	8	2	2	4	15	Crime Syndicate Of America
+Uncle Sam ............. 13	13	5	4	5	1	3	5	13	Freedom Fighters
+Vandal Savage ......... 4	5	2	2	11	4	4	5	13
+Ventriloquist ......... 0	0	1	1	4	1	1	2	5	new 52
+Vigilante ............. 2	3	2	3	3	1	1	2	9
+Virman Vundabar ....... 7	7	2	5	11	7	3	1	11
+Vixen ................. 1	2	3	2	4	1	2	4	10	JLA
+Warlord ............... 3	4	4	4	9	1	2	5	9
+Waverider ............. 1	3	3	2	4	4	3	1	11
+Weather Wizard ........ 0	2	3	3	3	3	2	1	10
+White Martian ......... 14	10	2	2	10	1	2	2	12
+White Rabbit, The ..... 0	0	1	1	2	2	3	3	5	new 52
+Wildcat ............... 4	4	4	2	12	0	2	2	11
+Wonder Girl ........... 14	10	8	4	7	1	2	3	12
+Wonder Woman .......... 15	11	8	6	15	4	8	8	15	new 52
+Wonder Woman .......... 16	14	10	8	14	2	4	6	15
+Wraith ................ 20	16	4	3	10	3	4	3	16	new 52
+Zatanna ............... 0	2	2	4	2	3	4	4	11
+Zealot ................ 7	8	8	4	16	1	4	4	13	WildStorm
+Zoom .................. 1	2	3	2	4	4	2	1	12

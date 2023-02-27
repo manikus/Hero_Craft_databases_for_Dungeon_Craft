@@ -1,0 +1,4 @@
+\(BEGIN)
+name = itemPowerEnhancedDefenses
+\(END)
+

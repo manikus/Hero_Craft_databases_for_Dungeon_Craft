@@ -1,0 +1,28 @@
+_SA($TargetContext(),"DispelLevel",lvl);
+-exp = $GET_PARTY_TIME() +# lvl;
+-$SET_CHARACTER_SA($TargetContext(),"IsResistantCold",exp);
+[SpellDuration] = $SA_PARAM_SET($GET_HOOK_PARAM(5));
+\(END)
+
+\(BEGIN)
+name = spell_Confusion
+[Dispel] = $SA_REMOVE();
+-$RUN_CHAR_SE_SCRIPTS($TargetContext(),"Dispel SE");
+[Dispel SE] = $REMOVE_SPELL_EFFECT($CharacterContext(),$GET_HOOK_PARAM(5));
+[InvokeSpellOnTarget] = $VAR atk; // attacker
+-$VAR tgt; // target
+-$VAR monName;
+-$VAR monLvl;
+-$VAR opr; // once per round
+-$VAR rnd;
+-$VAR rnd2;
+-$VAR cls;
+-atk = $IndexOf($AttackerContext());
+-tgt = $IndexOf($TargetContext());
+-cls = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($TargetContext(),"DispelLevel", $GET_CHAR_Lvl(atk,cls));
+-$IF ($GET_CHAR_STATUS(tgt) != 0){$RETURN;};
+-monName = $GET_CHAR_NAME(tgt);
+-$IF ($GET_MONSTERTYPE_SA(monName,"IsConfused") != "-?-?-" ||
+-$GET_CHARACTER_SA($TargetContext(),"IsConfused") != "-?-?-"){$RETURN;};
+-monLvl = $GET_MON

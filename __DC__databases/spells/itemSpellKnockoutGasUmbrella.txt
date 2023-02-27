@@ -1,0 +1,32 @@
+s
+-$SET_CHARACTER_SA($TargetContext(),"IsMirrored",$GET_CHARACTER_SA($AttackerContext(),"IsMirrored") +# images);
+[RemoveLinger] = $RETURN "TARGETS";
+\(END)
+
+\(BEGIN)
+name = spell_MummyRot
+[InvokeSpellOnTarget] = $SET_CHARACTER_SA($CharacterContext(),"IsMummyDiseased",$GET_PARTY_DAYS() +# 30);
+\(END)
+
+\(BEGIN)
+name = spell_NeutralizePoison
+[InvokeSpellOnTarget] = $VAR tgt; // target
+-tgt = $IndexOf($TargetContext());
+-$IF ($GET_CHARACTER_SA($TargetContext(), "IsPoisoned") == "-?-?-"){$RETURN;};
+-$DELETE_CHARACTER_SA($TargetContext(),"IsPoisoned");
+-$IF ($GET_CHAR_HITPOINTS(tgt) <=# 0)
+-	{
+-		$SET_CHAR_HITPOINTS(tgt, "1");
+-		$SET_CHAR_STATUS(tgt, "0");
+-	};
+\(END)
+
+\(BEGIN)
+name = spell_Paralysis
+[InvokeSpellOnTarget] = $VAR atk; // attacker
+-$VAR tgt; // target
+-$VAR name;
+-atk = $IndexOf($AttackerContext());
+-tgt = $IndexOf($TargetContext());
+-name = $GET_CHAR_NAME(tgt);
+-$IF ($GET_CHARACTER_SA($TargetContext(),"IsImmuneParalysis") !

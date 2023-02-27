@@ -1,0 +1,19 @@
+\(BEGIN)
+name = CriticalHit
+[ComputeDamage] = $VAR p5; $VAR DaS;
+-p5 = $GET_HOOK_PARAM(5); DaS = $GET_COMBATANT_SA($AttackerContext(),"critHit");
+-$IF (DaS == "-?-?-"){$RETURN;};
+-$DELETE_COMBATANT_SA($AttackerContext(),"critHit");
+-$RETURN p5 *# 2;
+[ComputeSpellDamage] = $VAR p5; $VAR DaS;
+-p5 = $GET_HOOK_PARAM(5); DaS = $GET_COMBATANT_SA($AttackerContext(),"critHit");
+-$IF (DaS == "-?-?-"){$RETURN;};
+-$DELETE_COMBATANT_SA($AttackerContext(),"critHit");
+-$RETURN p5 *# 2;
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR crtWeap;
+-p5 = $GET_HOOK_PARAM(5); crtWeap = $GET_COMBATANT_SA($AttackerContext(),"critHitWpn");
+-$IF (crtWeap == "-?-?-"){crtWeap = "0";};
+-crt = $SA_PARAM_GET() +# crtWeap;
+-$IF ((20 -# p5) <=# crt){$SET_COMBATANT_SA($AttackerContext(),"critHit",p5);};
+\(END)
+

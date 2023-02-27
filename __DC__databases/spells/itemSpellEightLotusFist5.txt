@@ -1,0 +1,68 @@
+one Trooper Armor
+item = Heavy Blaster Rifle
+item = Frag Grenade
+item = Ion Grenade
+item = Comlink
+item = Medipac
+attack = 4,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = ARC Trooper
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 12
+armor class = 10
+movement rate = 9
+hit dice = 12
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 9
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = fighter
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = ARC Trooper Armor
+item = Heavy Repeating Blaster
+item = Heavy Blaster Pistol
+item = Frag Grenade
+item = Frag Grenade
+item = Ion Grenade
+item = Ion Grenade
+item = Medipac
+attack = 4,1,5,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Assassin
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 14
+armor class = 10
+movement rate = 9
+hit dice = 5
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 16
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = thief
+form = none
+penalty = none
+immunity = none
+Misc Options = no

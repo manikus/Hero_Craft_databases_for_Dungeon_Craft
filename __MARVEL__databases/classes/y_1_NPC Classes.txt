@@ -1,0 +1,4 @@
+//	npc classes:
+//	Agent, Assassin, Burglar, Champion, Criminal Mastermind, Criminal, Cult Leader, Cultist, Hacker, Journalist,
+//	Lackey, Mercenary, Ninja, Police Detective, Police, Priest, Priestess, Private Eye, Scientist, Soldier, 
+//	Special Forces, Spy, Super Villain, Technician, Terrorist, Thief, Thug, Villain, Witch, Wizard

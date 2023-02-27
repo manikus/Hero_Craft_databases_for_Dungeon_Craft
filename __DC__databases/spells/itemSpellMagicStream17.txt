@@ -1,0 +1,25 @@
+// Spell database file
+//
+// Total validation is performed when reading this data.
+// Nothing you do can cause the program to crash.  It may spit 
+// error messages and quit for lack of something decent to do but
+// it will not crash or do unexpected things.
+// Ha. Ha.  Well, it shouldn't anyway.  Let me know if it does.
+//
+// The first item has an empty name and will be ignored.  You can
+// use it as a 'template'.  Copy it to the bottom of the file and
+// edit the copy to add your item to the database.
+//
+// Each line is of the form    name = value
+//     value may be omitted.
+//     eg:   
+//       special abilities = 
+//     This line will be interpreted as setting special abilities
+//     to the empty string.  This is commonly the default so in
+//     many cases it is the same as omitting the line entirely.
+//     
+// White space is a bit important.  Because names and values can
+// contain blanks.  So the rule is....leading and trailing whitespace
+// are ignored.  So, for example:
+//      attack bonus         =     3         <cr>
+//         attack bonus=3<cr>

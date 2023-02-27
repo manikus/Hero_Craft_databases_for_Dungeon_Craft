@@ -1,0 +1,10 @@
+\(BEGIN)
+name = itemPowerResistanceCold
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerResistanceCold";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerResistanceCold";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+

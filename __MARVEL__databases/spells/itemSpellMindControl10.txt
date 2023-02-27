@@ -1,0 +1,7 @@
+= $CHAR_DAMAGEBONUS,1,delta,target,yes
+spell effect 4 = $CHAR_HITBONUS,1,delta,target,yes
+activate script 1 = $RETURN ($GET_CHAR_TYPE($IndexOf($Target())) !\=# 3);
+activate script 2 = $IF ($GET_CHAR_TYPE($IndexOf($Target())) \=\=# 3) { $RETURN 0; };$IF ($GET_CHAR_FIGHTERLVL($IndexOf($Target())) ># 0) { $RETURN 1; };$IF ($GET_CHAR_PALADINLVL($IndexOf($Target())) ># 0) { $RETURN 1; };$IF ($GET_CHAR_RANGERLVL($IndexOf($Target())) ># 0) { $RETURN 1; };$RETURN 0;
+activate script 3 = $RETURN ($GET_CHAR_TYPE($IndexOf($Target())) \=\=# 3);
+activate script 4 = $RETURN ($GET_CHAR_TYPE($IndexOf($Target())) \=\=# 3);
+modify script 1 = $IF ($GET_CHAR_FIGHTERLVL($TargetIndex()) ># 0) { $RETURN $RANDOM(Cool; };$IF ($GET_CHAR_PALADINLVL($IndexOf($Target())) ># 0) { $RETURN $RANDOM(Cool; };$IF ($GET_CHAR_RANGERLVL($IndexOf($Target())) ># 0) { $RETURN $RANDOM(Cool; };$IF ($GET_CHAR_CLERICLVL($IndexOf($Target())) ># 0) { $RETURN $RANDOM(6); };$IF ($GET_CHAR_DRUIDLVL($IndexOf($Target())) ># 0) { $RETURN $RANDOM(6); };$IF ($GET_CHAR_THIEFLVL($IndexOf($Target())) ># 0) { $RETURN $RANDOM(6); };$IF ($GET_CHAR_MAGUSERLVL($IndexOf($Target())) ># 0) { 

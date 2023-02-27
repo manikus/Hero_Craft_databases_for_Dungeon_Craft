@@ -1,0 +1,31 @@
+\(BEGIN)
+name = Monkey
+icon file = icon_Monkey.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 7
+armor class = 6
+movement rate = 9
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 18
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 300
+Special Ability = combatantAlignment,neutral
+Special Ability = monsterLevel,3
+Class = Adventurer
+Race = Animal
+form = animal + mammal
+penalty = none
+immunity = none
+Misc Options = none
+item = none
+attack = 1,2,0,attacks,
+Undead = none
+\(END)
+

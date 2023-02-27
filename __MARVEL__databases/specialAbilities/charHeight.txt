@@ -1,0 +1,8 @@
+\(BEGIN)
+name = charHeight
+[PostCreateCharacter] = $VAR prm; $VAR dat;
+-prm = $SA_PARAM_GET(); dat = $DAT_Race_Height($CharacterContext());
+-$IF (prm != "-?-?-"){$SET_CHARACTER_SA($CharacterContext(), "charHeight", prm);};
+-$SET_CHARACTER_SA($CharacterContext(), "charHeight", dat);
+\(END)
+

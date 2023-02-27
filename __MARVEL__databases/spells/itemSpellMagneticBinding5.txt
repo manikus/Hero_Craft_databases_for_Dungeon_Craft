@@ -1,0 +1,27 @@
+//        0=none
+//        1=not used for spells
+//        2=loop only nbr times in Max Loops
+//        4=loop this animation
+//        flags can be combined, as in 4+2=6 gives looping (4) and uses MaxLoops (2)
+//
+// default is "DEFAULT"
+// eg: Cast art = c:\sprites\fireball.bmp,0,1,16,16,1,0,0
+//
+// Missile Art
+// Displayed while spell is in-route to spell target
+// comma-separated text: 
+//    filename,delay,num frames, frame width, frame height, style, MaxLoops, flags
+//    filename can be blank to use DEFAULT, or "none"
+//    delay in millisecs where 1 sec=1000 ms (must be 0 for spells)
+//    num frames is total frames in image
+//    width is pixel width of single frame in image
+//    height is pixel height
+//    style is animation style where:
+//        0=sequenced (sequences thru frames on way to target)
+//        1=directional (like arrows, requires 8 frames for directions N,NE,E,SE,S,SW,W,NW)
+//    MaxLoops is the max nbr times the animation will loop, if looping enabled by flags
+//    flags is animation properties where: (flags are additive)
+//        0=none
+//        1=not used for spells
+//        2=loop only nbr times in Max Loops
+//        4=loop this animat

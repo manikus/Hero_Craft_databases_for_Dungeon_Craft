@@ -1,0 +1,24 @@
+\(BEGIN)
+name = Dark-Elf
+height = 2d6+48+(6*Male)
+weight = 3d11+67+((14+1d6)*Male)
+age = 5d6+100
+maxage = 4d100+350
+BaseMovement = 12
+AbilityRequirement = Strength 		7/14
+AbilityRequirement = Constitution	7/14
+AbilityRequirement = Dexterity		7/14
+AbilityRequirement = Intelligence 	7/14
+AbilityRequirement = Wisdom 		7/14
+AbilityRequirement = Charisma		7/14
+ChangeClass = no
+DwarfResistance = no
+GnomeResistance = no
+FindSecretDoor = 2
+FindSecretDoorSearching = 4
+Skill = Infravision,60
+Skill = SleepResistant,90
+Special Ability = raceDarkElf,"Y"
+Special Ability = raceSuppress,"Y"
+\(END)
+

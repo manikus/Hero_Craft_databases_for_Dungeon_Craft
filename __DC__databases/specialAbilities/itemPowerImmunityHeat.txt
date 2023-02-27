@@ -1,0 +1,10 @@
+\(BEGIN)
+name = itemPowerImmunityHeat
+[OnReady] = $VAR prm; $VAR isa;
+-prm = $SA_PARAM_GET(); isa = "powerImmunityHeat";
+-$SET_CHARACTER_SA($CharacterContext(),isa,prm);
+[OnUnReady] = $VAR isa;
+-isa = "powerImmunityHeat";
+-$DELETE_CHARACTER_SA($CharacterContext(),isa);
+\(END)
+

@@ -1,0 +1,6 @@
+Following items should be given to NPC while they are wearing Iron Man Armor, and removed when they are not.
+Targeting & Environmental Sensors
+Repulsor Rays
+Uni-Beam
+Electro-Magnetic Pulse
+Sonic Attack

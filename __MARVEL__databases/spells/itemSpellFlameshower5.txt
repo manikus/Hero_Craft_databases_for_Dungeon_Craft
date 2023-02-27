@@ -1,0 +1,31 @@
+,"charManaPoints");
+-//mp = $GET_CLASS_SA($ClassContext(),"charManaPoints");
+-
+-$GrSet("LeftCol",18, 18);
+-$GrSet("RightCol", 220, 18);
+-$GrSet("Skills", 417, 270);
+-$GrSet("Ability", 50, 0);
+-$GrSet("StatusTab", 105, 0);
+-$GrSet("SkillsTab", 125, 0);
+-$GrSet("EncumbTab",125, 0);
+-$GrSet("TextHeight", 0, 18);
+-$GrSet("ManaPool",425,270);
+-$GrSetLinefeed("TextHeight");
+-
+-$IF ($GET_CHAR_TYPE(char) != "@PC@" && $GET_CHAR_TYPE(char) != "@NPC@")
+-	{
+-		$GrMoveTo("LeftCol");
+-		$GrFormat("SL");
+-		$GrColor("YELLOW");
+-		$GrPrtLF($UpCase(name));
+-		$GrMark("Level");
+-		$GrMoveTo("RightCol");
+-		$GrColor("WHITE");
+-		$GrPrint("STATUS");
+-		$IF (status >=# 9) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("DYING");};
+-		$IF (status ==# 8) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("RUNNING");};
+-		$IF (status ==# 7) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("TEMPGONE");};
+-		$IF (status ==# 6) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("ANIMATED");};
+-		$IF (status ==# 5) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("GONE");};
+-		$IF (status ==# 4) {$GrColor("RED"); $GrTab("StatusTab"); $GrPrtLF("PETRIFIED");};
+-		$IF (status ==#

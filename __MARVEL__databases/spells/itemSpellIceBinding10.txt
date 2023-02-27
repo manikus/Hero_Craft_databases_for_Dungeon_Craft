@@ -1,0 +1,46 @@
+elimitedStringSubstring(foes, i);
+-$WHILE (atk != "")
+-	{
+-		atk = $DelimitedStringSubstring(foes, i);
+-		$IF ($GET_CHAR_STATUS(atk) ==# 0){alive = alive +# 1;};
+-		i = i +# 1;
+-	};
+-// alive = alive -# 1;
+-$IF (alive <# 1)
+-	{
+-		$DELETE_COMBATANT_SA($CombatantContext(),"monster_StirgeDrainee");
+-		$DELETE_COMBATANT_SA($CombatantContext(),"monster_StirgeLink");
+-		$DELETE_COMBATANT_SA($Myself(),"IsHugged");
+-	};
+\(END)
+
+\(BEGIN)
+name = monster_SummonSlaad
+[StartCombatRound] = $VAR round;
+-round = $GetCombatRound();
+-$IF (round ==# 3) {$AddCombatant("Red Slaad","1");};
+\(END)
+
+\(BEGIN)
+name = monster_TrollGetUp
+[StartCombatRound] = $VAR cbt; // combatant
+-$VAR hp; // hit points
+-$VAR round;
+-$VAR getUp;
+-$VAR name;
+-$VAR nt;
+-$VAR x;
+-$VAR y;
+-$VAR mhp; // max hit point
+-$VAR i;
+-$VAR n;
+-cbt = $SA_PARAM_GET();
+-hp = $GET_CHAR_HITPOINTS(cbt);
+-$IF (hp <=# 0)
+-	{
+-		name = $GET_CHAR_NAME(cbt);
+-		round = $GetCombatRound();
+-		$IF ($GET_COMBATANT_SA($CombatantContext(),"timeToRise") == "-?-?-")
+-			{
+-				getUp = ($RANDOM(6) +# $RANDOM(6) +# $RANDOM(6) +# 3);
+-				$SET_COMBATANT_SA($CombatantContext(),"timeToRise", round +# getUp);

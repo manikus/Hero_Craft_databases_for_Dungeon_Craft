@@ -1,0 +1,5 @@
+\(BEGIN)
+name = charFighting
+[PostCreateCharacter] = $SET_CHARACTER_SA($CharacterContext(), "charFighting", $SA_PARAM_GET());
+\(END)
+

@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterPowerDamageFieryTouch
+[CanReady] = $VAR me; me = $MyIndex();
+-$IF (me != "Fire Creature"){$RETURN "N";};
+\(END)
+

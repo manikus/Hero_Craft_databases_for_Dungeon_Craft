@@ -1,0 +1,11 @@
+\(BEGIN)
+name = RangedWeaponDamage
+[DoesAttackSucceed] = $VAR p5; $VAR pr6; $VAR atk; $VAR tgt; $VAR acc;
+-p5 = $GET_HOOK_PARAM(5); pr6 = $GET_HOOK_PARAM(6);
+-atk = $IndexOf($AttackerContext()); tgt = $IndexOf($TargetContext());
+-acc = $GET_COMBATANT_SA($AttackerContext(),"npcAccurateDamage");
+-$IF (acc != "-?-?-"){hit = p5 +# acc;}
+-$ELSE {hit = p5;};
+-$IF (hit ># pr6){$RETURN "Y";};
+\(END)
+

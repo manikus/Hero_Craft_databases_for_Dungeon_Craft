@@ -1,0 +1,29 @@
+$IF (monster != "-?-?-") {grow = monster;};
+-$IF (monNon != "-?-?-") {grow = monNon;};
+-$IF (grow == "acid")
+-	{
+-		tgt = $IndexOf($TargetContext());
+-		hp = $RANDOM(8) +# 1;
+-		tgtName = $GET_CHAR_NAME(tgt);
+-		$SET_CHAR_MAXHITPOINTS(tgt, $GET_CHAR_MAXHITPOINTS(tgt) +# hp);
+-		$SET_CHAR_HITPOINTS(tgt, $GET_CHAR_HITPOINTS(tgt) +# hp);
+-		$SET_CHAR_THAC0(tgt, $GET_CHAR_THAC0(tgt) -# 1);
+-		$SET_COMBATANT_SA($TargetContext(),"monsterLevel", $GET_MONSTERTYPE_SA(tgtName,"monsterLevel") +# 1);
+-		$SET_HOOK_PARAM(5,tgtName +" grows.");
+-		$RETURN "N";
+-	};
+[DoesSpellAttackSucceed] = $VAR tgt; $VAR tgtName; $VAR hp;
+-$VAR spell; $VAR splNon; $VAR grow;
+-spell = $SA_SPELL_GET("DamageMagical");
+-splNon = $SA_SPELL_GET("DamageNonMagical");
+-$IF ((spell == "-?-?-") && (splNon == "-?-?-")) {$RETURN;};
+-$IF (spell != "-?-?-") {grow = spell;};
+-$IF (splNon != "-?-?-") {grow = splNon;};
+-$IF (grow == "acid")
+-	{
+-		tgt = $IndexOf($TargetContext());
+-		tgtName = $GET_CHAR_NAME(tgt);
+-		hp = $RANDOM(8) +# 1;
+-		$SET_CHAR_MAXHITPOINTS(tgt,$GET_CHAR_MAXHITPOINTS(tgt) +# hp);
+-		$SET_CHAR_HITPOINTS(tgt,$GET_CHAR_HITPOINTS(tgt) +# hp);
+-		$SET_CHAR_THAC0(tgt,$GET_CHAR_THAC

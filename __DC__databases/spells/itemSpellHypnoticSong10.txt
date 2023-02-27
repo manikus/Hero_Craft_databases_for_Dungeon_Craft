@@ -1,0 +1,42 @@
+);
+-$WHILE (i != "")
+-	{
+-		$IF ($GET_CHAR_NAME(i) == "Mummy" && $VisualDistance(me,i) <# 7){set = 1;};
+-		$IF (set == 1)
+-			{
+-				$SET_COMBATANT_SA($CombatantContext(),"IsMummyFear",$GET_PARTY_TIME() +# $RANDOM(4) +# 1);
+-				$SET_CHAR_ASL(me,"mummyfear","");
+-				$RETURN $SA_REMOVE();
+-			};
+-		i = $NextCreatureIndex(i,sideset);
+-	};
+\(END)
+
+\(BEGIN)
+name = monster_PlayerControl
+[AutoAction] = $RETURN "CP";
+\(END)
+
+\(BEGIN)
+name = monster_Poison
+[InvokeSpellOnTarget] = $VAR time;
+-$VAR tgt; // target
+-time = $GET_PARTY_TIME();
+-tgt = $IndexOf($TargetContext());
+-$IF ($GET_CHARACTER_SA($TargetContext(),"IsImmunePoison") != "-?-?-"){$RETURN;};
+-$IF ($GET_CHARACTER_SA($TargetContext(),"IsProtectedPoisonCaster") != "-?-?-"){$RETURN;};
+-$IF ($GET_CHARACTER_SA($TargetContext(),"IsProtectedPoisonTarget") != "-?-?-"){$RETURN;};
+-$SET_CHARACTER_SA($TargetContext(),"IsPoisoned",time);
+-$SET_CHAR_STATUS(tgt,9);
+-$SET_CHAR_HITPOINTS(tgt,"-1");
+\(END)
+
+\(BEGIN)
+name = monster_RakshasaSpellImmunity
+[DoesSpellAttackSucceed] = $IF ($GET_SPELL_Level($SpellContext()) <# 9){$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = monster_RakshasaVulnerability
+[ComputeDamage] = $VAR tgt;
+-tgt = $IndexOf($Target

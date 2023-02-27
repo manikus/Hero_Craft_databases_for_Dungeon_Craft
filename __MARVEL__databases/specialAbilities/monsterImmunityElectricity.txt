@@ -1,0 +1,6 @@
+\(BEGIN)
+name = monsterImmunityElectricity
+[ComputeDamage] = $VAR dmg; dmng = $SA_ITEM_GET("DamageTypeElectricity");
+-$IF (dmg != "-?-?-"){$RETURN "0";};
+\(END)
+

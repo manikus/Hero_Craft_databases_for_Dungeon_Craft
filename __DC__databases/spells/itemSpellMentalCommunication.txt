@@ -1,0 +1,48 @@
+ly fire ok = yes
+cumulative = yes
+usable by party = yes
+can scribe = yes
+auto scribe = yes
+combat only = no
+can be dispelled = no
+lingers = no
+linger affects once = no
+save versus = spell
+save result = none
+targeting type = touch
+level = 5
+casting time = 1
+casting time units = rounds
+Number of targets = 1
+duration = 
+duration units = instantaneous
+target duration = 
+target range = 1
+price = 0
+spell effect 1 = $CHAR_HITPOINTS,1,absolute,target,no
+spell effect 2 = $CHAR_STATUS,0,absolute,target,no
+begin script = 
+end script = 
+\(END)
+
+\(BEGIN)
+name = Slay Living
+casting sound = none
+cast msg = /t is slain.
+missile sound = none
+coverage sound = none
+hit sound = none
+linger sound = none
+cast art = none
+missile art = none
+target cover art = none
+target hit art = none
+target linger art = none
+class = Cleric
+cast by = Cleric
+friendly fire ok = no
+cumulative = yes
+usable by party = yes
+can scribe = yes
+auto scribe = yes
+combat 

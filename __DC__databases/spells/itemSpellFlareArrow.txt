@@ -1,0 +1,38 @@
+p);
+\(END)
+
+\(BEGIN)
+name = Global_Transfer
+[EachPartyMember] = $ForEachPossession($CharacterContext(), "item_DrowEquipment");
+-$RETURN "1";
+[TransferModule] = $ForEachPartyMember("Global_Transfer", "EachPartyMember");
+-$IF ($GET_HOOK_PARAM(5) ==# "1"){$SET_HOOK_PARAM(6,"Your drow equipment dissolves.");};
+-$RETURN;
+\(END)
+
+\(BEGIN)
+name = IsAfraid
+[AutoAction] = $IF ($SA_COMBATANT_GET("monster_ImmuneFear") != "-?-?-") {$RETURN;}
+-$ELSE{$RETURN "F" + $SA_PARAM_GET();};
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7,"Afraid");
+-$SET_HOOK_PARAM( 6,"");
+-$RETURN 1;
+\(END)
+
+\(BEGIN)
+name = IsBarkskinned
+[CharDisplayStatus] = $IF ($GET_PARTY_TIME() ># $SA_PARAM_GET())
+-  {$RETURN $SA_REMOVE();};
+-$SET_HOOK_PARAM( 7, "Barkskin");
+-$SET_HOOK_PARAM( 6, "");
+-$RETURN 1;
+[Dispel] = $SA_REMOVE();
+[DoesAttackSucceed] = $IF ($GET_COMBATANT_SA($TargetContext(),"IsBarkskinned") != "-?-?-")
+-  {$SET_HOOK_PARAM(6,$GET_HOOK_PARAM(6) +# 1);};
+-$IF ($GET_HOOK_PARAM(5) >=# $GET_HOOK_PARAM(6)){$RETURN "Y";}
+-$ELSE {$RETURN "N";};
+\(END)
+
+\(BEGIN)
+name = IsBestowedCurse
+[CharDisplayStat

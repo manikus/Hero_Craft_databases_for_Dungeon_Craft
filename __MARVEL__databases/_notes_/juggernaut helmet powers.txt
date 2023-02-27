@@ -1,0 +1,2 @@
+juggernaut helmet gives wearer the following only while worn
+		{"name":"powerImmunityMental","value":"20"},

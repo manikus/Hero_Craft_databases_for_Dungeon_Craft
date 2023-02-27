@@ -1,0 +1,12 @@
+\(BEGIN)
+name = advantageImprovedCriticalShieldThrow
+{CharDisplayStatus] = $VAR prm; $VAR p5;
+-prm = $SA_PARAM_GET(); p5 = $GET_HOOK_PARAM(5);
+-$IF (p5 == "DiSPLAY") {$SET_HOOK_PARAM(7,"Advantage: Improved Critical: Shield Throw +"+prm); $RETURN "1";};
+[DoesAttackSucceed] = $VAR p5; $VAR crt; $VAR itm; $VAR iSA;
+-p5 = $GET_HOOK_PARAM(5); crt = $SA_PARAM_GET();
+-itm = $GET_CHAR_Ready($AttackerContext(),"WEAPON",0); iSA = "Captain America's Mighty Shield";
+-$IF (itm != iSA) {$RETURN $DELETE_COMBATANT_SA($AttackerContext(),"critHitWpn");};
+-$SET_COMBATANT_SA($AttackerContext(),"critHitWpn",p5);
+\(END)
+

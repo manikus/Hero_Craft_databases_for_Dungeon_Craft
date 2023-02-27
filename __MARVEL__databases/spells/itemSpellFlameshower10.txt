@@ -1,0 +1,34 @@
+ring(levelTbl, 1));
+-				$SkillAdj($CharacterContext(), "Save Vs PP", "", "=", $DelimitedStringSubstring(levelTbl, 2));
+-				$SkillAdj($CharacterContext(), "Save Vs PPDM", "", "=", $DelimitedStringSubstring(levelTbl, 4));
+-				$SkillAdj($CharacterContext(), "Save Vs RSW", "", "=", $DelimitedStringSubstring(levelTbl, 3));
+-				$SkillAdj($CharacterContext(), "Save Vs SP", "", "=", $DelimitedStringSubstring(levelTbl, 5));
+-				$RETURN;
+-			};
+-		i = i +# 1;
+-	};
+\(END)
+
+\(BEGIN)
+name = Global_Display
+[CharacterViewScreen] = $VAR char; // character
+-$VAR name;
+-$VAR age; $VAR sex;
+-$VAR align; $VAR alignList; $VAR alignName;
+-$VAR class;
+-$VAR cbnList; // class_baseName parameter
+-$VAR cbnCount; // number of baseclasses
+-$VAR cbn; // first baseclass
+-$VAR cbn2; // second baseclass
+-$VAR cbn3; // third baseclass
+-$VAR hbl; // highest baseclass level
+-$VAR hbn; // highest baseclass name
+-$VAR lvl; $VAR lvl2; $VAR lvl3;
+-$VAR xp; $VAR xp2; $VAR xp3;
+-$VAR status;
+-$VAR hp; $VAR maxHp;
+-$VAR race;
+-$VAR ac; $VAR acEff; $VAR acAdj;
+-$VAR thac0; $VAR thac0Adj;
+-$VAR str; $VAR strMod; $VAR int; $VAR wis; $VAR dex; $VAR con; $VAR cha;
+-$VAR dmgList; //

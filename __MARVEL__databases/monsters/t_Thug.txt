@@ -1,0 +1,32 @@
+\(BEGIN)
+name = Thug
+icon file = icon_Thug.png,0,2,48,48,0,1,0
+miss sound = sound_Miss.wav
+hit sound = sound_Hit.wav
+move sound = sound_CharMove.wav
+death sound = sound_CharDeath.wav
+intelligence = 11
+armor class = 10
+movement rate = 9
+hit dice = 3
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 18
+magic resistance = 0
+size = medium
+morale = 35
+experience point value = 300
+Special Ability = combatantAlignment,evil
+Special Ability = monsterLevel,3
+Class = Thug
+Race = Human
+form = mammal
+penalty = none
+immunity = none
+Misc Options = can be held/charmed
+item = Leather Jacket
+item = Light Pistol
+attack = 1,1,0,attacks,
+Undead = none
+\(END)
+

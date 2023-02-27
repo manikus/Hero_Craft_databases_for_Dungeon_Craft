@@ -1,0 +1,7 @@
+\(BEGIN)
+name = baseclassMaleOnly
+[IsBaseclassAllowed] = $VAR par5;
+-par5 = $GET_HOOK_PARAM(5);
+-$IF (par5 != "M"){$RETURN "N";};
+\(END)
+

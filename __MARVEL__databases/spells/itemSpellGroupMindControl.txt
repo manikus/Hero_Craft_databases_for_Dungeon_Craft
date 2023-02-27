@@ -1,0 +1,43 @@
+tSpells] = $VAR exp; // expiratoin time
+-$VAR time;
+-$VAR chr; // character
+-$VAR hp;
+-exp = $SA_PARAM_GET();
+-time = $GET_PARTY_TIME();
+-chr = $IndexOf($CharacterContext());
+-hp = $GET_CHAR_HITPOINTS(chr);
+-$IF (time ># exp)
+-	{
+-		$SA_REMOVE();
+-		$SET_CHAR_STATUS(chr,2);
+-		$SET_CHAR_HITPOINTS(chr,-11);
+-		$RETURN;
+-	};
+-$SET_CHAR_STATUS(chr,1);
+-$IF  (hp <# 1){$SET_CHAR_HITPOINTS(chr,1);};
+\(END)
+
+\(BEGIN)
+name = IsSnake
+\(END)
+
+\(BEGIN)
+name = IsSnakeCharmed
+[CharDisplayStatus] = $SET_HOOK_PARAM( 7,"Charmed");
+-$SET_HOOK_PARAM( 6,"");
+-$RETURN 1;
+[Dispel] = $SA_REMOVE();
+[GetAdjMaxMovement] = $RETURN "0";
+[GetItemTargetHitBonus] = $RETURN $GET_CHAR_HITPOINTS($IndexOf($TargetContext())) +# 15;
+[IsCombatReady] = $VAR exp;
+-exp = $SA_PARAM_GET();
+-$IF ($GET_PARTY_TIME() >=# exp){$SA_REMOVE();};
+-$RETURN "N";
+\(END)
+
+\(BEGIN)
+name = IsStinkingCloudy
+[CanCastSpells] = $RUN_AREA_SE_SCRIPTS("StinkAdjust", $IndexOf($CharacterContext()));
+-$RETURN $GET_HOOK_PARAM(6);
+[CharDisplayStatus] = $RUN_AREA_SE_SCRIPTS("StinkingCloudy", $IndexOf($CharacterContext()));
+-$SET_HOOK_PARAM( 7, $GET_HOOK_PARAM(8)

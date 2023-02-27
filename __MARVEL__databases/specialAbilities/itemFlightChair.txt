@@ -1,0 +1,8 @@
+\(BEGIN)
+name = itemFlightChair
+[OnReady] = $VAR prm;
+-prm = $SA_PARAM_GET();
+-$SET_CHARACTER_SA($CharacterContext(),"movementFlight",prm);
+-OnUnReady] = $DELETE_CHARACTER_SA($CharacterContext(),"movementFlight");
+\(END)
+

@@ -1,0 +1,68 @@
+ = none
+immunity = none
+Misc Options = none
+item = Stormtrooper Armor
+item = Blaster Rifle
+item = Frag Grenade
+item = Medipac
+attack = 4,1,1,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Heavy Stormtrooper
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 12
+armor class = 10
+movement rate = 9
+hit dice = 8
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 13
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = fighter
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Stormtrooper Armor
+item = Repeating Blaster
+item = Frag Grenade
+item = Medipac
+attack = 4,1,2,attacks,
+Undead = none
+\(END)
+
+\(BEGIN)
+name = Scout Trooper
+icon file = DEFAULT
+miss sound = DEFAULT
+hit sound = DEFAULT
+move sound = DEFAULT
+death sound = DEFAULT
+intelligence = 10
+armor class = 10
+movement rate = 9
+hit dice = 6
+treat HD as hit points = yes
+hit dice bonus = 0
+THAC0 = 15
+magic resistance = 0
+size = medium
+morale = 40
+experience point value = 0
+classes = fighter
+form = none
+penalty = none
+immunity = none
+Misc Options = none
+item = Trooper Armor
+item = Blaster Pistol
+item = Frag Grenade

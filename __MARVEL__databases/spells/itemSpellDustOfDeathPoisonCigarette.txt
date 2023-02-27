@@ -1,0 +1,52 @@
+ruid
+baseclass = assassin
+baseclass = fighter
+baseclass = magicUser
+baseclass = paladin
+baseclass = ranger
+baseclass = thief
+small/medium damage dice = 0D0 + 0
+large damage dice = 0D0 + 0
+AC base = 0
+AC bonus = 0
+attack bonus = 0
+experience = 0
+encumbrance = 60
+cursed = no
+non lethal = no
+readied location = FEET  
+bundle quantity = 1
+weapon type = not weapon
+ammo type = 
+usable = no
+not magical = yes
+scribtable = no
+can drop = yes
+CanHalveJoin = no
+number of charges = 0
+Examine Event ID = 0
+Examine Label = EXAMINE
+recharge rate = never
+spell effect = none
+\(END)
+
+\(BEGIN)
+name = Cloak
+id name = Cloak
+launch sound = none
+hit sound = sound_Hit.wav
+miss sound = sound_Miss.wav
+missile sprite = none
+hit sprite = none
+ROF per round = 0.000000
+combat range = 0
+cost = 1
+hands to carry = 0
+baseclass = cleric
+baseclass = druid
+baseclass = assassin
+baseclass = fighter
+baseclass = magicUser
+baseclass = paladin
+baseclass = ranger
+basec
